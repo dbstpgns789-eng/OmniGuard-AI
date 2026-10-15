@@ -1,0 +1,18 @@
+# 데이터·영상 원본은 올리지 않는다
+data/
+raw/
+*.mp4
+*.avi
+*.mov
+accident-refs/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# 모델 가중치
+*.pth
+*.onnx
+*.pt

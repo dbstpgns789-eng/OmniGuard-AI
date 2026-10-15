@@ -1,0 +1,61 @@
+clip,label,group,view,zone_frames,zone_dwell_frames
+1_tr25.mp4,Unauthorized Intervention,intervention,B,2,0
+1_tr75.mp4,Unauthorized Intervention,intervention,B,9,8
+1_te4.mp4,Unauthorized Intervention,intervention,B,1,0
+1_te1.mp4,Unauthorized Intervention,intervention,B,1,0
+1_tr17.mp4,Unauthorized Intervention,intervention,B,1,0
+1_tr39.mp4,Unauthorized Intervention,intervention,A,6,4
+1_tr23.mp4,Unauthorized Intervention,intervention,B,0,0
+1_tr67.mp4,Unauthorized Intervention,intervention,A,6,3
+1_tr61.mp4,Unauthorized Intervention,intervention,A,12,8
+1_tr64.mp4,Unauthorized Intervention,intervention,A,10,8
+1_tr85.mp4,Unauthorized Intervention,intervention,B,11,10
+1_tr53.mp4,Unauthorized Intervention,intervention,A,7,1
+1_te2.mp4,Unauthorized Intervention,intervention,B,1,0
+1_tr33.mp4,Unauthorized Intervention,intervention,B,2,0
+1_tr20.mp4,Unauthorized Intervention,intervention,B,0,0
+5_te3.mp4,Authorized Intervention,intervention,A,7,1
+5_tr10.mp4,Authorized Intervention,intervention,A,4,0
+5_te10.mp4,Authorized Intervention,intervention,A,12,11
+5_te13.mp4,Authorized Intervention,intervention,A,2,1
+5_tr1.mp4,Authorized Intervention,intervention,A,12,10
+5_te14.mp4,Authorized Intervention,intervention,A,7,4
+5_tr4.mp4,Authorized Intervention,intervention,A,2,0
+5_te1.mp4,Authorized Intervention,intervention,A,9,7
+5_te11.mp4,Authorized Intervention,intervention,A,12,11
+5_tr16.mp4,Authorized Intervention,intervention,A,5,3
+5_tr5.mp4,Authorized Intervention,intervention,A,7,5
+5_tr12.mp4,Authorized Intervention,intervention,A,1,0
+5_tr19.mp4,Authorized Intervention,intervention,A,3,0
+5_te5.mp4,Authorized Intervention,intervention,A,4,2
+5_te7.mp4,Authorized Intervention,intervention,A,10,8
+4_tr12.mp4,Safe Walkway,walking,A,7,5
+4_te4.mp4,Safe Walkway,walking,A,9,6
+4_tr10.mp4,Safe Walkway,walking,A,3,2
+4_tr8.mp4,Safe Walkway,walking,A,12,11
+4_tr34.mp4,Safe Walkway,walking,A,0,0
+4_te13.mp4,Safe Walkway,walking,B,0,0
+4_te9.mp4,Safe Walkway,walking,A,4,1
+4_te25.mp4,Safe Walkway,walking,A,12,11
+4_tr35.mp4,Safe Walkway,walking,A,4,0
+4_te15.mp4,Safe Walkway,walking,B,0,0
+4_te21.mp4,Safe Walkway,walking,A,10,7
+4_tr36.mp4,Safe Walkway,walking,B,0,0
+4_tr3.mp4,Safe Walkway,walking,A,3,2
+4_tr22.mp4,Safe Walkway,walking,B,0,0
+4_tr49.mp4,Safe Walkway,walking,A,6,4
+0_tr15.mp4,Safe Walkway Violation,walking,B,0,0
+0_te24.mp4,Safe Walkway Violation,walking,B,0,0
+0_tr44.mp4,Safe Walkway Violation,walking,B,0,0
+0_tr166.mp4,Safe Walkway Violation,walking,B,1,0
+0_tr103.mp4,Safe Walkway Violation,walking,B,0,0
+0_tr34.mp4,Safe Walkway Violation,walking,B,0,0
+0_tr67.mp4,Safe Walkway Violation,walking,B,3,1
+0_tr87.mp4,Safe Walkway Violation,walking,B,0,0
+0_tr121.mp4,Safe Walkway Violation,walking,B,12,11
+0_tr141.mp4,Safe Walkway Violation,walking,A,1,0
+0_tr84.mp4,Safe Walkway Violation,walking,B,6,5
+0_te16.mp4,Safe Walkway Violation,walking,B,11,9
+0_tr167.mp4,Safe Walkway Violation,walking,B,0,0
+0_tr126.mp4,Safe Walkway Violation,walking,A,10,8
+0_te20.mp4,Safe Walkway Violation,walking,B,6,3
