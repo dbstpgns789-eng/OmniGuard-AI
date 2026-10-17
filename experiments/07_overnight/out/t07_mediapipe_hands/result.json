@@ -1,0 +1,15 @@
+{
+ "api": "tasks",
+ "rec_001918": {
+  "mediapipe_hand_found_ratio": 0.0,
+  "rtmpose_wrist_found_ratio": 0.517,
+  "ms_median": 28.4,
+  "frames": 145
+ },
+ "rec_002103": {
+  "mediapipe_hand_found_ratio": 0.0,
+  "rtmpose_wrist_found_ratio": 0.749,
+  "ms_median": 49.7,
+  "frames": 395
+ }
+}

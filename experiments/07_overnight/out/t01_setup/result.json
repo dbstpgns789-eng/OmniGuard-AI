@@ -1,0 +1,8 @@
+{
+ "openvino": "installed",
+ "rfdetr": "installed",
+ "supervision": "already",
+ "mediapipe": "installed",
+ "qwen_vl_utils": "installed",
+ "accelerate": "installed"
+}

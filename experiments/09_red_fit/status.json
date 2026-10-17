@@ -1,0 +1,59 @@
+{
+ "t1_capsule_rule_lightweight": {
+  "tries": 0,
+  "state": "done"
+ },
+ "t2_classifier_lightweight": {
+  "tries": 0,
+  "state": "done"
+ },
+ "t5_render_lightweight": {
+  "tries": 1,
+  "state": "done",
+  "started": "15:11:24",
+  "last_exit": 0,
+  "ended": "15:11:54"
+ },
+ "t3_pose_performance": {
+  "tries": 1,
+  "state": "done",
+  "started": "15:11:54",
+  "last_exit": 0,
+  "ended": "15:29:49"
+ },
+ "t1_capsule_rule_performance": {
+  "tries": 1,
+  "state": "done",
+  "started": "15:29:49",
+  "last_exit": 0,
+  "ended": "15:31:46"
+ },
+ "t2_classifier_performance": {
+  "tries": 1,
+  "state": "done",
+  "started": "15:31:46",
+  "last_exit": 0,
+  "ended": "15:31:57"
+ },
+ "t5_render_performance": {
+  "tries": 1,
+  "state": "done",
+  "started": "15:31:57",
+  "last_exit": 0,
+  "ended": "15:32:31"
+ },
+ "t6_v5_depth": {
+  "tries": 1,
+  "state": "done",
+  "started": "15:32:31",
+  "last_exit": 0,
+  "ended": "16:02:18"
+ },
+ "t7_summary": {
+  "tries": 1,
+  "state": "done",
+  "started": "16:02:18",
+  "last_exit": 0,
+  "ended": "16:02:18"
+ }
+}
