@@ -28,10 +28,16 @@ def redraw():
     cv2.rectangle(img, (0, 0), (img.shape[1], 26), (0, 0, 0), -1); cv2.putText(img, msg, (6, 18), 0, 0.55, (255, 255, 255), 1)
     cv2.imshow("draw", img); return img
 def save():
+    import shutil, time
+    if (mode == "zone" and not polys and len(cur) < 3) or (mode != "zone" and not pts): return  # 그린 것이 없으면 기존 파일을 덮어쓰지 않음
     if mode == "zone":
         allp = polys + ([cur] if len(cur) >= 3 else [])
+        _p = os.path.join(HERE, "zone_user.json")
+        if os.path.exists(_p): shutil.copy(_p, _p + ".bak")
         json.dump({"outlines": [ratio(p) for p in allp]}, open(os.path.join(HERE, "zone_user.json"), "w"), indent=1)
     else:
+        _p = os.path.join(HERE, "floor_user.json")
+        if os.path.exists(_p): shutil.copy(_p, _p + ".bak")
         json.dump({"lines": ratio(pts) if pts else []}, open(os.path.join(HERE, "floor_user.json"), "w"), indent=1)
     cv2.imwrite(OUT + f"{mode}_user.jpg", redraw())
 def on_mouse(ev, x, y, *_):

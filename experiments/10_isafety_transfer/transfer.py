@@ -19,10 +19,16 @@ for r in csv.DictReader(open(DATA + "exp09/frames_isafety/판단표_isafety.csv"
     v = r["단계(정상/주의/감속/정지)"].strip(); labs[(r["클립"], round(float(r["시각(초)"]), 1))] = STAGES.index(v) if v in STAGES else -1
 CLIPS = [2, 4, 7, 8]
 
-def features(P):
-    """09 t12와 같은 특징: 손·몸의 원통 거리, 발 이동(화면 보정 후), 엇박자, 몸 방향"""
+def features(P, objects=None):
+    """09 t12와 같은 특징: 손·몸의 원통 거리, 발 이동(화면 보정 후), 엇박자, 몸 방향
+    objects가 주어지면 설비마다 따로 볼록 껍질을 만들고, 거리는 가장 가까운 설비 기준(서로 다른 설비 여러 대일 때)"""
     t = P["t"]; n = len(t); fps = 1 / np.median(np.diff(t)); w, h = P["wh"]
-    hull_at = lambda i: cv2.convexHull(np.vstack([to_frame(P, i, o) for o in Z["outlines"]]).astype(np.float32)).reshape(-1, 2)
+    if objects is None: hull_at = lambda i: cv2.convexHull(np.vstack([to_frame(P, i, o) for o in Z["outlines"]]).astype(np.float32)).reshape(-1, 2)
+    else: hull_at = lambda i: [cv2.convexHull(to_frame(P, i, o).astype(np.float32)).reshape(-1, 2) for o in objects]
+    def sdist(hull, q, tl):  # 안쪽이면 음수(몸통 단위). 설비 여러 대면 가장 가까운 것
+        hs = hull if isinstance(hull, list) else [hull]
+        return min(-cv2.pointPolygonTest(hh, (float(q[0]), float(q[1])), True) for hh in hs) / tl
+    center_of = lambda hull: np.mean(np.vstack(hull if isinstance(hull, list) else [hull]), axis=0)
     def dir_at(i): q = to_frame(P, i, [L[0], L[1]]); v = q[1] - q[0]; return v / np.linalg.norm(v)
     mref = (np.array(L[1]) - np.array(L[0])) * [w, h]; mref /= np.linalg.norm(mref)
     dh, db, good, last_tl = np.full(n, np.nan), np.full(n, np.nan), np.zeros(n, bool), None
@@ -32,7 +38,7 @@ def features(P):
         for k, s in zip(kps, sc):
             tl = torso_len(k, s) or last_tl or 0.25 * h
             if torso_len(k, s): last_tl = tl
-            sd = lambda q: -cv2.pointPolygonTest(hull, (float(q[0]), float(q[1])), True) / tl
+            sd = lambda q: sdist(hull, q, tl)
             hands = []
             for wj, ej, sj in ((9, 7, 5), (10, 8, 6)):
                 if s[wj] >= KP_MIN: hands.append(sd(k[wj]))
@@ -45,7 +51,7 @@ def features(P):
         if min(s[15], s[16]) >= KP_MIN:
             Hi = np.linalg.inv(P["H"][i]); fr = cv2.perspectiveTransform(((k[15] + k[16]) / 2).reshape(1, 1, 2).astype(np.float64), Hi).reshape(2)
             foot_c[i] = fr / tl; an_lr[i] = np.dot(k[15] - k[16], mdir) / tl
-            hc = cv2.perspectiveTransform(hull.mean(0).reshape(1, 1, 2).astype(np.float64), Hi).reshape(2); v = hc - fr; v -= np.dot(v, mref) * mref; toward[i] = v / (np.linalg.norm(v) + 1e-9)
+            hc = cv2.perspectiveTransform(center_of(hull).reshape(1, 1, 2).astype(np.float64), Hi).reshape(2); v = hc - fr; v -= np.dot(v, mref) * mref; toward[i] = v / (np.linalg.norm(v) + 1e-9)
         if min(s[9], s[10]) >= KP_MIN: wr_[i] = np.dot(k[9] - k[10], mdir) / tl
         if min(s[5], s[6]) >= KP_MIN: sv = k[5] - k[6]; ori[i] = abs(np.dot(sv / np.linalg.norm(sv), mdir))
     gap = int(0.5 * fps)
