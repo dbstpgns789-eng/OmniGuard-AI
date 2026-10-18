@@ -1,0 +1,192 @@
+[
+ {
+  "ref": 1,
+  "h_px": 720,
+  "people": 1,
+  "wrist_hit": false,
+  "body_hit": false,
+  "detail": [
+   {
+    "wrist_in": false,
+    "kps_in": 0,
+    "wrist_conf": 0.14
+   }
+  ],
+  "pose_ms": 210.1
+ },
+ {
+  "ref": 2,
+  "h_px": 720,
+  "people": 2,
+  "wrist_hit": false,
+  "body_hit": false,
+  "detail": [
+   {
+    "wrist_in": false,
+    "kps_in": 0,
+    "wrist_conf": 0.3
+   },
+   {
+    "wrist_in": false,
+    "kps_in": 0,
+    "wrist_conf": 0.18
+   }
+  ],
+  "pose_ms": 280.7
+ },
+ {
+  "ref": 3,
+  "h_px": 720,
+  "people": 1,
+  "wrist_hit": false,
+  "body_hit": false,
+  "detail": [
+   {
+    "wrist_in": false,
+    "kps_in": 0,
+    "wrist_conf": 0.16
+   }
+  ],
+  "pose_ms": 191.8
+ },
+ {
+  "ref": 8,
+  "h_px": 720,
+  "people": 1,
+  "wrist_hit": true,
+  "body_hit": true,
+  "detail": [
+   {
+    "wrist_in": true,
+    "kps_in": 4,
+    "wrist_conf": 0.39
+   }
+  ],
+  "pose_ms": 182.5
+ },
+ {
+  "ref": 9,
+  "h_px": 720,
+  "people": 1,
+  "wrist_hit": false,
+  "body_hit": false,
+  "detail": [
+   {
+    "wrist_in": false,
+    "kps_in": 0,
+    "wrist_conf": 0.22
+   }
+  ],
+  "pose_ms": 178.2
+ },
+ {
+  "ref": 11,
+  "h_px": 730,
+  "people": 2,
+  "wrist_hit": true,
+  "body_hit": true,
+  "detail": [
+   {
+    "wrist_in": true,
+    "kps_in": 3,
+    "wrist_conf": 0.34
+   },
+   {
+    "wrist_in": false,
+    "kps_in": 0,
+    "wrist_conf": 0.11
+   }
+  ],
+  "pose_ms": 329.3
+ },
+ {
+  "ref": 12,
+  "h_px": 772,
+  "people": 1,
+  "wrist_hit": true,
+  "body_hit": true,
+  "detail": [
+   {
+    "wrist_in": true,
+    "kps_in": 3,
+    "wrist_conf": 0.4
+   }
+  ],
+  "pose_ms": 172.1
+ },
+ {
+  "ref": 13,
+  "h_px": 891,
+  "people": 1,
+  "wrist_hit": true,
+  "body_hit": true,
+  "detail": [
+   {
+    "wrist_in": true,
+    "kps_in": 3,
+    "wrist_conf": 0.43
+   }
+  ],
+  "pose_ms": 254.9
+ },
+ {
+  "ref": 17,
+  "h_px": 720,
+  "people": 1,
+  "wrist_hit": true,
+  "body_hit": true,
+  "detail": [
+   {
+    "wrist_in": true,
+    "kps_in": 10,
+    "wrist_conf": 0.67
+   }
+  ],
+  "pose_ms": 228.5
+ },
+ {
+  "ref": 18,
+  "h_px": 720,
+  "people": 1,
+  "wrist_hit": true,
+  "body_hit": true,
+  "detail": [
+   {
+    "wrist_in": true,
+    "kps_in": 9,
+    "wrist_conf": 0.46
+   }
+  ],
+  "pose_ms": 204.9
+ },
+ {
+  "ref": 19,
+  "h_px": 720,
+  "people": 1,
+  "wrist_hit": true,
+  "body_hit": true,
+  "detail": [
+   {
+    "wrist_in": true,
+    "kps_in": 13,
+    "wrist_conf": 0.33
+   }
+  ],
+  "pose_ms": 393.5
+ },
+ {
+  "ref": 20,
+  "h_px": 720,
+  "people": 1,
+  "wrist_hit": true,
+  "body_hit": true,
+  "detail": [
+   {
+    "wrist_in": true,
+    "kps_in": 14,
+    "wrist_conf": 0.67
+   }
+  ],
+  "pose_ms": 237.6
+ }
+]
