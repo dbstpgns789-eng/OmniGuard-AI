@@ -1,0 +1,1968 @@
+{
+ "design": "README.md",
+ "summary": {
+  "A|J09": {
+   "hits": "2/5",
+   "first_stop": [
+    0.13333333333333333,
+    1.4,
+    null,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    -0.13,
+    1.53,
+    null,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.946,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "false_stops": 1
+  },
+  "A|J09+옷": {
+   "hits": "3/5",
+   "first_stop": [
+    0.13333333333333333,
+    1.4,
+    5.5,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    -0.13,
+    1.53,
+    -0.17,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.956,
+    1.0,
+    0.012,
+    0.0,
+    0.027
+   ],
+   "false_stops": 2
+  },
+  "A|J13": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    0.9333333333333331,
+    4.0,
+    null,
+    7.4884
+   ],
+   "margin_vs_human": [
+    0.0,
+    2.0,
+    1.33,
+    null,
+    -2.47
+   ],
+   "stop_recall": [
+    0.959,
+    1.0,
+    0.98,
+    0.0,
+    0.705
+   ],
+   "false_stops": 3
+  },
+  "A|J13+옷": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    0.9333333333333331,
+    4.0,
+    null,
+    5.018
+   ],
+   "margin_vs_human": [
+    0.0,
+    2.0,
+    1.33,
+    null,
+    0.0
+   ],
+   "stop_recall": [
+    0.968,
+    1.0,
+    0.98,
+    0.0,
+    1.0
+   ],
+   "false_stops": 3
+  },
+  "B|J09": {
+   "hits": "1/3",
+   "first_stop": [
+    null,
+    1.7333333333333334,
+    null,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    null,
+    2.0,
+    null,
+    null,
+    null
+   ],
+   "stop_recall": [
+    null,
+    1.0,
+    0.0,
+    0.0,
+    null
+   ],
+   "false_stops": 2
+  },
+  "B|J09+옷": {
+   "hits": "1/3",
+   "first_stop": [
+    null,
+    1.7333333333333334,
+    null,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    null,
+    2.0,
+    null,
+    null,
+    null
+   ],
+   "stop_recall": [
+    null,
+    1.0,
+    0.0,
+    0.0,
+    null
+   ],
+   "false_stops": 5
+  },
+  "B|J13": {
+   "hits": "2/3",
+   "first_stop": [
+    null,
+    1.7333333333333334,
+    11.5,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    null,
+    2.0,
+    2.0,
+    null,
+    null
+   ],
+   "stop_recall": [
+    null,
+    1.0,
+    1.0,
+    0.0,
+    null
+   ],
+   "false_stops": 4
+  },
+  "B|J13+옷": {
+   "hits": "2/3",
+   "first_stop": [
+    null,
+    1.7333333333333334,
+    11.5,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    null,
+    2.0,
+    2.0,
+    null,
+    null
+   ],
+   "stop_recall": [
+    null,
+    1.0,
+    1.0,
+    0.0,
+    null
+   ],
+   "false_stops": 4
+  },
+  "AnB|J09": {
+   "hits": "1/3",
+   "first_stop": [
+    null,
+    1.7333333333333334,
+    null,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    null,
+    2.0,
+    null,
+    null,
+    null
+   ],
+   "stop_recall": [
+    null,
+    1.0,
+    0.0,
+    0.0,
+    null
+   ],
+   "false_stops": 1
+  },
+  "AnB|J09+옷": {
+   "hits": "1/3",
+   "first_stop": [
+    null,
+    1.7333333333333334,
+    null,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    null,
+    2.0,
+    null,
+    null,
+    null
+   ],
+   "stop_recall": [
+    null,
+    1.0,
+    0.0,
+    0.0,
+    null
+   ],
+   "false_stops": 2
+  },
+  "AnB|J13": {
+   "hits": "2/3",
+   "first_stop": [
+    null,
+    1.7333333333333334,
+    11.5,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    null,
+    2.0,
+    2.0,
+    null,
+    null
+   ],
+   "stop_recall": [
+    null,
+    1.0,
+    1.0,
+    0.0,
+    null
+   ],
+   "false_stops": 3
+  },
+  "AnB|J13+옷": {
+   "hits": "2/3",
+   "first_stop": [
+    null,
+    1.7333333333333334,
+    11.5,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    null,
+    2.0,
+    2.0,
+    null,
+    null
+   ],
+   "stop_recall": [
+    null,
+    1.0,
+    1.0,
+    0.0,
+    null
+   ],
+   "false_stops": 3
+  },
+  "B+1|J09": {
+   "hits": "2/5",
+   "first_stop": [
+    0.13333333333333333,
+    1.7333333333333334,
+    null,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    -0.13,
+    2.0,
+    null,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.946,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "false_stops": 1
+  },
+  "B+1|J09+옷": {
+   "hits": "3/5",
+   "first_stop": [
+    0.13333333333333333,
+    1.7333333333333334,
+    5.5,
+    null,
+    null
+   ],
+   "margin_vs_human": [
+    -0.13,
+    2.0,
+    0.0,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.956,
+    1.0,
+    0.012,
+    0.0,
+    0.234
+   ],
+   "false_stops": 3
+  },
+  "B+1|J13": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    1.7333333333333334,
+    4.0,
+    null,
+    7.4884
+   ],
+   "margin_vs_human": [
+    0.0,
+    2.0,
+    1.5,
+    null,
+    0.62
+   ],
+   "stop_recall": [
+    0.959,
+    1.0,
+    0.98,
+    0.0,
+    0.957
+   ],
+   "false_stops": 4
+  },
+  "B+1|J13+옷": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    1.7333333333333334,
+    4.0,
+    null,
+    6.106
+   ],
+   "margin_vs_human": [
+    0.0,
+    2.0,
+    1.5,
+    null,
+    2.0
+   ],
+   "stop_recall": [
+    0.968,
+    1.0,
+    0.98,
+    0.0,
+    1.0
+   ],
+   "false_stops": 4
+  }
+ },
+ "per_video": {
+  "slitter": {
+   "cloth_stats": {
+    "J09": {
+     "up1_frames": 210,
+     "overlap_stop_frames": 248
+    },
+    "J13": {
+     "up1_frames": 210,
+     "overlap_stop_frames": 252
+    }
+   },
+   "first_slow_or_more": {
+    "J09": 0.0,
+    "J09+옷": 0.0,
+    "J13": 0.0,
+    "J13+옷": 0.0
+   },
+   "A": {
+    "J09": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.946,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.054,
+     "over": 0.0,
+     "cautious_ok": 0.946,
+     "critical_miss": 0.016
+    },
+    "J09+옷": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.956,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.044,
+     "over": 0.0,
+     "cautious_ok": 0.956,
+     "critical_miss": 0.009
+    },
+    "J13": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.959,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.041,
+     "over": 0.0,
+     "cautious_ok": 0.959,
+     "critical_miss": 0.016
+    },
+    "J13+옷": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.968,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.032,
+     "over": 0.0,
+     "cautious_ok": 0.968,
+     "critical_miss": 0.009
+    }
+   },
+   "B": {
+    "J09": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 1,
+     "normal_min": 0.18,
+     "false_per_min": 5.7,
+     "false_ci": [
+      0.14,
+      31.74
+     ],
+     "under": 0.016,
+     "over": 0.946,
+     "cautious_ok": 0.984,
+     "critical_miss": null
+    },
+    "J09+옷": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 1,
+     "normal_min": 0.18,
+     "false_per_min": 5.7,
+     "false_ci": [
+      0.14,
+      31.74
+     ],
+     "under": 0.009,
+     "over": 0.956,
+     "cautious_ok": 0.991,
+     "critical_miss": null
+    },
+    "J13": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 1,
+     "normal_min": 0.18,
+     "false_per_min": 5.7,
+     "false_ci": [
+      0.14,
+      31.74
+     ],
+     "under": 0.016,
+     "over": 0.959,
+     "cautious_ok": 0.984,
+     "critical_miss": null
+    },
+    "J13+옷": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 1,
+     "normal_min": 0.18,
+     "false_per_min": 5.7,
+     "false_ci": [
+      0.14,
+      31.74
+     ],
+     "under": 0.009,
+     "over": 0.968,
+     "cautious_ok": 0.991,
+     "critical_miss": null
+    }
+   },
+   "AnB": {
+    "J09": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null
+    },
+    "J09+옷": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null
+    },
+    "J13": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null
+    },
+    "J13+옷": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null
+    }
+   },
+   "B+1": {
+    "J09": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.946,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.054,
+     "over": 0.0,
+     "cautious_ok": 0.946,
+     "critical_miss": 0.016
+    },
+    "J09+옷": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.956,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.044,
+     "over": 0.0,
+     "cautious_ok": 0.956,
+     "critical_miss": 0.009
+    },
+    "J13": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.959,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.041,
+     "over": 0.0,
+     "cautious_ok": 0.959,
+     "critical_miss": 0.016
+    },
+    "J13+옷": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.968,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.032,
+     "over": 0.0,
+     "cautious_ok": 0.968,
+     "critical_miss": 0.009
+    }
+   }
+  },
+  "paper_rewinder": {
+   "cloth_stats": {
+    "J09": {
+     "up1_frames": 18,
+     "overlap_stop_frames": 68
+    },
+    "J13": {
+     "up1_frames": 18,
+     "overlap_stop_frames": 90
+    }
+   },
+   "first_slow_or_more": {
+    "J09": 1.4,
+    "J09+옷": 1.0,
+    "J13": 0.0,
+    "J13+옷": 0.0
+   },
+   "A": {
+    "J09": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 1.4,
+     "lead_s": 2.2,
+     "margin_vs_human_s": 1.53,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.496,
+     "cautious_ok": 0.709,
+     "critical_miss": 0.0
+    },
+    "J09+옷": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 1.4,
+     "lead_s": 2.2,
+     "margin_vs_human_s": 1.53,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.496,
+     "cautious_ok": 0.607,
+     "critical_miss": 0.0
+    },
+    "J13": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 0.9333333333333331,
+     "lead_s": 2.67,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.752,
+     "cautious_ok": 0.35,
+     "critical_miss": 0.0
+    },
+    "J13+옷": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 0.9333333333333331,
+     "lead_s": 2.67,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.752,
+     "cautious_ok": 0.35,
+     "critical_miss": 0.0
+    }
+   },
+   "B": {
+    "J09": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.0,
+     "over": 0.701,
+     "cautious_ok": 0.402,
+     "critical_miss": 0.0
+    },
+    "J09+옷": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.0,
+     "over": 0.701,
+     "cautious_ok": 0.299,
+     "critical_miss": 0.0
+    },
+    "J13": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.0,
+     "over": 0.957,
+     "cautious_ok": 0.043,
+     "critical_miss": 0.0
+    },
+    "J13+옷": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.0,
+     "over": 0.957,
+     "cautious_ok": 0.043,
+     "critical_miss": 0.0
+    }
+   },
+   "AnB": {
+    "J09": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ]
+    },
+    "J09+옷": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ]
+    },
+    "J13": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ]
+    },
+    "J13+옷": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ]
+    }
+   },
+   "B+1": {
+    "J09": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.256,
+     "over": 0.598,
+     "cautious_ok": 0.41,
+     "critical_miss": 0.0
+    },
+    "J09+옷": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.256,
+     "over": 0.701,
+     "cautious_ok": 0.41,
+     "critical_miss": 0.0
+    },
+    "J13": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.0,
+     "over": 0.957,
+     "cautious_ok": 0.308,
+     "critical_miss": 0.0
+    },
+    "J13+옷": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.0,
+     "over": 0.957,
+     "cautious_ok": 0.308,
+     "critical_miss": 0.0
+    }
+   }
+  },
+  "night_paper": {
+   "cloth_stats": {
+    "J09": {
+     "up1_frames": 26,
+     "overlap_stop_frames": 0
+    },
+    "J13": {
+     "up1_frames": 26,
+     "overlap_stop_frames": 48
+    }
+   },
+   "first_slow_or_more": {
+    "J09": 5.366666666666666,
+    "J09+옷": 5.366666666666666,
+    "J13": 4.0,
+    "J13+옷": 4.0
+   },
+   "A": {
+    "J09": {
+     "human_first_stop": 5.333333333333333,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      166.0
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 0.821
+    },
+    "J09+옷": {
+     "human_first_stop": 5.333333333333333,
+     "hit": true,
+     "first_stop": 5.5,
+     "lead_s": 0.1,
+     "margin_vs_human_s": -0.17,
+     "early_false": 0,
+     "stop_recall": 0.012,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      166.0
+     ],
+     "under": 0.99,
+     "over": 0.0,
+     "cautious_ok": 0.01,
+     "critical_miss": 0.738
+    },
+    "J13": {
+     "human_first_stop": 5.333333333333333,
+     "hit": true,
+     "first_stop": 4.0,
+     "lead_s": 1.6,
+     "margin_vs_human_s": 1.33,
+     "early_false": 0,
+     "stop_recall": 0.98,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 45.0,
+     "false_ci": [
+      1.14,
+      250.72
+     ],
+     "under": 0.017,
+     "over": 0.137,
+     "cautious_ok": 0.866,
+     "critical_miss": 0.0
+    },
+    "J13+옷": {
+     "human_first_stop": 5.333333333333333,
+     "hit": true,
+     "first_stop": 4.0,
+     "lead_s": 1.6,
+     "margin_vs_human_s": 1.33,
+     "early_false": 0,
+     "stop_recall": 0.98,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 45.0,
+     "false_ci": [
+      1.14,
+      250.72
+     ],
+     "under": 0.017,
+     "over": 0.137,
+     "cautious_ok": 0.866,
+     "critical_miss": 0.0
+    }
+   },
+   "B": {
+    "J09": {
+     "human_first_stop": 13.5,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.16,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      23.3
+     ],
+     "under": 0.712,
+     "over": 0.021,
+     "cautious_ok": 0.288,
+     "critical_miss": 0.714
+    },
+    "J09+옷": {
+     "human_first_stop": 13.5,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 1,
+     "stop_recall": 0.0,
+     "false_stops": 1,
+     "normal_min": 0.16,
+     "false_per_min": 6.32,
+     "false_ci": [
+      0.16,
+      35.19
+     ],
+     "under": 0.64,
+     "over": 0.031,
+     "cautious_ok": 0.36,
+     "critical_miss": 0.714
+    },
+    "J13": {
+     "human_first_stop": 13.5,
+     "hit": true,
+     "first_stop": 11.5,
+     "lead_s": -5.9,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.16,
+     "false_per_min": 6.32,
+     "false_ci": [
+      0.16,
+      35.19
+     ],
+     "under": 0.0,
+     "over": 0.959,
+     "cautious_ok": 0.846,
+     "critical_miss": 0.0
+    },
+    "J13+옷": {
+     "human_first_stop": 13.5,
+     "hit": true,
+     "first_stop": 11.5,
+     "lead_s": -5.9,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.16,
+     "false_per_min": 6.32,
+     "false_ci": [
+      0.16,
+      35.19
+     ],
+     "under": 0.0,
+     "over": 0.959,
+     "cautious_ok": 0.846,
+     "critical_miss": 0.0
+    }
+   },
+   "AnB": {
+    "J09": {
+     "human_first_stop": 13.5,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      166.0
+     ]
+    },
+    "J09+옷": {
+     "human_first_stop": 13.5,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 1,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      166.0
+     ]
+    },
+    "J13": {
+     "human_first_stop": 13.5,
+     "hit": true,
+     "first_stop": 11.5,
+     "lead_s": -5.9,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 45.0,
+     "false_ci": [
+      1.14,
+      250.72
+     ]
+    },
+    "J13+옷": {
+     "human_first_stop": 13.5,
+     "hit": true,
+     "first_stop": 11.5,
+     "lead_s": -5.9,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 45.0,
+     "false_ci": [
+      1.14,
+      250.72
+     ]
+    }
+   },
+   "B+1": {
+    "J09": {
+     "human_first_stop": 5.5,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      147.56
+     ],
+     "under": 0.979,
+     "over": 0.0,
+     "cautious_ok": 0.021,
+     "critical_miss": 0.834
+    },
+    "J09+옷": {
+     "human_first_stop": 5.5,
+     "hit": true,
+     "first_stop": 5.5,
+     "lead_s": 0.1,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.012,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      147.56
+     ],
+     "under": 0.969,
+     "over": 0.0,
+     "cautious_ok": 0.031,
+     "critical_miss": 0.749
+    },
+    "J13": {
+     "human_first_stop": 5.5,
+     "hit": true,
+     "first_stop": 4.0,
+     "lead_s": 1.6,
+     "margin_vs_human_s": 1.5,
+     "early_false": 0,
+     "stop_recall": 0.98,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 40.0,
+     "false_ci": [
+      1.01,
+      222.87
+     ],
+     "under": 0.017,
+     "over": 0.154,
+     "cautious_ok": 0.846,
+     "critical_miss": 0.0
+    },
+    "J13+옷": {
+     "human_first_stop": 5.5,
+     "hit": true,
+     "first_stop": 4.0,
+     "lead_s": 1.6,
+     "margin_vs_human_s": 1.5,
+     "early_false": 0,
+     "stop_recall": 0.98,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 40.0,
+     "false_ci": [
+      1.01,
+      222.87
+     ],
+     "under": 0.017,
+     "over": 0.154,
+     "cautious_ok": 0.846,
+     "critical_miss": 0.0
+    }
+   }
+  },
+  "conveyor_parcel": {
+   "cloth_stats": {
+    "J09": {
+     "up1_frames": 36,
+     "overlap_stop_frames": 0
+    },
+    "J13": {
+     "up1_frames": 36,
+     "overlap_stop_frames": 0
+    }
+   },
+   "first_slow_or_more": {
+    "J09": null,
+    "J09+옷": null,
+    "J13": null,
+    "J13+옷": null
+   },
+   "A": {
+    "J09": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    },
+    "J09+옷": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    },
+    "J13": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    },
+    "J13+옷": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    }
+   },
+   "B": {
+    "J09": {
+     "human_first_stop": 86.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.07,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      56.27
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J09+옷": {
+     "human_first_stop": 86.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.07,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      56.27
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J13": {
+     "human_first_stop": 86.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.07,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      56.27
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J13+옷": {
+     "human_first_stop": 86.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.07,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      56.27
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    }
+   },
+   "AnB": {
+    "J09": {
+     "human_first_stop": 86.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ]
+    },
+    "J09+옷": {
+     "human_first_stop": 86.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ]
+    },
+    "J13": {
+     "human_first_stop": 86.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ]
+    },
+    "J13+옷": {
+     "human_first_stop": 86.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ]
+    }
+   },
+   "B+1": {
+    "J09": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J09+옷": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J13": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J13+옷": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    }
+   }
+  },
+  "bag_machine": {
+   "cloth_stats": {
+    "J09": {
+     "up1_frames": 658,
+     "overlap_stop_frames": 64
+    },
+    "J13": {
+     "up1_frames": 658,
+     "overlap_stop_frames": 712
+    }
+   },
+   "first_slow_or_more": {
+    "J09": 13.124,
+    "J09+옷": 12.8538,
+    "J13": 5.018,
+    "J13+옷": 5.018
+   },
+   "A": {
+    "J09": {
+     "human_first_stop": 5.018,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.1,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      38.23
+     ],
+     "under": 0.942,
+     "over": 0.0,
+     "cautious_ok": 0.058,
+     "critical_miss": 0.961
+    },
+    "J09+옷": {
+     "human_first_stop": 5.018,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.027,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ],
+     "under": 0.841,
+     "over": 0.074,
+     "cautious_ok": 0.159,
+     "critical_miss": 0.845
+    },
+    "J13": {
+     "human_first_stop": 5.018,
+     "hit": true,
+     "first_stop": 7.4884,
+     "lead_s": 0.71,
+     "margin_vs_human_s": -2.47,
+     "early_false": 0,
+     "stop_recall": 0.705,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ],
+     "under": 0.24,
+     "over": 0.199,
+     "cautious_ok": 0.76,
+     "critical_miss": 0.034
+    },
+    "J13+옷": {
+     "human_first_stop": 5.018,
+     "hit": true,
+     "first_stop": 5.018,
+     "lead_s": 3.18,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ],
+     "under": 0.0,
+     "over": 0.211,
+     "cautious_ok": 1.0,
+     "critical_miss": 0.0
+    }
+   },
+   "B": {
+    "J09": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 0,
+     "normal_min": 0.46,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      8.05
+     ],
+     "under": 0.676,
+     "over": 0.131,
+     "cautious_ok": 0.263,
+     "critical_miss": null
+    },
+    "J09+옷": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 2,
+     "normal_min": 0.46,
+     "false_per_min": 4.37,
+     "false_ci": [
+      0.53,
+      15.77
+     ],
+     "under": 0.035,
+     "over": 0.319,
+     "cautious_ok": 0.816,
+     "critical_miss": null
+    },
+    "J13": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 1,
+     "normal_min": 0.46,
+     "false_per_min": 2.18,
+     "false_ci": [
+      0.06,
+      12.16
+     ],
+     "under": 0.024,
+     "over": 0.969,
+     "cautious_ok": 0.279,
+     "critical_miss": null
+    },
+    "J13+옷": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 1,
+     "normal_min": 0.46,
+     "false_per_min": 2.18,
+     "false_ci": [
+      0.06,
+      12.16
+     ],
+     "under": 0.0,
+     "over": 1.0,
+     "cautious_ok": 0.066,
+     "critical_miss": null
+    }
+   },
+   "AnB": {
+    "J09": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 0,
+     "normal_min": 0.1,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      38.23
+     ]
+    },
+    "J09+옷": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ]
+    },
+    "J13": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ]
+    },
+    "J13+옷": {
+     "human_first_stop": null,
+     "stop_recall": null,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ]
+    }
+   },
+   "B+1": {
+    "J09": {
+     "human_first_stop": 8.106,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.43,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      8.62
+     ],
+     "under": 0.869,
+     "over": 0.062,
+     "cautious_ok": 0.131,
+     "critical_miss": 0.681
+    },
+    "J09+옷": {
+     "human_first_stop": 8.106,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.234,
+     "false_stops": 2,
+     "normal_min": 0.43,
+     "false_per_min": 4.67,
+     "false_ci": [
+      0.57,
+      16.89
+     ],
+     "under": 0.681,
+     "over": 0.149,
+     "cautious_ok": 0.244,
+     "critical_miss": 0.532
+    },
+    "J13": {
+     "human_first_stop": 8.106,
+     "hit": true,
+     "first_stop": 7.4884,
+     "lead_s": 0.71,
+     "margin_vs_human_s": 0.62,
+     "early_false": 0,
+     "stop_recall": 0.957,
+     "false_stops": 2,
+     "normal_min": 0.43,
+     "false_per_min": 4.67,
+     "false_ci": [
+      0.57,
+      16.89
+     ],
+     "under": 0.031,
+     "over": 0.697,
+     "cautious_ok": 0.763,
+     "critical_miss": 0.043
+    },
+    "J13+옷": {
+     "human_first_stop": 8.106,
+     "hit": true,
+     "first_stop": 6.106,
+     "lead_s": 2.09,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 2,
+     "normal_min": 0.43,
+     "false_per_min": 4.67,
+     "false_ci": [
+      0.57,
+      16.89
+     ],
+     "under": 0.0,
+     "over": 0.934,
+     "cautious_ok": 0.782,
+     "critical_miss": 0.0
+    }
+   }
+  },
+  "_press_normal": {
+   "sec": 118.1,
+   "J09": {
+    "stop": 1,
+    "slow_or_more": 1,
+    "stop_per_min": 0.51,
+    "slow_per_min": 0.51
+   },
+   "J09+옷": {
+    "stop": 1,
+    "slow_or_more": 8,
+    "stop_per_min": 0.51,
+    "slow_per_min": 4.06
+   },
+   "J13": {
+    "stop": 10,
+    "slow_or_more": 12,
+    "stop_per_min": 5.08,
+    "slow_per_min": 6.1
+   },
+   "J13+옷": {
+    "stop": 14,
+    "slow_or_more": 25,
+    "stop_per_min": 7.11,
+    "slow_per_min": 12.7
+   }
+  }
+ }
+}

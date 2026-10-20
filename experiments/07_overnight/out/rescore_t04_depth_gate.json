@@ -1,0 +1,42 @@
+{
+ "t04_depth_gate": {
+  "rec_001918": {
+   "V1_overlap": {
+    "human_stop_caught": 0.706,
+    "false_stop_on_human_nonstop": 0.15,
+    "human_first_stop": 5.33,
+    "judge_first_stop": 4.1
+   },
+   "V4_depth_gate": {
+    "human_stop_caught": 0.706,
+    "false_stop_on_human_nonstop": 0.15,
+    "human_first_stop": 5.33,
+    "judge_first_stop": 4.1
+   },
+   "overlap_frames": 190,
+   "ignored_as_in_front": 93
+  },
+  "rec_002103": {
+   "V1_overlap": {
+    "human_stop_caught": 0.543,
+    "false_stop_on_human_nonstop": 0.058,
+    "human_first_stop": 8.53,
+    "judge_first_stop": 8.63
+   },
+   "V4_depth_gate": {
+    "human_stop_caught": 0.528,
+    "false_stop_on_human_nonstop": 0.057,
+    "human_first_stop": 8.53,
+    "judge_first_stop": 9.53
+   },
+   "overlap_frames": 315,
+   "ignored_as_in_front": 26
+  },
+  "depth_cpu_ms": {
+   "median": 610.3,
+   "p95": 872.4,
+   "n": 505
+  },
+  "margin": 0.1
+ }
+}

@@ -1,0 +1,2158 @@
+{
+ "design": "README.md",
+ "summary": {
+  "A|J09": {
+   "hits": "2/5",
+   "first_stop": [
+    0.13,
+    1.4,
+    null,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.946,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "false_stops_in_accident_videos": 1
+  },
+  "A|J09+옷": {
+   "hits": "3/5",
+   "first_stop": [
+    0.13,
+    1.4,
+    5.5,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.956,
+    1.0,
+    0.012,
+    0.0,
+    0.027
+   ],
+   "false_stops_in_accident_videos": 2
+  },
+  "A|J09+단서": {
+   "hits": "2/5",
+   "first_stop": [
+    0.13,
+    1.4,
+    null,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.924,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "false_stops_in_accident_videos": 1
+  },
+  "A|J09+옷+단서": {
+   "hits": "3/5",
+   "first_stop": [
+    0.13,
+    1.4,
+    5.5,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.934,
+    1.0,
+    0.012,
+    0.0,
+    0.027
+   ],
+   "false_stops_in_accident_videos": 2
+  },
+  "A|J13": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    0.93,
+    4.0,
+    null,
+    7.49
+   ],
+   "stop_recall": [
+    0.959,
+    1.0,
+    0.98,
+    0.0,
+    0.705
+   ],
+   "false_stops_in_accident_videos": 3
+  },
+  "A|J13+옷": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    0.93,
+    4.0,
+    null,
+    5.02
+   ],
+   "stop_recall": [
+    0.968,
+    1.0,
+    0.98,
+    0.0,
+    1.0
+   ],
+   "false_stops_in_accident_videos": 3
+  },
+  "A|J13+단서": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    0.93,
+    4.03,
+    null,
+    7.91
+   ],
+   "stop_recall": [
+    0.959,
+    1.0,
+    0.933,
+    0.0,
+    0.42
+   ],
+   "false_stops_in_accident_videos": 3
+  },
+  "A|J13+옷+단서": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    0.93,
+    4.03,
+    null,
+    5.21
+   ],
+   "stop_recall": [
+    0.968,
+    1.0,
+    0.948,
+    0.0,
+    0.991
+   ],
+   "false_stops_in_accident_videos": 3
+  },
+  "B+1|J09": {
+   "hits": "2/5",
+   "first_stop": [
+    0.13,
+    1.73,
+    null,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.946,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "false_stops_in_accident_videos": 1
+  },
+  "B+1|J09+옷": {
+   "hits": "3/5",
+   "first_stop": [
+    0.13,
+    1.73,
+    5.5,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.956,
+    1.0,
+    0.012,
+    0.0,
+    0.234
+   ],
+   "false_stops_in_accident_videos": 3
+  },
+  "B+1|J09+단서": {
+   "hits": "2/5",
+   "first_stop": [
+    0.13,
+    1.73,
+    null,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.924,
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "false_stops_in_accident_videos": 1
+  },
+  "B+1|J09+옷+단서": {
+   "hits": "3/5",
+   "first_stop": [
+    0.13,
+    1.73,
+    5.5,
+    null,
+    null
+   ],
+   "stop_recall": [
+    0.934,
+    1.0,
+    0.012,
+    0.0,
+    0.234
+   ],
+   "false_stops_in_accident_videos": 3
+  },
+  "B+1|J13": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    1.73,
+    4.0,
+    null,
+    7.49
+   ],
+   "stop_recall": [
+    0.959,
+    1.0,
+    0.98,
+    0.0,
+    0.957
+   ],
+   "false_stops_in_accident_videos": 4
+  },
+  "B+1|J13+옷": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    1.73,
+    4.0,
+    null,
+    6.11
+   ],
+   "stop_recall": [
+    0.968,
+    1.0,
+    0.98,
+    0.0,
+    1.0
+   ],
+   "false_stops_in_accident_videos": 4
+  },
+  "B+1|J13+단서": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    1.73,
+    4.03,
+    null,
+    7.91
+   ],
+   "stop_recall": [
+    0.959,
+    1.0,
+    0.931,
+    0.0,
+    0.957
+   ],
+   "false_stops_in_accident_videos": 7
+  },
+  "B+1|J13+옷+단서": {
+   "hits": "4/5",
+   "first_stop": [
+    0.0,
+    1.73,
+    4.03,
+    null,
+    6.11
+   ],
+   "stop_recall": [
+    0.968,
+    1.0,
+    0.947,
+    0.0,
+    1.0
+   ],
+   "false_stops_in_accident_videos": 4
+  }
+ },
+ "per_video": {
+  "slitter": {
+   "cue_stats": {
+    "J09": {
+     "occ_frames": 17,
+     "fore_frames": 271,
+     "forearm_ref": 0.439
+    },
+    "J13": {
+     "occ_frames": 26,
+     "fore_frames": 271,
+     "forearm_ref": 0.439
+    }
+   },
+   "A": {
+    "J09": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.946,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.054,
+     "over": 0.0,
+     "cautious_ok": 0.946,
+     "critical_miss": 0.016
+    },
+    "J09+옷": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.956,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.044,
+     "over": 0.0,
+     "cautious_ok": 0.956,
+     "critical_miss": 0.009
+    },
+    "J09+단서": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.924,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.076,
+     "over": 0.0,
+     "cautious_ok": 0.924,
+     "critical_miss": 0.016
+    },
+    "J09+옷+단서": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.934,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.066,
+     "over": 0.0,
+     "cautious_ok": 0.934,
+     "critical_miss": 0.009
+    },
+    "J13": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.959,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.041,
+     "over": 0.0,
+     "cautious_ok": 0.959,
+     "critical_miss": 0.016
+    },
+    "J13+옷": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.968,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.032,
+     "over": 0.0,
+     "cautious_ok": 0.968,
+     "critical_miss": 0.009
+    },
+    "J13+단서": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.959,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.041,
+     "over": 0.0,
+     "cautious_ok": 0.959,
+     "critical_miss": 0.016
+    },
+    "J13+옷+단서": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.968,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.032,
+     "over": 0.0,
+     "cautious_ok": 0.968,
+     "critical_miss": 0.009
+    }
+   },
+   "B+1": {
+    "J09": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.946,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.054,
+     "over": 0.0,
+     "cautious_ok": 0.946,
+     "critical_miss": 0.016
+    },
+    "J09+옷": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.956,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.044,
+     "over": 0.0,
+     "cautious_ok": 0.956,
+     "critical_miss": 0.009
+    },
+    "J09+단서": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.924,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.076,
+     "over": 0.0,
+     "cautious_ok": 0.924,
+     "critical_miss": 0.016
+    },
+    "J09+옷+단서": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.13333333333333333,
+     "lead_s": 10.87,
+     "margin_vs_human_s": -0.13,
+     "early_false": 0,
+     "stop_recall": 0.934,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.066,
+     "over": 0.0,
+     "cautious_ok": 0.934,
+     "critical_miss": 0.009
+    },
+    "J13": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.959,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.041,
+     "over": 0.0,
+     "cautious_ok": 0.959,
+     "critical_miss": 0.016
+    },
+    "J13+옷": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.968,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.032,
+     "over": 0.0,
+     "cautious_ok": 0.968,
+     "critical_miss": 0.009
+    },
+    "J13+단서": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.959,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.041,
+     "over": 0.0,
+     "cautious_ok": 0.959,
+     "critical_miss": 0.016
+    },
+    "J13+옷+단서": {
+     "human_first_stop": 0.0,
+     "hit": true,
+     "first_stop": 0.0,
+     "lead_s": 11.0,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.968,
+     "false_stops": 0,
+     "normal_min": 0,
+     "false_per_min": null,
+     "false_ci": null,
+     "under": 0.032,
+     "over": 0.0,
+     "cautious_ok": 0.968,
+     "critical_miss": 0.009
+    }
+   }
+  },
+  "paper_rewinder": {
+   "cue_stats": {
+    "J09": {
+     "occ_frames": 0,
+     "fore_frames": 74,
+     "forearm_ref": 0.494
+    },
+    "J13": {
+     "occ_frames": 4,
+     "fore_frames": 74,
+     "forearm_ref": 0.494
+    }
+   },
+   "A": {
+    "J09": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 1.4,
+     "lead_s": 2.2,
+     "margin_vs_human_s": 1.53,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.496,
+     "cautious_ok": 0.709,
+     "critical_miss": 0.0
+    },
+    "J09+옷": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 1.4,
+     "lead_s": 2.2,
+     "margin_vs_human_s": 1.53,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.496,
+     "cautious_ok": 0.607,
+     "critical_miss": 0.0
+    },
+    "J09+단서": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 1.4,
+     "lead_s": 2.2,
+     "margin_vs_human_s": 1.53,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.496,
+     "cautious_ok": 0.709,
+     "critical_miss": 0.0
+    },
+    "J09+옷+단서": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 1.4,
+     "lead_s": 2.2,
+     "margin_vs_human_s": 1.53,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.496,
+     "cautious_ok": 0.607,
+     "critical_miss": 0.0
+    },
+    "J13": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 0.9333333333333331,
+     "lead_s": 2.67,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.752,
+     "cautious_ok": 0.35,
+     "critical_miss": 0.0
+    },
+    "J13+옷": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 0.9333333333333331,
+     "lead_s": 2.67,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.752,
+     "cautious_ok": 0.35,
+     "critical_miss": 0.0
+    },
+    "J13+단서": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 0.9333333333333331,
+     "lead_s": 2.67,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.752,
+     "cautious_ok": 0.35,
+     "critical_miss": 0.0
+    },
+    "J13+옷+단서": {
+     "human_first_stop": 2.933333333333333,
+     "hit": true,
+     "first_stop": 0.9333333333333331,
+     "lead_s": 2.67,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.05,
+     "false_per_min": 20.45,
+     "false_ci": [
+      0.52,
+      113.97
+     ],
+     "under": 0.0,
+     "over": 0.752,
+     "cautious_ok": 0.35,
+     "critical_miss": 0.0
+    }
+   },
+   "B+1": {
+    "J09": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.256,
+     "over": 0.598,
+     "cautious_ok": 0.41,
+     "critical_miss": 0.0
+    },
+    "J09+옷": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.256,
+     "over": 0.701,
+     "cautious_ok": 0.41,
+     "critical_miss": 0.0
+    },
+    "J09+단서": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.256,
+     "over": 0.598,
+     "cautious_ok": 0.41,
+     "critical_miss": 0.0
+    },
+    "J09+옷+단서": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.256,
+     "over": 0.701,
+     "cautious_ok": 0.41,
+     "critical_miss": 0.0
+    },
+    "J13": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.0,
+     "over": 0.957,
+     "cautious_ok": 0.308,
+     "critical_miss": 0.0
+    },
+    "J13+옷": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.0,
+     "over": 0.957,
+     "cautious_ok": 0.308,
+     "critical_miss": 0.0
+    },
+    "J13+단서": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.0,
+     "over": 0.957,
+     "cautious_ok": 0.385,
+     "critical_miss": 0.0
+    },
+    "J13+옷+단서": {
+     "human_first_stop": 3.7333333333333334,
+     "hit": true,
+     "first_stop": 1.7333333333333334,
+     "lead_s": 1.87,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.06,
+     "false_per_min": 16.07,
+     "false_ci": [
+      0.41,
+      89.54
+     ],
+     "under": 0.0,
+     "over": 0.957,
+     "cautious_ok": 0.385,
+     "critical_miss": 0.0
+    }
+   }
+  },
+  "night_paper": {
+   "cue_stats": {
+    "J09": {
+     "occ_frames": 2,
+     "fore_frames": 182,
+     "forearm_ref": 0.478
+    },
+    "J13": {
+     "occ_frames": 104,
+     "fore_frames": 182,
+     "forearm_ref": 0.478
+    }
+   },
+   "A": {
+    "J09": {
+     "human_first_stop": 5.333333333333333,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      166.0
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 0.821
+    },
+    "J09+옷": {
+     "human_first_stop": 5.333333333333333,
+     "hit": true,
+     "first_stop": 5.5,
+     "lead_s": 0.1,
+     "margin_vs_human_s": -0.17,
+     "early_false": 0,
+     "stop_recall": 0.012,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      166.0
+     ],
+     "under": 0.99,
+     "over": 0.0,
+     "cautious_ok": 0.01,
+     "critical_miss": 0.738
+    },
+    "J09+단서": {
+     "human_first_stop": 5.333333333333333,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      166.0
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 0.821
+    },
+    "J09+옷+단서": {
+     "human_first_stop": 5.333333333333333,
+     "hit": true,
+     "first_stop": 5.5,
+     "lead_s": 0.1,
+     "margin_vs_human_s": -0.17,
+     "early_false": 0,
+     "stop_recall": 0.012,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      166.0
+     ],
+     "under": 0.99,
+     "over": 0.0,
+     "cautious_ok": 0.01,
+     "critical_miss": 0.738
+    },
+    "J13": {
+     "human_first_stop": 5.333333333333333,
+     "hit": true,
+     "first_stop": 4.0,
+     "lead_s": 1.6,
+     "margin_vs_human_s": 1.33,
+     "early_false": 0,
+     "stop_recall": 0.98,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 45.0,
+     "false_ci": [
+      1.14,
+      250.72
+     ],
+     "under": 0.017,
+     "over": 0.137,
+     "cautious_ok": 0.866,
+     "critical_miss": 0.0
+    },
+    "J13+옷": {
+     "human_first_stop": 5.333333333333333,
+     "hit": true,
+     "first_stop": 4.0,
+     "lead_s": 1.6,
+     "margin_vs_human_s": 1.33,
+     "early_false": 0,
+     "stop_recall": 0.98,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 45.0,
+     "false_ci": [
+      1.14,
+      250.72
+     ],
+     "under": 0.017,
+     "over": 0.137,
+     "cautious_ok": 0.866,
+     "critical_miss": 0.0
+    },
+    "J13+단서": {
+     "human_first_stop": 5.333333333333333,
+     "hit": true,
+     "first_stop": 4.033333333333333,
+     "lead_s": 1.57,
+     "margin_vs_human_s": 1.3,
+     "early_false": 0,
+     "stop_recall": 0.933,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 45.0,
+     "false_ci": [
+      1.14,
+      250.72
+     ],
+     "under": 0.058,
+     "over": 0.137,
+     "cautious_ok": 0.829,
+     "critical_miss": 0.0
+    },
+    "J13+옷+단서": {
+     "human_first_stop": 5.333333333333333,
+     "hit": true,
+     "first_stop": 4.033333333333333,
+     "lead_s": 1.57,
+     "margin_vs_human_s": 1.3,
+     "early_false": 0,
+     "stop_recall": 0.948,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 45.0,
+     "false_ci": [
+      1.14,
+      250.72
+     ],
+     "under": 0.045,
+     "over": 0.137,
+     "cautious_ok": 0.842,
+     "critical_miss": 0.0
+    }
+   },
+   "B+1": {
+    "J09": {
+     "human_first_stop": 5.5,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      147.56
+     ],
+     "under": 0.979,
+     "over": 0.0,
+     "cautious_ok": 0.021,
+     "critical_miss": 0.834
+    },
+    "J09+옷": {
+     "human_first_stop": 5.5,
+     "hit": true,
+     "first_stop": 5.5,
+     "lead_s": 0.1,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.012,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      147.56
+     ],
+     "under": 0.969,
+     "over": 0.0,
+     "cautious_ok": 0.031,
+     "critical_miss": 0.749
+    },
+    "J09+단서": {
+     "human_first_stop": 5.5,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      147.56
+     ],
+     "under": 0.979,
+     "over": 0.0,
+     "cautious_ok": 0.021,
+     "critical_miss": 0.834
+    },
+    "J09+옷+단서": {
+     "human_first_stop": 5.5,
+     "hit": true,
+     "first_stop": 5.5,
+     "lead_s": 0.1,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 0.012,
+     "false_stops": 0,
+     "normal_min": 0.02,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      147.56
+     ],
+     "under": 0.969,
+     "over": 0.0,
+     "cautious_ok": 0.031,
+     "critical_miss": 0.749
+    },
+    "J13": {
+     "human_first_stop": 5.5,
+     "hit": true,
+     "first_stop": 4.0,
+     "lead_s": 1.6,
+     "margin_vs_human_s": 1.5,
+     "early_false": 0,
+     "stop_recall": 0.98,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 40.0,
+     "false_ci": [
+      1.01,
+      222.87
+     ],
+     "under": 0.017,
+     "over": 0.154,
+     "cautious_ok": 0.846,
+     "critical_miss": 0.0
+    },
+    "J13+옷": {
+     "human_first_stop": 5.5,
+     "hit": true,
+     "first_stop": 4.0,
+     "lead_s": 1.6,
+     "margin_vs_human_s": 1.5,
+     "early_false": 0,
+     "stop_recall": 0.98,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 40.0,
+     "false_ci": [
+      1.01,
+      222.87
+     ],
+     "under": 0.017,
+     "over": 0.154,
+     "cautious_ok": 0.846,
+     "critical_miss": 0.0
+    },
+    "J13+단서": {
+     "human_first_stop": 5.5,
+     "hit": true,
+     "first_stop": 4.033333333333333,
+     "lead_s": 1.57,
+     "margin_vs_human_s": 1.47,
+     "early_false": 0,
+     "stop_recall": 0.931,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 40.0,
+     "false_ci": [
+      1.01,
+      222.87
+     ],
+     "under": 0.058,
+     "over": 0.154,
+     "cautious_ok": 0.808,
+     "critical_miss": 0.0
+    },
+    "J13+옷+단서": {
+     "human_first_stop": 5.5,
+     "hit": true,
+     "first_stop": 4.033333333333333,
+     "lead_s": 1.57,
+     "margin_vs_human_s": 1.47,
+     "early_false": 0,
+     "stop_recall": 0.947,
+     "false_stops": 1,
+     "normal_min": 0.02,
+     "false_per_min": 40.0,
+     "false_ci": [
+      1.01,
+      222.87
+     ],
+     "under": 0.045,
+     "over": 0.154,
+     "cautious_ok": 0.822,
+     "critical_miss": 0.0
+    }
+   }
+  },
+  "conveyor_parcel": {
+   "cue_stats": {
+    "J09": {
+     "occ_frames": 0,
+     "fore_frames": 2,
+     "forearm_ref": 0.665
+    },
+    "J13": {
+     "occ_frames": 3,
+     "fore_frames": 2,
+     "forearm_ref": 0.665
+    }
+   },
+   "A": {
+    "J09": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    },
+    "J09+옷": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    },
+    "J09+단서": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    },
+    "J09+옷+단서": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    },
+    "J13": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    },
+    "J13+옷": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    },
+    "J13+단서": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    },
+    "J13+옷+단서": {
+     "human_first_stop": 84.93333333333334,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.04,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      87.37
+     ],
+     "under": 0.726,
+     "over": 0.0,
+     "cautious_ok": 0.274,
+     "critical_miss": 1.0
+    }
+   },
+   "B+1": {
+    "J09": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J09+옷": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J09+단서": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J09+옷+단서": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J13": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J13+옷": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J13+단서": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    },
+    "J13+옷+단서": {
+     "human_first_stop": 84.7,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.03,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      130.2
+     ],
+     "under": 1.0,
+     "over": 0.0,
+     "cautious_ok": 0.0,
+     "critical_miss": 1.0
+    }
+   }
+  },
+  "bag_machine": {
+   "cue_stats": {
+    "J09": {
+     "occ_frames": 0,
+     "fore_frames": 323,
+     "forearm_ref": 0.461
+    },
+    "J13": {
+     "occ_frames": 0,
+     "fore_frames": 323,
+     "forearm_ref": 0.461
+    }
+   },
+   "A": {
+    "J09": {
+     "human_first_stop": 5.018,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.1,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      38.23
+     ],
+     "under": 0.942,
+     "over": 0.0,
+     "cautious_ok": 0.058,
+     "critical_miss": 0.961
+    },
+    "J09+옷": {
+     "human_first_stop": 5.018,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.027,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ],
+     "under": 0.841,
+     "over": 0.074,
+     "cautious_ok": 0.159,
+     "critical_miss": 0.845
+    },
+    "J09+단서": {
+     "human_first_stop": 5.018,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.1,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      38.23
+     ],
+     "under": 0.942,
+     "over": 0.0,
+     "cautious_ok": 0.058,
+     "critical_miss": 0.961
+    },
+    "J09+옷+단서": {
+     "human_first_stop": 5.018,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.027,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ],
+     "under": 0.841,
+     "over": 0.074,
+     "cautious_ok": 0.159,
+     "critical_miss": 0.845
+    },
+    "J13": {
+     "human_first_stop": 5.018,
+     "hit": true,
+     "first_stop": 7.4884,
+     "lead_s": 0.71,
+     "margin_vs_human_s": -2.47,
+     "early_false": 0,
+     "stop_recall": 0.705,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ],
+     "under": 0.24,
+     "over": 0.199,
+     "cautious_ok": 0.76,
+     "critical_miss": 0.034
+    },
+    "J13+옷": {
+     "human_first_stop": 5.018,
+     "hit": true,
+     "first_stop": 5.018,
+     "lead_s": 3.18,
+     "margin_vs_human_s": 0.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ],
+     "under": 0.0,
+     "over": 0.211,
+     "cautious_ok": 1.0,
+     "critical_miss": 0.0
+    },
+    "J13+단서": {
+     "human_first_stop": 5.018,
+     "hit": true,
+     "first_stop": 7.913,
+     "lead_s": 0.29,
+     "margin_vs_human_s": -2.9,
+     "early_false": 0,
+     "stop_recall": 0.42,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ],
+     "under": 0.465,
+     "over": 0.199,
+     "cautious_ok": 0.535,
+     "critical_miss": 0.034
+    },
+    "J13+옷+단서": {
+     "human_first_stop": 5.018,
+     "hit": true,
+     "first_stop": 5.211,
+     "lead_s": 2.99,
+     "margin_vs_human_s": -0.19,
+     "early_false": 0,
+     "stop_recall": 0.991,
+     "false_stops": 1,
+     "normal_min": 0.1,
+     "false_per_min": 10.36,
+     "false_ci": [
+      0.26,
+      57.74
+     ],
+     "under": 0.007,
+     "over": 0.211,
+     "cautious_ok": 0.993,
+     "critical_miss": 0.0
+    }
+   },
+   "B+1": {
+    "J09": {
+     "human_first_stop": 8.106,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.43,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      8.62
+     ],
+     "under": 0.869,
+     "over": 0.062,
+     "cautious_ok": 0.131,
+     "critical_miss": 0.681
+    },
+    "J09+옷": {
+     "human_first_stop": 8.106,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.234,
+     "false_stops": 2,
+     "normal_min": 0.43,
+     "false_per_min": 4.67,
+     "false_ci": [
+      0.57,
+      16.89
+     ],
+     "under": 0.681,
+     "over": 0.149,
+     "cautious_ok": 0.244,
+     "critical_miss": 0.532
+    },
+    "J09+단서": {
+     "human_first_stop": 8.106,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.0,
+     "false_stops": 0,
+     "normal_min": 0.43,
+     "false_per_min": 0.0,
+     "false_ci": [
+      0.0,
+      8.62
+     ],
+     "under": 0.869,
+     "over": 0.062,
+     "cautious_ok": 0.131,
+     "critical_miss": 0.681
+    },
+    "J09+옷+단서": {
+     "human_first_stop": 8.106,
+     "hit": false,
+     "first_stop": null,
+     "lead_s": null,
+     "margin_vs_human_s": null,
+     "early_false": 0,
+     "stop_recall": 0.234,
+     "false_stops": 2,
+     "normal_min": 0.43,
+     "false_per_min": 4.67,
+     "false_ci": [
+      0.57,
+      16.89
+     ],
+     "under": 0.681,
+     "over": 0.149,
+     "cautious_ok": 0.244,
+     "critical_miss": 0.532
+    },
+    "J13": {
+     "human_first_stop": 8.106,
+     "hit": true,
+     "first_stop": 7.4884,
+     "lead_s": 0.71,
+     "margin_vs_human_s": 0.62,
+     "early_false": 0,
+     "stop_recall": 0.957,
+     "false_stops": 2,
+     "normal_min": 0.43,
+     "false_per_min": 4.67,
+     "false_ci": [
+      0.57,
+      16.89
+     ],
+     "under": 0.031,
+     "over": 0.697,
+     "cautious_ok": 0.763,
+     "critical_miss": 0.043
+    },
+    "J13+옷": {
+     "human_first_stop": 8.106,
+     "hit": true,
+     "first_stop": 6.106,
+     "lead_s": 2.09,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 2,
+     "normal_min": 0.43,
+     "false_per_min": 4.67,
+     "false_ci": [
+      0.57,
+      16.89
+     ],
+     "under": 0.0,
+     "over": 0.934,
+     "cautious_ok": 0.782,
+     "critical_miss": 0.0
+    },
+    "J13+단서": {
+     "human_first_stop": 8.106,
+     "hit": true,
+     "first_stop": 7.913,
+     "lead_s": 0.29,
+     "margin_vs_human_s": 0.19,
+     "early_false": 0,
+     "stop_recall": 0.957,
+     "false_stops": 5,
+     "normal_min": 0.43,
+     "false_per_min": 11.69,
+     "false_ci": [
+      3.79,
+      27.27
+     ],
+     "under": 0.031,
+     "over": 0.472,
+     "cautious_ok": 0.763,
+     "critical_miss": 0.043
+    },
+    "J13+옷+단서": {
+     "human_first_stop": 8.106,
+     "hit": true,
+     "first_stop": 6.106,
+     "lead_s": 2.09,
+     "margin_vs_human_s": 2.0,
+     "early_false": 0,
+     "stop_recall": 1.0,
+     "false_stops": 2,
+     "normal_min": 0.43,
+     "false_per_min": 4.67,
+     "false_ci": [
+      0.57,
+      16.89
+     ],
+     "under": 0.0,
+     "over": 0.927,
+     "cautious_ok": 0.782,
+     "critical_miss": 0.0
+    }
+   }
+  },
+  "_press_normal": {
+   "sec": 118.1,
+   "J09": {
+    "stop": 1,
+    "slow_or_more": 1,
+    "stop_per_min": 0.51,
+    "slow_per_min": 0.51
+   },
+   "J09+옷": {
+    "stop": 1,
+    "slow_or_more": 8,
+    "stop_per_min": 0.51,
+    "slow_per_min": 4.06
+   },
+   "J09+단서": {
+    "stop": 1,
+    "slow_or_more": 1,
+    "stop_per_min": 0.51,
+    "slow_per_min": 0.51
+   },
+   "J09+옷+단서": {
+    "stop": 1,
+    "slow_or_more": 8,
+    "stop_per_min": 0.51,
+    "slow_per_min": 4.06
+   },
+   "J13": {
+    "stop": 10,
+    "slow_or_more": 12,
+    "stop_per_min": 5.08,
+    "slow_per_min": 6.1
+   },
+   "J13+옷": {
+    "stop": 14,
+    "slow_or_more": 25,
+    "stop_per_min": 7.11,
+    "slow_per_min": 12.7
+   },
+   "J13+단서": {
+    "stop": 9,
+    "slow_or_more": 12,
+    "stop_per_min": 4.57,
+    "slow_per_min": 6.1
+   },
+   "J13+옷+단서": {
+    "stop": 20,
+    "slow_or_more": 25,
+    "stop_per_min": 10.16,
+    "slow_per_min": 12.7
+   },
+   "cue_stats": {
+    "1_tr38": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 6,
+      "forearm_ref": 0.509
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 6,
+      "forearm_ref": 0.509
+     }
+    },
+    "1_tr54": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 9,
+      "forearm_ref": 0.493
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 9,
+      "forearm_ref": 0.493
+     }
+    },
+    "2_te6": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 19,
+      "forearm_ref": 0.521
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 19,
+      "forearm_ref": 0.521
+     }
+    },
+    "2_tr111": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.5
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.5
+     }
+    },
+    "2_tr48": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 12,
+      "forearm_ref": 0.486
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 12,
+      "forearm_ref": 0.486
+     }
+    },
+    "2_tr51": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.482
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.482
+     }
+    },
+    "2_tr60": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 1,
+      "forearm_ref": 0.52
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 1,
+      "forearm_ref": 0.52
+     }
+    },
+    "2_tr74": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.477
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.477
+     }
+    },
+    "2_tr86": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 18,
+      "forearm_ref": 0.691
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 18,
+      "forearm_ref": 0.691
+     }
+    },
+    "4_te23": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.769
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.769
+     }
+    },
+    "4_tr46": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.762
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.762
+     }
+    },
+    "5_te12": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.512
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.512
+     }
+    },
+    "5_tr10": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.81
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.81
+     }
+    },
+    "5_tr18": {
+     "J09": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.499
+     },
+     "J13": {
+      "occ_frames": 0,
+      "fore_frames": 0,
+      "forearm_ref": 0.499
+     }
+    }
+   }
+  }
+ }
+}
