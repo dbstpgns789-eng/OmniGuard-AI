@@ -1,0 +1,62 @@
+id,group,url,accident_time,machine,camera,note
+A01,A,https://www.bilibili.com/video/BV15pYHzXEm3,0:21.5 / 0:34.5,paper winder roll + film winding line,fixed CCTV,2 accidents in one video
+A02,A,https://www.youtube.com/watch?v=z2PwSWrY2Cs,0:12,textile warping beam,monitor filmed by phone,India
+A03,A,https://www.toutiao.com/video/7561480768199852544/,0:18,roll material processing,fixed CCTV,may be same accident as slitter (BV1jH4y1W7CU)
+A04,A,https://rutube.ru/video/69f58ac7c596c4f5e45a8848097a534d/,3:13 / 3:37 / 3:51 / 7:21 / 9:50,drill / wood / flywheel / carpet rollers / roller conveyor,CCTV compilation,Belarus labour inspectorate; 9:15-9:45 normal work
+A05,A,https://www.youtube.com/watch?v=dITuMU48Jzs,0:10-0:20,paper machine dryer/reel roll,monitor filmed by phone,check vs paper_rewinder
+A06,A,https://www.bilibili.com/video/BV1zQ4y1U7kL,0:10,roll winder,unknown,from earlier search
+A07,A,https://www.bilibili.com/video/BV1iNMozRENc,0:15,paper reel,unknown,from earlier search
+A08,A,https://www.bilibili.com/video/BV1hN411N77c,0:14,large roll nip,unknown,from earlier search
+A09,A,https://www.bilibili.com/video/BV11RijBjEPs,0:18.5,rotating steel pipe line,fixed CCTV,
+A10,A,https://www.toutiao.com/video/7610911370002842146/,0:16-0:22,rotating pipe on roller conveyor,monitor re-filmed,
+A11,A,https://www.youtube.com/watch?v=QexhFoEBXD0,0:14-0:22,recycling roller machine,fixed CCTV 2 angles,Indonesia
+A12,A,https://www.bilibili.com/video/BV1q7421o7ae,0:59 / 2:31,ball mill / warping beam (red-shirt accident clean copy),CCTV,red-shirt accident = same as experiments 09-10
+A13,A,https://www.dailymotion.com/video/x385d4b,0:04-0:10,factory machine,news CCTV,China
+A14,A,https://www.toutiao.com/video/6417722011615707393/,0:22,conveyor belt,close fixed CCTV CAM 7,approach ~21 s
+B01,B,https://www.bilibili.com/video/BV1VN411U7Lw,1:24,lathe spindle shirt entanglement,fixed CCTV,graphic after 1:25
+B02,B,https://www.bilibili.com/video/BV1YhUZYmELX,0:25 / 2:13 / 3:46,lathe x3,CCTV,
+B03,B,https://www.bilibili.com/video/BV1nm4y1W7kQ,0:16,plastic recycler feed,fixed CCTV,
+B04,B,https://www.bilibili.com/video/BV1sUTueFExF,0:05,crusher feeder,fixed CCTV,
+B05,B,https://www.bilibili.com/video/BV11GFkz5E2u,1:10,large mixing tank,fixed CCTV,0:17-1:08 normal work
+B06,B,https://www.bilibili.com/video/BV138Lb6gEMZ,0:08,latex mixer,fixed CCTV,Vietnam
+B07,B,https://www.bilibili.com/video/BV14J4m1b7mW,0:12,textile machine hair,monitor filmed,
+B08,B,https://www.bilibili.com/video/BV1ub3e6rEeQ,0:05.5,gantry spindle,fixed CCTV,
+B09,B,https://www.bilibili.com/video/BV1UV4y1673j,2:00 / 2:26,low roller machine / lathe,CCTV,
+B10,B,https://www.bilibili.com/video/BV1NP4y1h7jV,0:15,lathe shop,re-filmed,
+B11,B,https://www.bilibili.com/video/BV1wJ411678h,0:03,mine belt conveyor,news phone,
+B12,B,https://www.bilibili.com/video/BV1RNyJBdEUs,0:22,cotton hopper,fixed CCTV,crush rather than entanglement
+B13,B,https://www.bilibili.com/video/BV1Nb4y1t7jW,0:27.5,parcel conveyor end,edited multi-angle,may match discarded conveyor_parcel
+B14,B,https://www.bilibili.com/video/BV1kS4y1B7QW,0:10,parcel conveyor end,unknown,
+B15,B,https://www.bilibili.com/video/BV1tbTX6UEVZ,0:15,machining center spindle,unknown,
+B16,B,https://rutube.ru/video/e53910f9c5267e9047281085946a2958/,0:18,lathe,fixed CCTV uncut,very graphic
+B17,B,https://rutube.ru/video/af0f5b8147274a16bd8be83147eb3a06/,3:13,lathe long bar (KAM 8 Tomsk),fixed CCTV,0:00-3:10 normal work
+B18,B,https://ok.ru/video/5254687034003,0:34-0:45,wire mesh machine shaft (glove),fixed CCTV,
+B19,B,https://ok.ru/video/5234039655059,0:30-0:35,loom warp beam,fixed CCTV slow motion,
+B20,B,https://ok.ru/video/2612033555191,0:00-0:20,winding machine hair,overhead CCTV,
+B21,B,https://www.youtube.com/watch?v=3ZKCV7BkviQ,0:18,wood shredder feed drum,fixed CCTV 720p,Vietnam; best quality
+B22,B,https://www.youtube.com/watch?v=HlS2-5S-hEw,0:19,sugarcane juicer (clothing),fixed CCTV,Vietnam
+B23,B,https://www.youtube.com/watch?v=wVzeuBHhTwE,0:08,rotating machine (jacket),fixed CCTV compilation,
+B24,B,https://www.youtube.com/watch?v=7RoFbLYnoHQ,0:22,latex grinder,fixed CCTV,may be same as B06
+B25,B,https://www.youtube.com/watch?v=WDdmaOBUegg,0:12,ice shaver wheel (clothing),fixed CCTV,
+B26,B,https://www.youtube.com/watch?v=lpzeSe1VqbE,0:08,sugarcane juicer (hand),street CCTV,machine tiny
+B27,B,https://www.youtube.com/watch?v=nf2yaFvuZfo,0:19-0:58,crusher,small window,
+B28,B,https://www.youtube.com/watch?v=YMzW0jo20Ow,0:18-0:36,noodle factory grinder,NVR capture,
+B29,B,https://www.youtube.com/watch?v=59Q0JXyWA5w,0:13,plastic shredder,re-filmed,heavy mosaic
+B30,B,https://www.youtube.com/watch?v=omX_wsjFoq4,0:18-0:24,saree printing machine,fixed CCTV,India
+B31,B,https://www.youtube.com/watch?v=LHu6rNWCizE,0:38,fodder cutter flywheel (scarf),fixed CCTV,India
+B32,B,https://www.youtube.com/watch?v=n3x_YKr3FAk,0:30,printing machine,NVR phone,Sri Lanka
+B33,B,https://www.youtube.com/watch?v=8rDmn0LerJk,0:25,small rotating machine,re-filmed,Philippines
+B34,B,https://www.youtube.com/watch?v=hUCHyBeZojA,0:33-1:40,textile winder,monitor filmed,India
+B35,B,https://www.youtube.com/watch?v=u_qvztiTCyY,0:30-0:40,dough mixer,fixed CCTV IR,Turkey
+B36,B,https://www.youtube.com/watch?v=mdyrPQ3bs_I,0:06,lathe chuck (trousers),phone,Brazil
+B37,B,https://www.dailymotion.com/video/xaelivq,0:12,dough roller nip (hair),tripod phone 1080p,very clear
+B38,B,https://www.toutiao.com/video/7464603844966760979/,0:04-0:10,spiral dough mixer (clothing),fixed CCTV,
+B39,B,https://www.toutiao.com/video/7554072615002931722/,0:18 / 0:30,lathe / drum,CCTV compilation,
+B40,B,https://www.toutiao.com/video/7101093369887392271/,1:10-2:35,lathe,CCTV compilation,
+B41,B,https://www.toutiao.com/video/7593699346299601462/,0:01-0:35,dough mixer,fixed CCTV,
+B42,B,https://www.toutiao.com/video/6929649824098681355/,0:03-0:15,meat grinder,fixed CCTV,heavy mosaic
+C01,C,https://www.youtube.com/watch?v=8cUlanBHpJQ,-,CNC lathe normal work,fixed CCTV,1:44 normal
+C02,C,https://www.youtube.com/watch?v=L9tnQdCdEho,-,CNC workshop,fixed CCTV,
+C03,C,https://www.youtube.com/watch?v=4cWXqXgML_I,near-misses,rolling line / lathe / misc,CCTV compilation,not entanglement
+C04,C,https://www.youtube.com/watch?v=Ot5Z2aB2n70,-,recycling conveyor/hopper,fixed CCTV edited,UK
+C05,C,https://www.youtube.com/watch?v=6fPZhD0AxYI,-,CNC lathe near-miss,monitor filmed,
