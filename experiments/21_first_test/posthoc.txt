@@ -1,0 +1,4 @@
+C:\Users\User\orca\workspaces\OmniGuard-AI\stonefish\experiments\20_frozen\..\10_isafety_transfer\transfer.py:56: RuntimeWarning: invalid value encountered in divide
+  if min(s[5], s[6]) >= KP_MIN: sv = k[5] - k[6]; ori[i] = abs(np.dot(sv / np.linalg.norm(sv), mdir))
+판단기별: {'J13': {'정지성공': 13, '켜졌다꺼짐': 4, '한번도안켜짐': 3}, 'RULE4': {'정지성공': 10, '켜졌다꺼짐': 9, '한번도안켜짐': 1}, 'QUIET': {'정지성공': 2, '켜졌다꺼짐': 2, '한번도안켜짐': 16}}
+닿기 직전 0.5초에 손 거리를 못 잰 비율(포즈 놓침): [('A04_carpet', 0.0), ('A09_pipe', 0.0), ('A10_pipe_view2', 0.0), ('B01_lathe', 0.0), ('B02_lathe_chuck', 0.0), ('B38_mixer', 0.0), ('C03_drum', 0.0), ('D01', 0.0), ('D02', 0.0), ('D03', 0.0), ('D04', 0.0), ('D05', 0.0), ('D06', 0.0), ('D07', 0.0), ('D08', 0.0), ('D09', 0.0), ('D10', 0.0), ('D11', 0.0), ('D12', 0.0), ('D13', 0.0)]
