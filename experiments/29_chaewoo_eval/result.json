@@ -1,0 +1,157 @@
+{
+ "A04_carpet/jev": {
+  "frames": 36,
+  "acc": 0.44,
+  "recall_stop": 0.2,
+  "precision_stop": 1.0,
+  "normal_stop_frac": 0.0,
+  "stop_before_contact": false
+ },
+ "A04_carpet/vlm": {
+  "frames": 36,
+  "acc": 0.81,
+  "recall_stop": 0.8,
+  "precision_stop": 0.91,
+  "normal_stop_frac": 0.0,
+  "stop_before_contact": true
+ },
+ "A04_carpet/최종 판단기": {
+  "frames": 36,
+  "acc": 0.92,
+  "recall_stop": 1.0,
+  "precision_stop": 0.89,
+  "normal_stop_frac": 0.0,
+  "stop_before_contact": true
+ },
+ "A04_carpet/최종 판단기 AND vlm": {
+  "frames": 36,
+  "acc": 0.81,
+  "recall_stop": 0.8,
+  "precision_stop": 0.91,
+  "normal_stop_frac": 0.0,
+  "stop_before_contact": true
+ },
+ "A04_carpet/최종 판단기 AND jev": {
+  "frames": 36,
+  "acc": 0.44,
+  "recall_stop": 0.2,
+  "precision_stop": 1.0,
+  "normal_stop_frac": 0.0,
+  "stop_before_contact": false
+ },
+ "B38_mixer/jev": {
+  "frames": 30,
+  "acc": 0.6,
+  "recall_stop": 0.08,
+  "precision_stop": 1.0,
+  "normal_stop_frac": 0.0,
+  "stop_before_contact": false
+ },
+ "B38_mixer/vlm": {
+  "frames": 30,
+  "acc": 0.63,
+  "recall_stop": 1.0,
+  "precision_stop": 0.54,
+  "normal_stop_frac": 0.62,
+  "stop_before_contact": true
+ },
+ "B38_mixer/최종 판단기": {
+  "frames": 30,
+  "acc": 0.43,
+  "recall_stop": 1.0,
+  "precision_stop": 0.43,
+  "normal_stop_frac": 1.0,
+  "stop_before_contact": true
+ },
+ "B38_mixer/최종 판단기 AND vlm": {
+  "frames": 30,
+  "acc": 0.63,
+  "recall_stop": 1.0,
+  "precision_stop": 0.54,
+  "normal_stop_frac": 0.62,
+  "stop_before_contact": true
+ },
+ "B38_mixer/최종 판단기 AND jev": {
+  "frames": 30,
+  "acc": 0.6,
+  "recall_stop": 0.08,
+  "precision_stop": 1.0,
+  "normal_stop_frac": 0.0,
+  "stop_before_contact": false
+ },
+ "D09/jev": {
+  "frames": 61,
+  "acc": 0.84,
+  "recall_stop": 0.62,
+  "precision_stop": 0.42,
+  "normal_stop_frac": 0.0,
+  "stop_before_contact": true
+ },
+ "D09/vlm": {
+  "frames": 61,
+  "acc": 0.44,
+  "recall_stop": 1.0,
+  "precision_stop": 0.19,
+  "normal_stop_frac": 0.36,
+  "stop_before_contact": true
+ },
+ "D09/최종 판단기": {
+  "frames": 61,
+  "acc": 0.15,
+  "recall_stop": 1.0,
+  "precision_stop": 0.13,
+  "normal_stop_frac": 0.96,
+  "stop_before_contact": true
+ },
+ "D09/최종 판단기 AND vlm": {
+  "frames": 61,
+  "acc": 0.44,
+  "recall_stop": 1.0,
+  "precision_stop": 0.19,
+  "normal_stop_frac": 0.36,
+  "stop_before_contact": true
+ },
+ "D09/최종 판단기 AND jev": {
+  "frames": 61,
+  "acc": 0.84,
+  "recall_stop": 0.62,
+  "precision_stop": 0.42,
+  "normal_stop_frac": 0.0,
+  "stop_before_contact": true
+ },
+ "red_shirt/jev": {
+  "frames": 144,
+  "acc": 0.85,
+  "recall_stop": 0.67,
+  "precision_stop": 0.83,
+  "normal_stop_frac": 0.06
+ },
+ "red_shirt/vlm": {
+  "frames": 144,
+  "acc": 0.61,
+  "recall_stop": 0.89,
+  "precision_stop": 0.44,
+  "normal_stop_frac": 0.64
+ },
+ "red_shirt/최종 판단기": {
+  "frames": 144,
+  "acc": 0.31,
+  "recall_stop": 1.0,
+  "precision_stop": 0.31,
+  "normal_stop_frac": 1.0
+ },
+ "red_shirt/최종 판단기 AND vlm": {
+  "frames": 144,
+  "acc": 0.61,
+  "recall_stop": 0.89,
+  "precision_stop": 0.44,
+  "normal_stop_frac": 0.64
+ },
+ "red_shirt/최종 판단기 AND jev": {
+  "frames": 144,
+  "acc": 0.85,
+  "recall_stop": 0.67,
+  "precision_stop": 0.83,
+  "normal_stop_frac": 0.06
+ }
+}
