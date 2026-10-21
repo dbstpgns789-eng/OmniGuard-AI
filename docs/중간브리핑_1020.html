@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OmniGuard 중간 브리핑</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap">
+<style>
+html,body{margin:0;height:100%;background:#0E1114;overflow:hidden;font-family:'Noto Sans KR','Malgun Gothic',sans-serif}
+#stage{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform-origin:center center}
+#stage>section{position:absolute;inset:0;box-sizing:border-box}
+#stage>section:not(.on){display:none!important}
+section *{margin:0;box-sizing:border-box}
+section table{border-collapse:collapse}
+section th,section td{padding:16px 20px;border-bottom:1px solid #D2CEC4;vertical-align:top;line-height:1.45}
+section th{font-weight:700;border-bottom:2px solid #1C2128}
+#note{position:fixed;left:0;right:0;bottom:0;max-height:40%;overflow:auto;background:rgba(14,17,20,.94);color:#E8EBEE;font-size:18px;line-height:1.6;padding:16px 24px;display:none}
+#pg{position:fixed;right:16px;bottom:12px;color:#8A939C;font-size:14px}
+</style></head><body>
+<div id="stage">
+<section data-note="안녕하세요, OmniGuard AI 중간 브리핑입니다. 저희는 공장에서 돌아가는 롤에 손이나 몸이 끼이기 전에, CCTV 카메라가 먼저 보고 기계를 멈추게 하는 걸 만들고 있습니다. 5분 동안 지금 어디까지 왔는지 말씀드리겠습니다." id="cover" data-transition="fade" style="background:#1C2128;color:#F5F3EE;font-family:'Noto Sans KR', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:space-between">
+<p style="font-size:28px;font-weight:700;color:#F08A4B;letter-spacing:2px">컴퓨터비전 ITE4052 · 중간 브리핑 · 2026-10-20</p>
+<div style="display:flex;flex-direction:column;gap:40px">
+<h1 style="font-size:128px;font-weight:900;line-height:1.05;color:#F5F3EE">OmniGuard AI</h1>
+<p style="font-size:48px;font-weight:500;line-height:1.35;color:#D5D9DE">돌아가는 롤에 몸이 들어가기 전에,<br>카메라가 먼저 기계를 멈추게 한다</p>
+</div>
+<p style="font-size:28px;color:#A9B1BA">윤세훈 · 이채우</p>
+</section>
+<section data-note="저희가 만드는 건 4단계 신호입니다. 정상, 주의, 감속, 정지. 핵심은 정지인데요, &quot;닿았을 때&quot;가 아니라 &quot;지금 안 멈추면 1초 안에 닿을 수 있을 때&quot; 멈추는 게 목표입니다. 원칙은 세 가지입니다. 새로 학습하지 않고 공개 모델을 그대로 쓰고, 판단은 규칙으로 하는데 그 규칙은 제가 장면을 보고 왜 위험한지 말한 걸 옮긴 거고, 시연은 러닝머신을 컨베이어 대신 씁니다." id="what" data-transition="fade" style="background:#F5F3EE;color:#1C2128;font-family:'Noto Sans KR', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:700;color:#B4471A;letter-spacing:2px">무엇을 만드나</p>
+<h2 style="font-size:64px;font-weight:700;line-height:1.15">사람이 롤에 다가가는 정도를 4단계로 알려 준다</h2>
+</div>
+<div style="display:flex;gap:24px">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#E3E7EA;padding:36px;border-radius:16px">
+<h3 style="font-size:44px;font-weight:700;color:#1C2128">정상</h3>
+<p style="font-size:28px;line-height:1.45;color:#3A424C">롤과 떨어져 있고 다가가지 않음</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#F3DCA6;padding:36px;border-radius:16px">
+<h3 style="font-size:44px;font-weight:700;color:#1C2128">주의</h3>
+<p style="font-size:28px;line-height:1.45;color:#3A424C">설비 쪽으로 걸어감, 설비 앞에 섬</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#EE9B5B;padding:36px;border-radius:16px">
+<h3 style="font-size:44px;font-weight:700;color:#1C2128">감속</h3>
+<p style="font-size:28px;line-height:1.45;color:#2A2F36">롤 쪽으로 손을 뻗기 시작, 몸을 숙임</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#B4471A;padding:36px;border-radius:16px">
+<h3 style="font-size:44px;font-weight:700;color:#FBF7F2">정지</h3>
+<p style="font-size:28px;line-height:1.45;color:#FBF7F2">멈추지 않으면 1초 안에 손·몸·옷이 닿을 수 있음</p>
+</div>
+</div>
+<div style="display:flex;gap:48px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:3px solid #1C2128;padding:24px 0px 0px 0px">
+<h3 style="font-size:32px;font-weight:700">학습은 안 한다</h3>
+<p style="font-size:28px;line-height:1.45;color:#4A535E">공개된 사전학습 모델을 그대로 쓴다</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:3px solid #1C2128;padding:24px 0px 0px 0px">
+<h3 style="font-size:32px;font-weight:700">판단은 규칙으로</h3>
+<p style="font-size:28px;line-height:1.45;color:#4A535E">사람이 장면을 보고 말한 이유를 옮긴다</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-top:3px solid #1C2128;padding:24px 0px 0px 0px">
+<h3 style="font-size:32px;font-weight:700">시연은 러닝머신</h3>
+<p style="font-size:28px;line-height:1.45;color:#4A535E">벨트 끝 롤러를 위험한 롤로 본다</p>
+</div>
+</div>
+</section>
+<section data-note="데이터는 세 묶음입니다. 실제 공장 사고 CCTV 5건, 프레스 공장에서 롤러 근처로 평소 일하는 영상 14개, 그리고 처음 규칙을 만들 때 쓴 빨간 상의 사고 영상입니다. 중요한 건 사고 영상과 평소 작업 영상을 꼭 같이 본다는 거예요. 사고만 보면 많이 멈추는 판단기가 좋아 보이고, 평소 작업만 보면 안 멈추는 판단기가 좋아 보이거든요. 그래서 둘을 한 쌍으로 잽니다." id="data" data-transition="fade" style="background:#F5F3EE;color:#1C2128;font-family:'Noto Sans KR', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:700;color:#B4471A;letter-spacing:2px">심사 기준 1 · 데이터</p>
+<h2 style="font-size:64px;font-weight:700;line-height:1.15">실제 사고 CCTV와 평소 작업 영상을 함께 본다</h2>
+</div>
+<table style="font-size:30px;color:#1C2128">
+<tr><th style="width:20%;text-align:left">묶음</th><th style="width:50%;text-align:left">내용</th><th style="width:30%;text-align:left">정답</th></tr>
+<tr><td>사고 영상</td><td>실제 공장 CCTV 5건 (슬리터, 리와인더, 야간 종이 롤, 택배 컨베이어, 봉투기)</td><td>0.2초마다 사람이 채운 판단표</td></tr>
+<tr><td>평소 작업</td><td>프레스 공장 롤러 설비 근처 영상 14개, 118초</td><td>전부 정상</td></tr>
+<tr><td>개발용</td><td>빨간 상의 롤 권취기 사고 1개 + 같은 사고를 넓게 찍은 화면 4개</td><td>0.2초 판단표</td></tr>
+</table>
+<p style="font-size:30px;line-height:1.5;color:#4A535E">"사고 때 멈추는가"와 "평소에 괜히 안 멈추는가"는 <b>한 쌍</b>으로 잰다.<br>한쪽만 보면 판단기가 좋아 보이는 착시가 생긴다 (실험 11·12).</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A737D">위험한계(몸 어디든 들어가면 위험한 영역)는 영상마다 세훈이 롤 양 끝 원판으로 직접 그림</p>
+</section>
+<section data-note="데이터를 보면서 크게 세 번 방향을 바꿨습니다. 첫째, 공개 데이터는 영상마다 라벨이 하나라서, 같은 화면의 다른 작업자는 무시됩니다. 그래서 0.2초마다 &quot;지금 멈춰야 하나&quot;를 사람이 직접 채운 판단표를 정답으로 씁니다. 둘째, 채우 님과 저 두 명이 판단했는데 처음엔 안 맞았습니다. 알고 보니 저는 &quot;막으려면 멈출 순간&quot;을, 채우 님은 &quot;사고가 난 순간&quot;을 정지로 본 거였어요. 기준을 글로 정리해서 맞추니 정지 시작 시각 차이가 0.2초로 줄었습니다. 셋째, 실제 사고를 보니 손보다 발이나 옷이 먼저 들어갔습니다. 그래서 손목만이 아니라 몸 전체와 옷까지 봅니다." id="learned" data-transition="fade" style="background:#F5F3EE;color:#1C2128;font-family:'Noto Sans KR', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:700;color:#B4471A;letter-spacing:2px">심사 기준 1 · 데이터를 보고 바꾼 것</p>
+<h2 style="font-size:64px;font-weight:700;line-height:1.15">정답을 누가, 어떻게 정하느냐가 결론을 바꿨다</h2>
+</div>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#FBFAF7;border:1px solid #D9D5CC;padding:40px;border-radius:16px">
+<p style="font-size:26px;font-weight:700;color:#B4471A">라벨</p>
+<h3 style="font-size:36px;font-weight:700;line-height:1.3">영상에 라벨 하나로는 못 잰다</h3>
+<p style="font-size:28px;line-height:1.5;color:#4A535E">"걸어감" 라벨 영상에 설비를 만지는 다른 작업자가 있었다. → 0.2초마다 "지금 멈춰야 하나"를 사람이 채운다.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#FBFAF7;border:1px solid #D9D5CC;padding:40px;border-radius:16px">
+<p style="font-size:26px;font-weight:700;color:#B4471A">판단자 2명</p>
+<h3 style="font-size:36px;font-weight:700;line-height:1.3">같은 장면, 다른 질문에 답했다</h3>
+<p style="font-size:28px;line-height:1.5;color:#4A535E">한 명은 예방 시점, 한 명은 사고 순간을 "정지"로 봤다. 기준을 글로 정해 맞추니 정지 시작 차이 2.0초 → 0.2초.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#FBFAF7;border:1px solid #D9D5CC;padding:40px;border-radius:16px">
+<p style="font-size:26px;font-weight:700;color:#B4471A">사고 장면</p>
+<h3 style="font-size:36px;font-weight:700;line-height:1.3">손보다 발·옷이 먼저였다</h3>
+<p style="font-size:28px;line-height:1.5;color:#4A535E">위험의 입구는 발인 경우가 많고, 헐렁한 옷이 먼저 걸린다. → 손목 2개 대신 관절 17개 + 사람 윤곽.</p>
+</div>
+</div>
+</section>
+<section data-note="모델은 역할을 나눠서 골랐습니다. 사람과 관절은 RTMPose인데, 학습 없이도 공장 CCTV에서 사람을 98% 찾았습니다. 옷은 관절로 안 잡혀서 사람 윤곽을 따는 YOLO 세그 모델을 더했고요. 판단은 학습 대신 규칙입니다. 영상 하나로 분류기를 학습해 보니 같은 영상에선 0.94인데 처음 보는 구간에선 0.51로 무너졌거든요. 채우 님이 VLM 두 개도 돌려 봤는데, 하나는 한 장에 3초, 하나는 0.23초로 빠르지만 정지가 한 프레임 나왔다 사라지는 일이 많아서 정지 신호로 바로 쓰기는 어렵습니다. 속도는 CPU에서 176ms를 17ms까지 줄였습니다." id="models" data-transition="fade" style="background:#F5F3EE;color:#1C2128;font-family:'Noto Sans KR', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:700;color:#B4471A;letter-spacing:2px">심사 기준 2 · 모델 선정</p>
+<h2 style="font-size:64px;font-weight:700;line-height:1.15">눈은 사전학습 모델, 판단은 규칙</h2>
+</div>
+<div style="display:flex;gap:48px;align-items:start">
+<table style="flex:1;font-size:28px;color:#1C2128">
+<tr><th style="width:22%;text-align:left">역할</th><th style="width:30%;text-align:left">모델</th><th style="width:48%;text-align:left">고른 이유</th></tr>
+<tr><td>사람·관절</td><td>RTMPose (관절 17개)</td><td>학습 없이 사람 98/100 프레임 (실험 01)</td></tr>
+<tr><td>옷·몸 윤곽</td><td>YOLO11n-seg</td><td>관절로 안 보이는 옷을 잡음 (실험 16)</td></tr>
+<tr><td>판단</td><td>규칙 기반 판단기</td><td>학습한 분류기는 처음 보는 구간에서 0.94 → 0.51 (실험 09)</td></tr>
+<tr><td>비교: VLM</td><td>Basal / ImaJEV (채우)</td><td>한 장 3.13초 / 0.23초, 정지가 한 프레임씩 튐</td></tr>
+</table>
+<div style="width:420px;display:flex;flex-direction:column;gap:12px;background:#1C2128;padding:40px;border-radius:16px">
+<p style="font-size:26px;font-weight:700;color:#F08A4B">처리 시간 (CPU, 실험 07)</p>
+<p style="font-size:96px;font-weight:900;line-height:1.05;color:#F5F3EE">17ms</p>
+<p style="font-size:28px;line-height:1.45;color:#C9CFD6">176ms에서 약 10분의 1. OpenVINO + 사람 탐지를 5프레임마다</p>
+</div>
+</div>
+</section>
+<section data-note="여기서부터 성능 얘기입니다. 가장 큰 벽은 2D 겹침이에요. 카메라 한 대로 보면 사람이 롤 앞에 서 있기만 해도 화면에서는 롤과 겹쳐 보입니다. 그래서 정지 기준을 깊게 잡으면 사고를 놓치고, 얕게 잡으면 평소에 1분에 5번씩 괜히 멈춥니다. 깊이 모델, 3D, 발 위치 같은 걸 다 해 봤는데 혼자서는 안 풀렸고, 조사해 보니 업계도 CCTV 한 대로는 정지를 안 걸더라고요." id="wall" data-transition="fade" style="background:#1C2128;color:#F5F3EE;font-family:'Noto Sans KR', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:700;color:#F08A4B;letter-spacing:2px">심사 기준 3 · 가장 큰 벽</p>
+<h2 style="font-size:64px;font-weight:700;line-height:1.2;color:#F5F3EE">카메라 한 대로 보면, 롤 앞에 서 있기만 해도 롤과 겹쳐 보인다</h2>
+</div>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#2A313A;padding:40px;border-radius:16px">
+<h3 style="font-size:36px;font-weight:700;color:#F5F3EE">정지 기준을 깊게 잡으면</h3>
+<p style="font-size:64px;font-weight:900;line-height:1.1;color:#F5F3EE">사고 2/5</p>
+<p style="font-size:30px;color:#C9CFD6">놓친다 · 평소 헛정지 1분에 0.5번</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#2A313A;padding:40px;border-radius:16px">
+<h3 style="font-size:36px;font-weight:700;color:#F5F3EE">정지 기준을 얕게 잡으면</h3>
+<p style="font-size:64px;font-weight:900;line-height:1.1;color:#F08A4B">헛정지 5번/분</p>
+<p style="font-size:30px;color:#C9CFD6">괜히 멈춘다 · 사고는 4/5</p>
+</div>
+</div>
+<p style="font-size:30px;line-height:1.5;color:#C9CFD6">기준값으로는 못 풀었다. 깊이 모델, 3D 보정, 3D 포즈, 발 위치, 팔 길이 단서도 혼자서는 실패 (실험 07~17).<br>업계도 CCTV 한 대로는 정지를 결정하지 않는다.</p>
+</section>
+<section data-note="그래서 방법을 바꿨습니다. 처음엔 원칙대로 몸 어디든 닿으면 다 멈추게 해서 사고를 전부 잡아 놓고, 헛정지 장면을 하나씩 열어서 제가 &quot;이건 왜 안전한지&quot;를 말하면 그걸 규칙으로 옮겼습니다. 예를 들면 &quot;발이 설비에서 멀면 상체가 화면에서 겹쳐도 무시&quot;, &quot;나란히 걸어 지나가면 무시&quot; 이런 식이요. 그렇게 해서 평소 헛정지가 9번에서 1번으로 줄었고, 그동안 사고 4건은 하나도 안 놓쳤습니다. 헛정지 원인은 전부 상체였고 발·무릎은 0번이었다는 것도 알게 됐습니다." id="rules" data-transition="fade" style="background:#F5F3EE;color:#1C2128;font-family:'Noto Sans KR', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:700;color:#B4471A;letter-spacing:2px">심사 기준 3 · 성능 향상</p>
+<h2 style="font-size:64px;font-weight:700;line-height:1.15">다 멈추게 해 놓고, 헛정지를 하나씩 지웠다</h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px">
+<div style="display:flex;gap:24px;align-items:center">
+<p style="width:760px;font-size:28px;color:#1C2128"><b>출발점</b> 관절 하나라도 닿으면 정지</p>
+<div style="width:790px;height:44px;background:#9AA3AD;border-radius:6px"></div>
+<p style="width:70px;font-size:32px;font-weight:700;text-align:right">9</p>
+</div>
+<div style="display:flex;gap:24px;align-items:center">
+<p style="width:760px;font-size:28px;color:#1C2128"><b>규칙 1</b> 발이 설비에서 1m보다 멀면 상체 무시</p>
+<div style="width:615px;height:44px;background:#9AA3AD;border-radius:6px"></div>
+<div style="flex:1"></div>
+<p style="width:70px;font-size:32px;font-weight:700;text-align:right">7</p>
+</div>
+<div style="display:flex;gap:24px;align-items:center">
+<p style="width:760px;font-size:28px;color:#1C2128"><b>규칙 2</b> 설비와 나란히 걸어 지나가면 무시</p>
+<div style="width:527px;height:44px;background:#9AA3AD;border-radius:6px"></div>
+<div style="flex:1"></div>
+<p style="width:70px;font-size:32px;font-weight:700;text-align:right">6</p>
+</div>
+<div style="display:flex;gap:24px;align-items:center">
+<p style="width:760px;font-size:28px;color:#6A737D"><b>규칙 3</b> 발목이 안 보이면 무릎으로 추정 (효과 없음)</p>
+<div style="width:527px;height:44px;background:#C9CED3;border-radius:6px"></div>
+<div style="flex:1"></div>
+<p style="width:70px;font-size:32px;font-weight:700;text-align:right;color:#6A737D">6</p>
+</div>
+<div style="display:flex;gap:24px;align-items:center">
+<p style="width:760px;font-size:28px;color:#1C2128"><b>규칙 4</b> 발이 설비 앞선 바깥이면 머리·어깨 무시</p>
+<div style="width:88px;height:44px;background:#B4471A;border-radius:6px"></div>
+<div style="flex:1"></div>
+<p style="width:70px;font-size:32px;font-weight:700;text-align:right;color:#B4471A">1</p>
+</div>
+</div>
+<p style="font-size:32px;font-weight:700;line-height:1.4">평소 작업 헛정지 9번 → 1번, 그동안 사고 4건은 끝까지 <span style="color:#B4471A">4/4</span> 잡음</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A737D">실험 19 · 막대 = 평소 작업 118초 동안 헛정지 횟수 · 규칙은 헛정지 장면을 보고 세훈이 적은 이유에서 나옴 · 택배 컨베이어는 위험한계 정의 문제로 제외</p>
+</section>
+<section data-note="관절로는 안 보이는 위험도 있었습니다. 봉투기 사고에서 저는 헐렁한 박스티가 롤에 걸릴 듯한 거리라서 5초에 정지를 냈는데, 관절만 보는 판단기는 7.5초에야 멈췄어요. 사람 윤곽을 더해서, 옷이 관절보다 롤 쪽으로 튀어나와 있으면 단계를 한 칸 올리게 했더니 저랑 똑같이 5.0초에 멈췄습니다. 한 칸만 올리게 제한해서, 깊은 판단기에 얹었을 땐 평소에 괜히 멈추는 횟수가 그대로였고 감속만 조금 늘었습니다. 다만 얕은 판단기에 얹으면 헛정지도 같이 늘었습니다." id="cloth" data-transition="fade" style="background:#F5F3EE;color:#1C2128;font-family:'Noto Sans KR', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:700;color:#B4471A;letter-spacing:2px">심사 기준 3 · 관절 밖의 위험</p>
+<h2 style="font-size:64px;font-weight:700;line-height:1.15">"헐렁한 옷이 걸릴 듯한 거리"를 사람 윤곽으로 잡았다</h2>
+</div>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FBFAF7;border:1px solid #D9D5CC;padding:40px;border-radius:16px">
+<p style="font-size:26px;font-weight:700;color:#6A737D">봉투기 사고 · 사람이 정지를 낸 순간</p>
+<p style="font-size:96px;font-weight:900;line-height:1.05">5.0초</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#FBFAF7;border:1px solid #D9D5CC;padding:40px;border-radius:16px">
+<p style="font-size:26px;font-weight:700;color:#6A737D">관절만 본 판단기</p>
+<p style="font-size:96px;font-weight:900;line-height:1.05;color:#6A737D">7.5초</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#B4471A;padding:40px;border-radius:16px">
+<p style="font-size:26px;font-weight:700;color:#FBF7F2">+ 옷 신호</p>
+<p style="font-size:96px;font-weight:900;line-height:1.05;color:#FBF7F2">5.0초</p>
+</div>
+</div>
+<p style="font-size:30px;line-height:1.5;color:#4A535E">윤곽이 관절보다 롤에 7~8cm 더 가까우면 단계를 <b>한 칸만</b> 올린다.<br>깊은 판단기에 얹으면 사고 2 → 3건, 평소 헛정지는 그대로였다. 얕은 판단기에 얹으면 헛정지도 늘었다.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#6A737D">실험 16 · 사람 윤곽: YOLO11n-seg 사전학습 그대로</p>
+</section>
+<section data-note="시연까지 남은 일은 네 가지입니다. 첫째, 러닝머신을 카메라 두 대로 찍어서 한 대로 못 푼 겹침을 풉니다. 둘째, 규칙 4는 같은 영상을 보면서 만든 거라 새로 모은 사고 영상에서 다시 확인해야 합니다. 셋째, 헛정지 0번인 조용한 안과 사고를 다 잡는 규칙 4 중에 대표를 고릅니다. 넷째, 채우 님 VLM 결과를 같은 판단표로 채점해서 경고나 사후 분석에 쓸 수 있을지 봅니다. 이상입니다, 감사합니다." id="next" data-transition="fade" style="background:#1C2128;color:#F5F3EE;font-family:'Noto Sans KR', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;gap:56px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:26px;font-weight:700;color:#F08A4B;letter-spacing:2px">10-22 시연까지</p>
+<h2 style="font-size:64px;font-weight:700;line-height:1.15;color:#F5F3EE">남은 일 네 가지</h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:12px;background:#2A313A;padding:40px;border-radius:16px">
+<h3 style="font-size:36px;font-weight:700;color:#F5F3EE">1. 러닝머신, 카메라 2대</h3>
+<p style="font-size:28px;line-height:1.5;color:#C9CFD6">한 대로 안 풀리는 겹침을 옆 + 위 두 화면으로 푼다</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#2A313A;padding:40px;border-radius:16px">
+<h3 style="font-size:36px;font-weight:700;color:#F5F3EE">2. 처음 보는 영상에서 확인</h3>
+<p style="font-size:28px;line-height:1.5;color:#C9CFD6">규칙 4는 같은 영상 14개를 보며 만들었다. 새로 모은 사고 영상으로 다시 잰다</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#2A313A;padding:40px;border-radius:16px">
+<h3 style="font-size:36px;font-weight:700;color:#F5F3EE">3. 대표 판단기 고르기</h3>
+<p style="font-size:28px;line-height:1.5;color:#C9CFD6">조용한 안 (사고 3/4, 헛정지 0) vs 규칙 4 (사고 4/4, 헛정지 1)</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px;background:#2A313A;padding:40px;border-radius:16px">
+<h3 style="font-size:36px;font-weight:700;color:#F5F3EE">4. VLM을 같은 판단표로 채점</h3>
+<p style="font-size:28px;line-height:1.5;color:#C9CFD6">정지가 아니라 경고·사후 분석에 쓸 수 있는지 본다</p>
+</div>
+</div>
+</section>
+</div>
+<div id="note"></div><div id="pg"></div>
+<script>
+const S=[...document.querySelectorAll('#stage>section')],st=document.getElementById('stage'),nt=document.getElementById('note'),pg=document.getElementById('pg');
+let i=0;
+function fit(){const k=Math.min(innerWidth/1920,innerHeight/1080);st.style.transform=`translate(-50%,-50%) scale(${k})`;}
+function show(n){i=Math.max(0,Math.min(S.length-1,n));S.forEach((s,j)=>s.classList.toggle('on',j===i));nt.textContent=S[i].dataset.note||'';pg.textContent=(i+1)+' / '+S.length+'  ·  N: 발표 대본';}
+addEventListener('resize',fit);
+addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key))show(i+1);else if(['ArrowLeft','PageUp'].includes(e.key))show(i-1);else if(e.key==='n'||e.key==='N')nt.style.display=nt.style.display==='block'?'none':'block';else if(e.key==='f'||e.key==='F')document.documentElement.requestFullscreen?.();});
+let x0=null;addEventListener('touchstart',e=>x0=e.touches[0].clientX);addEventListener('touchend',e=>{if(x0===null)return;const d=e.changedTouches[0].clientX-x0;if(Math.abs(d)>40)show(i+(d<0?1:-1));x0=null;});
+st.addEventListener('click',e=>show(i+(e.clientX>innerWidth/2?1:-1)));
+fit();show(0);
+</script></body></html>

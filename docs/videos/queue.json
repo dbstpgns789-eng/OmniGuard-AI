@@ -47,19 +47,21 @@
    "status": "done"
   },
   {
-   "id": "01e_china_leftover",
-   "status": "running",
-   "prompt": "TIME LIMIT about 25 minutes. Read-only. Verify by playing: toutiao.com/video/6734599348463600136; Tencent videos embedded in https://www.sohu.com/a/471390309_121123525 (Shenzhen 2021-06-07 牵伸机 roller accident); https://tv.aqrzj.com/shigu/2574.html (拉片机 case, find CCTV segment mm:ss); https://news.sina.cn/2021-03-23/detail-ikknscsi9962727.d.html; pin exact contact second for toutiao 7561480768199852544 and 6417722011615707393 by 1-second stepping. Then search Douyin web, Weibo video, Tencent video for 流延膜机 冷却辊 监控, 加工中心 主轴 卷入 监控, 辊 卷入 监控 实拍. Table per video: URL | platform | title (orig + Korean) | accident time | machine | camera | approach seconds | quality | note. Answer in Korean."
-  },
-  {
    "id": "02b_belarus_inspectorate",
-   "status": "todo",
+   "status": "done",
    "prompt": "TIME LIMIT about 25 minutes. Read-only. The Belarus state labour inspectorate (Департамент государственной инспекции труда Республики Беларусь, Минтруда) publishes CCTV compilations of workplace accidents (example: rutube.ru/video/69f58ac7c596c4f5e45a8848097a534d). Find their other episodes on YouTube, Rutube, their website (mintrud.gov.by, git.gov.by), and play them. List each clip where a person is caught/entangled in ROTATING machinery (rollers, rolls, shafts, drums, conveyors, lathes, mixers): URL | episode title (orig + Korean) | clip timestamp mm:ss | machine | camera | seconds of approach before contact | quality | note. Answer in Korean."
   },
   {
    "id": "04b_global_followup",
-   "status": "todo",
+   "status": "done",
    "prompt": "TIME LIMIT about 25 minutes. Read-only, no login/download. Play and verify these YouTube candidates for real rotating-machinery entanglement accidents on CCTV: hX_Nwc9fdwU (Turkey 'RULOLARIN ARASINA SIKIŞTI', rollers - first priority), PYhtAtSU9QM, VQlYNzFZitU, 63TKa3IkyBQ, WGjPQXz00DM, 20J2iaYR4aE, Ot5Z2aB2n70, EaTTwhfOeUY, qzRVUsK4UNQ; and re-check 4cWXqXgML_I 3:00-3:35 (large cylinder roll). Then search Reddit (old.reddit.com search, r/OSHA r/WCGW r/CatastrophicFailure) and Dailymotion for 'caught in rollers cctv', 'pulled into conveyor cctv', 'machine entanglement cctv'. Table per video: URL | platform | title (orig + Korean) | accident time mm:ss | machine | camera | approach seconds | quality | note. Answer in Korean."
+  },
+  {
+   "id": "01e_china_leftover",
+   "status": "done",
+   "prompt": "TIME LIMIT about 25 minutes. Read-only. Verify by playing: toutiao.com/video/6734599348463600136; Tencent videos embedded in https://www.sohu.com/a/471390309_121123525 (Shenzhen 2021-06-07 牵伸机 roller accident); https://tv.aqrzj.com/shigu/2574.html (拉片机 case, find CCTV segment mm:ss); https://news.sina.cn/2021-03-23/detail-ikknscsi9962727.d.html; pin exact contact second for toutiao 7561480768199852544 and 6417722011615707393 by 1-second stepping. Then search Douyin web, Weibo video, Tencent video for 流延膜机 冷却辊 监控, 加工中心 主轴 卷入 监控, 辊 卷入 监控 实拍. Table per video: URL | platform | title (orig + Korean) | accident time | machine | camera | approach seconds | quality | note. Answer in Korean.",
+   "retries": 1,
+   "note": "실패 원인은 세훈 노트북 이동 중 네트워크 끊김(조사 문제 아님). 원래 내용 그대로 재시도"
   }
  ]
 }
