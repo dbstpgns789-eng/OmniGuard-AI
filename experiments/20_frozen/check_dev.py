@@ -6,11 +6,13 @@ src = open(os.path.join(X, "19_remove_false", "step0.py"), encoding="utf-8").rea
 sys.path.insert(0, HERE); import judges as J
 FRONT = lambda k: json.load(open(os.path.join(X, "14_foot_gate", f"front_{k}.json")))["lines"]
 CALIB_OK = {"paper_rewinder"}  # 실험 19와 같게: 바닥 보정이 된 영상만 앞선 사용
+STAB = "stab" in sys.argv[1:]  # 시험 데이터와 같은 화면 보정을 적용한 포즈(stabilize_dev.py)
+D12, D11 = ("exp20_stab/", "exp20_stab/") if STAB else ("exp12/", "exp11/")
 
 res = {n: {"A": 0, "B+1": 0, "false": 0} for n in J.PARAMS}
 for k in VIDEOS:
     labA, tcA = read(SRC["A"].format(k)); labB, tcB = read(SRC["B"].format(k)); tc = min([v for v in (tcA, tcB) if v is not None], default=None)
-    P = dict(np.load(DATA + f"exp12/{k}_pose.npz", allow_pickle=True))
+    P = dict(np.load(DATA + D12 + f"{k}_pose.npz", allow_pickle=True))
     F = J.features(P, json.load(open(os.path.join(X, "12_accident_set", f"zone_{k}.json"))), json.load(open(os.path.join(X, "12_accident_set", f"floor_{k}.json"))))
     m = np.array([g(v) in labA and g(v) in labB for v in F["t"]]); tt = F["t"][m]
     for n in J.PARAMS:
@@ -19,8 +21,8 @@ for k in VIDEOS:
             gs = y == 3; r = score(tt, o, gs, y < 3, float(tt[gs][0]), tc, y); res[n][gname] += bool(r["hit"])
 objs = list(json.load(open(os.path.join(X, "11_press_normal", "zone_objects.json"), encoding="utf-8"))["objects"].values())
 floor = json.load(open(os.path.join(X, "11_press_normal", "floor_user.json"))); total = 0.0
-for p in sorted(glob.glob(DATA + "exp11/*_pose.npz")):
+for p in [DATA + D11 + os.path.basename(q) for q in sorted(glob.glob(DATA + "exp11/*_pose.npz"))]:
     P = dict(np.load(p, allow_pickle=True)); T.L = floor["lines"]; F = T.features(P, objs); t = F["t"]; total += float(t[-1] - t[0]) + 1 / F["fps"]
     for n in J.PARAMS: res[n]["false"] += len(episodes(t, J.run(n, P, F, FRONT("press")) == 3, 1.0))
 for n, r in res.items(): print(f"{n}: 사고 세훈 {r['A']}/4, 채우 {r['B+1']}/4 | 평소 작업 {total:.0f}초 헛정지 {r['false']}회 ({r['false']/total*60:.2f}/분)")
-json.dump({"total_sec": round(total, 1), **res}, open(os.path.join(HERE, "check_dev.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+json.dump({"total_sec": round(total, 1), **res}, open(os.path.join(HERE, "check_dev_stab.json" if STAB else "check_dev.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
