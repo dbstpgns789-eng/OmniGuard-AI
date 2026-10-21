@@ -1,0 +1,722 @@
+{
+ "dev": {
+  "raw": {
+   "J13_accidents": "4/4",
+   "J13_press_false_stops": 7
+  },
+  "filtered": {
+   "J13_accidents": "4/4",
+   "J13_press_false_stops": 7
+  }
+ },
+ "summary": {
+  "raw/test10/J13": {
+   "stop_rate": "5/10",
+   "false_per_min": 6.68,
+   "normal_stop_time": "54%"
+  },
+  "raw/test10/C1": {
+   "stop_rate": "9/10",
+   "false_per_min": 7.64,
+   "normal_stop_time": "67%"
+  },
+  "raw/tune10/J13": {
+   "stop_rate": "8/10",
+   "false_per_min": 8.54,
+   "normal_stop_time": "20%"
+  },
+  "raw/tune10/C1": {
+   "stop_rate": "8/10",
+   "false_per_min": 7.47,
+   "normal_stop_time": "31%"
+  },
+  "filtered/test10/J13": {
+   "stop_rate": "5/10",
+   "false_per_min": 5.73,
+   "normal_stop_time": "50%"
+  },
+  "filtered/test10/C1": {
+   "stop_rate": "8/10",
+   "false_per_min": 5.73,
+   "normal_stop_time": "64%"
+  },
+  "filtered/tune10/J13": {
+   "stop_rate": "8/10",
+   "false_per_min": 8.54,
+   "normal_stop_time": "20%"
+  },
+  "filtered/tune10/C1": {
+   "stop_rate": "8/10",
+   "false_per_min": 6.41,
+   "normal_stop_time": "34%"
+  }
+ },
+ "dropped": {
+  "A04_carpet": 158,
+  "A09_pipe": 288,
+  "A10_pipe_view2": 150,
+  "B01_lathe": 66,
+  "B02_lathe_chuck": 307,
+  "B38_mixer": 36,
+  "C03_drum": 440,
+  "D01": 62,
+  "D02": 77,
+  "D03": 244,
+  "D04": 159,
+  "D05": 34,
+  "D06": 37,
+  "D07": 65,
+  "D08": 422,
+  "D09": 13,
+  "D10": 457,
+  "D11": 922,
+  "D12": 69,
+  "D13": 77
+ },
+ "clips": {
+  "raw": {
+   "A04_carpet": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 9,
+     "nf": 190,
+     "min": 0.10555555555563956
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 35,
+     "nf": 190,
+     "min": 0.10555555555563956
+    }
+   },
+   "A09_pipe": {
+    "J13": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 418,
+     "min": 0.23222088851351322
+    },
+    "C1": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 418,
+     "min": 0.23222088851351322
+    }
+   },
+   "A10_pipe_view2": {
+    "J13": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 393,
+     "min": 0.21833333333333255
+    },
+    "C1": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 393,
+     "min": 0.21833333333333255
+    }
+   },
+   "B01_lathe": {
+    "J13": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 88,
+     "min": 0.04888872822392993
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 88,
+     "min": 0.04888872822392993
+    }
+   },
+   "B02_lathe_chuck": {
+    "J13": {
+     "hit": true,
+     "false_stops": 4,
+     "ns": 136,
+     "nf": 502,
+     "min": 0.2788888667407871
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 2,
+     "ns": 290,
+     "nf": 502,
+     "min": 0.2788888667407871
+    }
+   },
+   "B38_mixer": {
+    "J13": {
+     "hit": false,
+     "false_stops": 1,
+     "ns": 66,
+     "nf": 93,
+     "min": 0.051666666666666486
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 93,
+     "nf": 93,
+     "min": 0.051666666666666486
+    }
+   },
+   "C03_drum": {
+    "J13": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 276,
+     "min": 0.09200000000001438
+    },
+    "C1": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 276,
+     "min": 0.09200000000001438
+    }
+   },
+   "D01": {
+    "J13": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    }
+   },
+   "D02": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 45,
+     "nf": 45,
+     "min": 0.02499999999999991
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 45,
+     "nf": 45,
+     "min": 0.02499999999999991
+    }
+   },
+   "D03": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 138,
+     "nf": 151,
+     "min": 0.0838888888888886
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 151,
+     "nf": 151,
+     "min": 0.0838888888888886
+    }
+   },
+   "D04": {
+    "J13": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 33,
+     "min": 0.018333333333333268
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 33,
+     "min": 0.018333333333333268
+    }
+   },
+   "D05": {
+    "J13": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    }
+   },
+   "D06": {
+    "J13": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    }
+   },
+   "D07": {
+    "J13": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    }
+   },
+   "D08": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 6,
+     "nf": 6,
+     "min": 0.0033333333333333214
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 6,
+     "nf": 6,
+     "min": 0.0033333333333333214
+    }
+   },
+   "D09": {
+    "J13": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 186,
+     "min": 0.10333333333333297
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 167,
+     "nf": 186,
+     "min": 0.10333333333333297
+    }
+   },
+   "D10": {
+    "J13": {
+     "hit": false,
+     "false_stops": 3,
+     "ns": 654,
+     "nf": 736,
+     "min": 0.4088888888888874
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 3,
+     "ns": 698,
+     "nf": 736,
+     "min": 0.4088888888888874
+    }
+   },
+   "D11": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 8,
+     "nf": 83,
+     "min": 0.04611111111111095
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 2,
+     "ns": 29,
+     "nf": 83,
+     "min": 0.04611111111111095
+    }
+   },
+   "D12": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 20,
+     "nf": 154,
+     "min": 0.08555555555555525
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 20,
+     "nf": 154,
+     "min": 0.08555555555555525
+    }
+   },
+   "D13": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 328,
+     "nf": 328,
+     "min": 0.18222222222222156
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 328,
+     "nf": 328,
+     "min": 0.18222222222222156
+    }
+   }
+  },
+  "filtered": {
+   "A04_carpet": {
+    "J13": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 190,
+     "min": 0.10555555555563956
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 190,
+     "min": 0.10555555555563956
+    }
+   },
+   "A09_pipe": {
+    "J13": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 418,
+     "min": 0.23222088851351322
+    },
+    "C1": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 418,
+     "min": 0.23222088851351322
+    }
+   },
+   "A10_pipe_view2": {
+    "J13": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 393,
+     "min": 0.21833333333333255
+    },
+    "C1": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 393,
+     "min": 0.21833333333333255
+    }
+   },
+   "B01_lathe": {
+    "J13": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 88,
+     "min": 0.04888872822392993
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 88,
+     "min": 0.04888872822392993
+    }
+   },
+   "B02_lathe_chuck": {
+    "J13": {
+     "hit": true,
+     "false_stops": 4,
+     "ns": 134,
+     "nf": 502,
+     "min": 0.2788888667407871
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 2,
+     "ns": 289,
+     "nf": 502,
+     "min": 0.2788888667407871
+    }
+   },
+   "B38_mixer": {
+    "J13": {
+     "hit": false,
+     "false_stops": 2,
+     "ns": 45,
+     "nf": 93,
+     "min": 0.051666666666666486
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 93,
+     "nf": 93,
+     "min": 0.051666666666666486
+    }
+   },
+   "C03_drum": {
+    "J13": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 276,
+     "min": 0.09200000000001438
+    },
+    "C1": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 276,
+     "min": 0.09200000000001438
+    }
+   },
+   "D01": {
+    "J13": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    }
+   },
+   "D02": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 45,
+     "nf": 45,
+     "min": 0.02499999999999991
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 45,
+     "nf": 45,
+     "min": 0.02499999999999991
+    }
+   },
+   "D03": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 138,
+     "nf": 151,
+     "min": 0.0838888888888886
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 151,
+     "nf": 151,
+     "min": 0.0838888888888886
+    }
+   },
+   "D04": {
+    "J13": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 33,
+     "min": 0.018333333333333268
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 33,
+     "min": 0.018333333333333268
+    }
+   },
+   "D05": {
+    "J13": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    }
+   },
+   "D06": {
+    "J13": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    }
+   },
+   "D07": {
+    "J13": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 0,
+     "min": 0.0
+    }
+   },
+   "D08": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 6,
+     "nf": 6,
+     "min": 0.0033333333333333214
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 6,
+     "nf": 6,
+     "min": 0.0033333333333333214
+    }
+   },
+   "D09": {
+    "J13": {
+     "hit": false,
+     "false_stops": 0,
+     "ns": 0,
+     "nf": 186,
+     "min": 0.10333333333333297
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 167,
+     "nf": 186,
+     "min": 0.10333333333333297
+    }
+   },
+   "D10": {
+    "J13": {
+     "hit": false,
+     "false_stops": 2,
+     "ns": 612,
+     "nf": 736,
+     "min": 0.4088888888888874
+    },
+    "C1": {
+     "hit": false,
+     "false_stops": 2,
+     "ns": 678,
+     "nf": 736,
+     "min": 0.4088888888888874
+    }
+   },
+   "D11": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 8,
+     "nf": 83,
+     "min": 0.04611111111111095
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 83,
+     "nf": 83,
+     "min": 0.04611111111111095
+    }
+   },
+   "D12": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 20,
+     "nf": 154,
+     "min": 0.08555555555555525
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 20,
+     "nf": 154,
+     "min": 0.08555555555555525
+    }
+   },
+   "D13": {
+    "J13": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 328,
+     "nf": 328,
+     "min": 0.18222222222222156
+    },
+    "C1": {
+     "hit": true,
+     "false_stops": 1,
+     "ns": 328,
+     "nf": 328,
+     "min": 0.18222222222222156
+    }
+   }
+  }
+ }
+}
