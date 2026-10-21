@@ -1,0 +1,24 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+The image processor of type `DPTImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. 
+Loading weights:   0%|          | 0/287 [00:00<?, ?it/s]Loading weights: 100%|██████████| 287/287 [00:00<00:00, 10234.18it/s]
+A04_carpet 80 1181ms
+A09_pipe 110 1198ms
+A10_pipe_view2 110 889ms
+B01_lathe 95 1191ms
+B02_lathe_chuck 118 1198ms
+B38_mixer 50 1165ms
+C03_drum 60 1144ms
+D01 53 481ms
+D02 52 785ms
+D03 85 1393ms
+D04 113 1603ms
+D05 24 970ms
+D06 75 1631ms
+D07 67 2046ms
+D08 110 1418ms
+D09 103 844ms
+D10 152 932ms
+D11 89 769ms
+D12 69 674ms
+D13 99 1549ms
+done
