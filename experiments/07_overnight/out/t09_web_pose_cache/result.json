@@ -1,0 +1,107 @@
+{
+ "web_BiliBili_BV1VB4y1H7Hs_0-40": {
+  "memo": "필름·봉투기 권취 롤러, 고정·무편집",
+  "frames": 1036,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 4533.4,
+  "fixed_camera": false
+ },
+ "web_youtube_Wp7EZ8j4bb8_0-12": {
+  "memo": "벨트 컨베이어 끝단, 고정·무편집, 저해상도",
+  "frames": 360,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 22.1,
+  "fixed_camera": false
+ },
+ "web_BiliBili_BV1hA411P7Ci_0-80": {
+  "memo": "빨간 상의 정경기 드럼, 모니터 촬영",
+  "frames": 1937,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 320.9,
+  "fixed_camera": false
+ },
+ "web_BiliBili_BV1aZ42187w6_36-60": {
+  "memo": "인도 제지 권취 롤러",
+  "frames": 720,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 3062.1,
+  "fixed_camera": false
+ },
+ "web_BiliBili_BV1aZ42187w6_96-126": {
+  "memo": "제지 리와인더",
+  "frames": 900,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 2604.4,
+  "fixed_camera": false
+ },
+ "web_BiliBili_BV1aZ42187w6_138-152": {
+  "memo": "휴지 원단 리와인더",
+  "frames": 420,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 2174.6,
+  "fixed_camera": false
+ },
+ "web_BiliBili_BV12f42127F3_60-120": {
+  "memo": "택배 컨베이어 끝 롤러 2건",
+  "frames": 1800,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 35.5,
+  "fixed_camera": false
+ },
+ "web_BiliBili_BV1jH4y1W7CU_0-28": {
+  "memo": "판지 슬리터-리와인더",
+  "frames": 840,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 0.2,
+  "fixed_camera": true
+ },
+ "web_BiliBili_BV1nG411E7Qh_0-18": {
+  "memo": "녹색 원단 권취 롤",
+  "frames": 540,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 499.1,
+  "fixed_camera": false
+ },
+ "web_BiliBili_BV1HS4y1X7Fi_67-105": {
+  "memo": "원단 권취기 + 택배 컨베이어",
+  "frames": 1140,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 2.2,
+  "fixed_camera": true
+ },
+ "web_BiliBili_BV1Knes6vEHr_0-10": {
+  "memo": "대형 종이 롤 리와인더",
+  "frames": 300,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 0.0,
+  "fixed_camera": true
+ },
+ "web_youtube_WCGIljakqmQ_6-24": {
+  "memo": "직물 기계 끝 롤러",
+  "frames": 540,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 3003.6,
+  "fixed_camera": false
+ },
+ "web_youtube_RurcFEZnHkc_0-22": {
+  "memo": "인도 정경기 드럼",
+  "frames": 660,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 61.7,
+  "fixed_camera": false
+ },
+ "web_rutube_12c295a605d706a6ad68ef3a5927caa4_520-566": {
+  "memo": "필름 롤러 + 강관 롤러 컨베이어",
+  "frames": 1150,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": null,
+  "fixed_camera": false
+ },
+ "web_rutube_95ad51b9355345d96944ed9aeda7c4a5_25-40": {
+  "memo": "부직포 원단 기계",
+  "frames": 450,
+  "person_frame_ratio": 1.0,
+  "camera_drift_px_max": 68.1,
+  "fixed_camera": false
+ }
+}

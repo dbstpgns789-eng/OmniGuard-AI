@@ -1,0 +1,71 @@
+{
+ "t01_setup": {
+  "tries": 1,
+  "state": "done",
+  "started": "01:25:06",
+  "last_exit": 0,
+  "ended": "01:26:29"
+ },
+ "t02_v3_motion": {
+  "tries": 0,
+  "state": "done"
+ },
+ "t08_keyframes": {
+  "tries": 0,
+  "state": "done"
+ },
+ "t06_static_filter": {
+  "tries": 0,
+  "state": "done"
+ },
+ "t03_latency_cpu": {
+  "tries": 1,
+  "state": "done",
+  "started": "01:26:29",
+  "last_exit": 0,
+  "ended": "10:41:42"
+ },
+ "t04_depth_gate": {
+  "tries": 2,
+  "state": "done",
+  "started": "10:46:59",
+  "last_exit": 0,
+  "ended": "10:56:03"
+ },
+ "t03b_latency_interleaved": {
+  "tries": 1,
+  "state": "done",
+  "started": "10:44:48",
+  "last_exit": 0,
+  "ended": "10:46:59"
+ },
+ "t05_pose_conditions": {
+  "tries": 1,
+  "state": "done",
+  "started": "10:56:03",
+  "last_exit": 0,
+  "ended": "13:54:52"
+ },
+ "t07_mediapipe_hands": {
+  "tries": 1,
+  "state": "done",
+  "started": "13:54:52",
+  "last_exit": 0,
+  "ended": "13:55:23"
+ },
+ "t09_web_pose_cache": {
+  "tries": 2,
+  "state": "done",
+  "started": "11:23:38",
+  "last_exit": 0,
+  "ended": "11:39:29"
+ },
+ "t10_vlm_cpu": {
+  "tries": 3,
+  "state": "failed",
+  "started": "14:40:30",
+  "last_exit": "timeout",
+  "ended": "14:39:30",
+  "note": "모델 다운로드(약 7GB) 중 3시간 시간 초과. CPU VLM은 Colab 측정으로 대체"
+ }
+}

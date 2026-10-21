@@ -1,0 +1,246 @@
+{
+ "test": [
+  {
+   "x": -1.0,
+   "recall": 0.194,
+   "precision": 0.63,
+   "fpr": 0.043,
+   "f1": 0.296,
+   "stop_rate": "1/10",
+   "hits": 1,
+   "false_per_min": 0.95
+  },
+  {
+   "x": -0.7,
+   "recall": 0.264,
+   "precision": 0.644,
+   "fpr": 0.055,
+   "f1": 0.374,
+   "stop_rate": "1/10",
+   "hits": 1,
+   "false_per_min": 1.91
+  },
+  {
+   "x": -0.5,
+   "recall": 0.328,
+   "precision": 0.493,
+   "fpr": 0.127,
+   "f1": 0.394,
+   "stop_rate": "1/10",
+   "hits": 1,
+   "false_per_min": 4.77
+  },
+  {
+   "x": -0.3,
+   "recall": 0.445,
+   "precision": 0.342,
+   "fpr": 0.324,
+   "f1": 0.386,
+   "stop_rate": "2/10",
+   "hits": 2,
+   "false_per_min": 4.77
+  },
+  {
+   "x": -0.15,
+   "recall": 0.562,
+   "precision": 0.318,
+   "fpr": 0.455,
+   "f1": 0.406,
+   "stop_rate": "4/10",
+   "hits": 4,
+   "false_per_min": 5.73
+  },
+  {
+   "x": 0.0,
+   "recall": 0.738,
+   "precision": 0.336,
+   "fpr": 0.55,
+   "f1": 0.462,
+   "stop_rate": "5/10",
+   "hits": 5,
+   "false_per_min": 6.68
+  },
+  {
+   "x": 0.15,
+   "recall": 0.79,
+   "precision": 0.339,
+   "fpr": 0.581,
+   "f1": 0.475,
+   "stop_rate": "5/10",
+   "hits": 5,
+   "false_per_min": 7.64
+  },
+  {
+   "x": 0.3,
+   "recall": 0.796,
+   "precision": 0.325,
+   "fpr": 0.624,
+   "f1": 0.462,
+   "stop_rate": "6/10",
+   "hits": 6,
+   "false_per_min": 7.64
+  },
+  {
+   "x": 0.5,
+   "recall": 0.834,
+   "precision": 0.311,
+   "fpr": 0.697,
+   "f1": 0.453,
+   "stop_rate": "6/10",
+   "hits": 6,
+   "false_per_min": 9.55
+  },
+  {
+   "x": 0.75,
+   "recall": 0.856,
+   "precision": 0.308,
+   "fpr": 0.725,
+   "f1": 0.453,
+   "stop_rate": "6/10",
+   "hits": 6,
+   "false_per_min": 9.55
+  },
+  {
+   "x": 1.0,
+   "recall": 0.915,
+   "precision": 0.301,
+   "fpr": 0.802,
+   "f1": 0.453,
+   "stop_rate": "6/10",
+   "hits": 6,
+   "false_per_min": 10.5
+  },
+  {
+   "x": 1.5,
+   "recall": 0.968,
+   "precision": 0.284,
+   "fpr": 0.921,
+   "f1": 0.439,
+   "stop_rate": "8/10",
+   "hits": 8,
+   "false_per_min": 10.5
+  }
+ ],
+ "tune": [
+  {
+   "x": -1.0,
+   "recall": 0.128,
+   "precision": 0.654,
+   "fpr": 0.023,
+   "f1": 0.214,
+   "stop_rate": "2/10",
+   "hits": 2,
+   "false_per_min": 2.14
+  },
+  {
+   "x": -0.7,
+   "recall": 0.171,
+   "precision": 0.609,
+   "fpr": 0.037,
+   "f1": 0.267,
+   "stop_rate": "2/10",
+   "hits": 2,
+   "false_per_min": 2.14
+  },
+  {
+   "x": -0.5,
+   "recall": 0.46,
+   "precision": 0.489,
+   "fpr": 0.16,
+   "f1": 0.474,
+   "stop_rate": "3/10",
+   "hits": 3,
+   "false_per_min": 4.27
+  },
+  {
+   "x": -0.3,
+   "recall": 0.802,
+   "precision": 0.564,
+   "fpr": 0.206,
+   "f1": 0.662,
+   "stop_rate": "5/10",
+   "hits": 5,
+   "false_per_min": 4.27
+  },
+  {
+   "x": -0.15,
+   "recall": 0.855,
+   "precision": 0.544,
+   "fpr": 0.239,
+   "f1": 0.665,
+   "stop_rate": "6/10",
+   "hits": 6,
+   "false_per_min": 5.34
+  },
+  {
+   "x": 0.0,
+   "recall": 0.886,
+   "precision": 0.475,
+   "fpr": 0.326,
+   "f1": 0.619,
+   "stop_rate": "8/10",
+   "hits": 8,
+   "false_per_min": 8.54
+  },
+  {
+   "x": 0.15,
+   "recall": 0.947,
+   "precision": 0.43,
+   "fpr": 0.418,
+   "f1": 0.592,
+   "stop_rate": "8/10",
+   "hits": 8,
+   "false_per_min": 9.61
+  },
+  {
+   "x": 0.3,
+   "recall": 0.962,
+   "precision": 0.41,
+   "fpr": 0.461,
+   "f1": 0.575,
+   "stop_rate": "9/10",
+   "hits": 9,
+   "false_per_min": 9.61
+  },
+  {
+   "x": 0.5,
+   "recall": 0.985,
+   "precision": 0.397,
+   "fpr": 0.498,
+   "f1": 0.566,
+   "stop_rate": "9/10",
+   "hits": 9,
+   "false_per_min": 9.61
+  },
+  {
+   "x": 0.75,
+   "recall": 0.985,
+   "precision": 0.38,
+   "fpr": 0.536,
+   "f1": 0.548,
+   "stop_rate": "9/10",
+   "hits": 9,
+   "false_per_min": 11.74
+  },
+  {
+   "x": 1.0,
+   "recall": 0.985,
+   "precision": 0.365,
+   "fpr": 0.57,
+   "f1": 0.533,
+   "stop_rate": "9/10",
+   "hits": 9,
+   "false_per_min": 12.81
+  },
+  {
+   "x": 1.5,
+   "recall": 0.985,
+   "precision": 0.346,
+   "fpr": 0.62,
+   "f1": 0.512,
+   "stop_rate": "9/10",
+   "hits": 9,
+   "false_per_min": 12.81
+  }
+ ]
+}

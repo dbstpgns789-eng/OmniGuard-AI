@@ -1,0 +1,26 @@
+{
+ "rec_001918": {
+  "wrist": {
+   "pre_approach_stop_ratio": 0.75,
+   "stop_ratio_tc_pm0.5": 0.0,
+   "lead_s": 1.57
+  },
+  "all": {
+   "pre_approach_stop_ratio": 0.992,
+   "stop_ratio_tc_pm0.5": 0.0,
+   "lead_s": 3.0
+  }
+ },
+ "rec_002103": {
+  "wrist": {
+   "pre_approach_stop_ratio": 0.102,
+   "stop_ratio_tc_pm0.5": 0.613,
+   "lead_s": 1.23
+  },
+  "all": {
+   "pre_approach_stop_ratio": 0.504,
+   "stop_ratio_tc_pm0.5": 1.0,
+   "lead_s": 3.0
+  }
+ }
+}

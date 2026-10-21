@@ -1,0 +1,44 @@
+{
+ "lightweight_raw": {
+  "worker_found_ratio": 0.036,
+  "worker_found_ratio_contact_15_17s": 0.0,
+  "right_side_detections(pillar)": 78,
+  "wrist_conf_mean": 0.373,
+  "ms_median": 205.4
+ },
+ "lightweight_clahe": {
+  "worker_found_ratio": 0.262,
+  "worker_found_ratio_contact_15_17s": 0.016,
+  "right_side_detections(pillar)": 3,
+  "wrist_conf_mean": 0.262,
+  "ms_median": 488.7
+ },
+ "balanced_raw": {
+  "worker_found_ratio": 0.072,
+  "worker_found_ratio_contact_15_17s": 0.0,
+  "right_side_detections(pillar)": 35,
+  "wrist_conf_mean": 0.37,
+  "ms_median": 1474.6
+ },
+ "balanced_clahe": {
+  "worker_found_ratio": 0.056,
+  "worker_found_ratio_contact_15_17s": 0.033,
+  "right_side_detections(pillar)": 6,
+  "wrist_conf_mean": 0.327,
+  "ms_median": 1565.7
+ },
+ "performance_raw": {
+  "worker_found_ratio": 0.641,
+  "worker_found_ratio_contact_15_17s": 0.59,
+  "right_side_detections(pillar)": 79,
+  "wrist_conf_mean": 0.367,
+  "ms_median": 3177.2
+ },
+ "performance_clahe": {
+  "worker_found_ratio": 0.672,
+  "worker_found_ratio_contact_15_17s": 0.721,
+  "right_side_detections(pillar)": 26,
+  "wrist_conf_mean": 0.47,
+  "ms_median": 3079.1
+ }
+}

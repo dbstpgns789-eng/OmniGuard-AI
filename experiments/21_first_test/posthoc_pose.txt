@@ -1,0 +1,21 @@
+A04_carpet test 1.0
+A09_pipe tune 0.4
+A10_pipe_view2 tune 0.88
+B01_lathe tune 1.0
+B02_lathe_chuck tune 1.0
+B38_mixer test 1.0
+C03_drum test 1.0
+D01 tune 1.0
+D02 tune 1.0
+D03 tune 1.0
+D04 test 1.0
+D05 test 1.0
+D06 tune 1.0
+D07 test 1.0
+D08 tune 0.19
+D09 test 1.0
+D10 test 0.88
+D11 tune 1.0
+D12 test 1.0
+D13 test 1.0
+손을 절반 이상 놓친 화면: ['A09_pipe', 'D08']

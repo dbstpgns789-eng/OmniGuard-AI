@@ -1,0 +1,90 @@
+{
+ "t02_v3_motion": {
+  "rec_001918": {
+   "V1_overlap": {
+    "human_stop_caught": 0.706,
+    "false_stop_on_human_nonstop": 0.15,
+    "human_first_stop": 5.33,
+    "judge_first_stop": 4.1
+   },
+   "V3_motion": {
+    "human_stop_caught": 0.147,
+    "false_stop_on_human_nonstop": 0.0,
+    "human_first_stop": 5.33,
+    "judge_first_stop": 5.43
+   },
+   "sensitivity": {
+    "0.6": {
+     "human_stop_caught": 0.27,
+     "false_stop_on_human_nonstop": 0.025,
+     "human_first_stop": 5.33,
+     "judge_first_stop": 5.3
+    },
+    "0.9": {
+     "human_stop_caught": 0.262,
+     "false_stop_on_human_nonstop": 0.0,
+     "human_first_stop": 5.33,
+     "judge_first_stop": 5.37
+    },
+    "1.5": {
+     "human_stop_caught": 0.143,
+     "false_stop_on_human_nonstop": 0.0,
+     "human_first_stop": 5.33,
+     "judge_first_stop": 5.47
+    },
+    "2.0": {
+     "human_stop_caught": 0.139,
+     "false_stop_on_human_nonstop": 0.0,
+     "human_first_stop": 5.33,
+     "judge_first_stop": 5.47
+    }
+   }
+  },
+  "rec_002103": {
+   "V1_overlap": {
+    "human_stop_caught": 0.543,
+    "false_stop_on_human_nonstop": 0.058,
+    "human_first_stop": 8.53,
+    "judge_first_stop": 8.63
+   },
+   "V3_motion": {
+    "human_stop_caught": 0.249,
+    "false_stop_on_human_nonstop": 0.053,
+    "human_first_stop": 8.53,
+    "judge_first_stop": 9.67
+   },
+   "sensitivity": {
+    "0.6": {
+     "human_stop_caught": 0.439,
+     "false_stop_on_human_nonstop": 0.056,
+     "human_first_stop": 8.53,
+     "judge_first_stop": 8.63
+    },
+    "0.9": {
+     "human_stop_caught": 0.294,
+     "false_stop_on_human_nonstop": 0.053,
+     "human_first_stop": 8.53,
+     "judge_first_stop": 8.7
+    },
+    "1.5": {
+     "human_stop_caught": 0.249,
+     "false_stop_on_human_nonstop": 0.051,
+     "human_first_stop": 8.53,
+     "judge_first_stop": 9.67
+    },
+    "2.0": {
+     "human_stop_caught": 0.182,
+     "false_stop_on_human_nonstop": 0.045,
+     "human_first_stop": 8.53,
+     "judge_first_stop": 9.7
+    }
+   }
+  },
+  "thresholds": {
+   "v_torso_per_s": 1.2,
+   "window_s": 1.0,
+   "ttc_s": 0.5,
+   "lag_s": 0.3
+  }
+ }
+}

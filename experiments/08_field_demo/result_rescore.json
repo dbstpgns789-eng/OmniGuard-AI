@@ -1,0 +1,58 @@
+{
+ "red_crop": {
+  "scored_frames": 1007,
+  "human_first_stop": 8.53,
+  "V1_overlap": {
+   "human_stop_caught": 0.546,
+   "false_stop_on_human_nonstop": 0.058,
+   "judge_first_stop": 8.63
+  },
+  "V3_motion": {
+   "human_stop_caught": 0.264,
+   "false_stop_on_human_nonstop": 0.053,
+   "judge_first_stop": 9.53
+  }
+ },
+ "slitter": {
+  "scored_frames": 316,
+  "human_first_stop": 0.0,
+  "V1_overlap": {
+   "human_stop_caught": 0.747,
+   "false_stop_on_human_nonstop": null,
+   "judge_first_stop": 0.07
+  },
+  "V3_motion": {
+   "human_stop_caught": 0.0,
+   "false_stop_on_human_nonstop": null,
+   "judge_first_stop": null
+  }
+ },
+ "night_paper": {
+  "scored_frames": 292,
+  "human_first_stop": 5.33,
+  "V1_overlap": {
+   "human_stop_caught": 0.706,
+   "false_stop_on_human_nonstop": 0.15,
+   "judge_first_stop": 4.1
+  },
+  "V3_motion": {
+   "human_stop_caught": 0.147,
+   "false_stop_on_human_nonstop": 0.0,
+   "judge_first_stop": 5.43
+  }
+ },
+ "bag_machine": {
+  "scored_frames": 712,
+  "human_first_stop": 5.02,
+  "V1_overlap": {
+   "human_stop_caught": 0.977,
+   "false_stop_on_human_nonstop": 0.64,
+   "judge_first_stop": 5.1
+  },
+  "V3_motion": {
+   "human_stop_caught": 0.119,
+   "false_stop_on_human_nonstop": 0.28,
+   "judge_first_stop": 12.54
+  }
+ }
+}

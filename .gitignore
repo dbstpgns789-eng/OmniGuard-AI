@@ -16,3 +16,9 @@ __pycache__/
 *.pth
 *.onnx
 *.pt
+
+# 실험 중간 산출물: 모델 파일, 영상에서 뽑은 포즈 캐시, 실행 로그
+*.task
+*.npz
+experiments/*/logs/
+*.bak

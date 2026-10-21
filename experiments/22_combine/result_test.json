@@ -1,0 +1,150 @@
+{
+ "mode": "test",
+ "normal_min": 1.05,
+ "summary": {
+  "J13": {
+   "stop_rate": "5/10",
+   "hits": 5,
+   "false_stops": 7,
+   "false_per_min": 6.68
+  },
+  "C1": {
+   "stop_rate": "9/10",
+   "hits": 9,
+   "false_stops": 8,
+   "false_per_min": 7.64
+  }
+ },
+ "clips": {
+  "A04_carpet": {
+   "normal_sec": 6.3333333333383734,
+   "J13": {
+    "hit": true,
+    "false_stops": 1,
+    "first_stop_diff": -2.23
+   },
+   "C1": {
+    "hit": true,
+    "false_stops": 1,
+    "first_stop_diff": -2.23
+   }
+  },
+  "B38_mixer": {
+   "normal_sec": 3.099999999999989,
+   "J13": {
+    "hit": false,
+    "false_stops": 1,
+    "first_stop_diff": -3.4
+   },
+   "C1": {
+    "hit": true,
+    "false_stops": 1,
+    "first_stop_diff": -3.4
+   }
+  },
+  "C03_drum": {
+   "normal_sec": 5.520000000000863,
+   "J13": {
+    "hit": false,
+    "false_stops": 0,
+    "first_stop_diff": null
+   },
+   "C1": {
+    "hit": false,
+    "false_stops": 0,
+    "first_stop_diff": null
+   }
+  },
+  "D04": {
+   "normal_sec": 1.099999999999996,
+   "J13": {
+    "hit": false,
+    "false_stops": 0,
+    "first_stop_diff": -11.97
+   },
+   "C1": {
+    "hit": true,
+    "false_stops": 0,
+    "first_stop_diff": -11.97
+   }
+  },
+  "D05": {
+   "normal_sec": 0.0,
+   "J13": {
+    "hit": true,
+    "false_stops": 0,
+    "first_stop_diff": 0.43
+   },
+   "C1": {
+    "hit": true,
+    "false_stops": 0,
+    "first_stop_diff": 0.43
+   }
+  },
+  "D07": {
+   "normal_sec": 0.0,
+   "J13": {
+    "hit": true,
+    "false_stops": 0,
+    "first_stop_diff": -0.27
+   },
+   "C1": {
+    "hit": true,
+    "false_stops": 0,
+    "first_stop_diff": -0.27
+   }
+  },
+  "D09": {
+   "normal_sec": 6.199999999999978,
+   "J13": {
+    "hit": false,
+    "false_stops": 0,
+    "first_stop_diff": -5.13
+   },
+   "C1": {
+    "hit": true,
+    "false_stops": 1,
+    "first_stop_diff": -12.07
+   }
+  },
+  "D10": {
+   "normal_sec": 24.533333333333246,
+   "J13": {
+    "hit": false,
+    "false_stops": 3,
+    "first_stop_diff": -27.4
+   },
+   "C1": {
+    "hit": true,
+    "false_stops": 3,
+    "first_stop_diff": -27.4
+   }
+  },
+  "D12": {
+   "normal_sec": 5.133333333333315,
+   "J13": {
+    "hit": true,
+    "false_stops": 1,
+    "first_stop_diff": -2.13
+   },
+   "C1": {
+    "hit": true,
+    "false_stops": 1,
+    "first_stop_diff": -2.13
+   }
+  },
+  "D13": {
+   "normal_sec": 10.933333333333294,
+   "J13": {
+    "hit": true,
+    "false_stops": 1,
+    "first_stop_diff": -11.2
+   },
+   "C1": {
+    "hit": true,
+    "false_stops": 1,
+    "first_stop_diff": -11.2
+   }
+  }
+ }
+}

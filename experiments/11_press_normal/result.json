@@ -1,0 +1,144 @@
+{
+ "1_tr38": {
+  "sec": 11.0,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.022,
+  "v1_stop_onsets": 1,
+  "min_hand_dist": -0.37
+ },
+ "1_tr54": {
+  "sec": 10.4,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.05,
+  "v1_stop_onsets": 2,
+  "min_hand_dist": -0.61
+ },
+ "2_te6": {
+  "sec": 6.9,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.0,
+  "v1_stop_onsets": 1,
+  "min_hand_dist": -0.05
+ },
+ "2_tr111": {
+  "sec": 8.0,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.0,
+  "v1_stop_onsets": 0,
+  "min_hand_dist": 0.78
+ },
+ "2_tr48": {
+  "sec": 5.0,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.0,
+  "v1_stop_onsets": 2,
+  "min_hand_dist": -0.56
+ },
+ "2_tr51": {
+  "sec": 5.0,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.0,
+  "v1_stop_onsets": 0,
+  "min_hand_dist": 1.52
+ },
+ "2_tr60": {
+  "sec": 5.0,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.024,
+  "v1_stop_onsets": 0,
+  "min_hand_dist": -0.01
+ },
+ "2_tr74": {
+  "sec": 6.0,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.0,
+  "v1_stop_onsets": 0,
+  "min_hand_dist": 0.24
+ },
+ "2_tr86": {
+  "sec": 6.9,
+  "stop_onsets": [
+   3.73
+  ],
+  "stop_ratio": 0.075,
+  "slow_ratio": 0.04,
+  "warn_ratio": 0.087,
+  "v1_stop_onsets": 1,
+  "min_hand_dist": -0.58
+ },
+ "4_te23": {
+  "sec": 13.9,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.02,
+  "v1_stop_onsets": 0,
+  "min_hand_dist": 0.22
+ },
+ "4_tr46": {
+  "sec": 11.0,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.025,
+  "v1_stop_onsets": 0,
+  "min_hand_dist": 0.23
+ },
+ "5_te12": {
+  "sec": 10.4,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.0,
+  "v1_stop_onsets": 0,
+  "min_hand_dist": 1.08
+ },
+ "5_tr10": {
+  "sec": 8.0,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.0,
+  "v1_stop_onsets": 0,
+  "min_hand_dist": 2.0
+ },
+ "5_tr18": {
+  "sec": 10.4,
+  "stop_onsets": [],
+  "stop_ratio": 0.0,
+  "slow_ratio": 0.0,
+  "warn_ratio": 0.0,
+  "v1_stop_onsets": 0,
+  "min_hand_dist": 0.77
+ },
+ "_summary": {
+  "clips": 14,
+  "total_sec": 118.1,
+  "judge_stop_onsets": 1,
+  "judge_stops_per_min": 0.51,
+  "v1_stop_onsets": 7,
+  "v1_stops_per_min": 3.56,
+  "frames_stage_ratio": {
+   "정상": 0.976,
+   "주의": 0.017,
+   "감속": 0.002,
+   "정지": 0.004
+  }
+ }
+}

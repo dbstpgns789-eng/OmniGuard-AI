@@ -1,0 +1,76 @@
+{
+ "rec_001918": {
+  "V1_overlap": {
+   "pre_approach_stop_ratio": 0.75,
+   "stop_ratio_tc_pm0.5": 0.0,
+   "lead_s": 1.57
+  },
+  "V3_motion": {
+   "pre_approach_stop_ratio": 0.154,
+   "stop_ratio_tc_pm0.5": 0.0,
+   "lead_s": null
+  },
+  "sensitivity": {
+   "0.6": {
+    "pre_approach_stop_ratio": 0.287,
+    "stop_ratio_tc_pm0.5": 0.0,
+    "lead_s": null
+   },
+   "0.9": {
+    "pre_approach_stop_ratio": 0.275,
+    "stop_ratio_tc_pm0.5": 0.0,
+    "lead_s": null
+   },
+   "1.5": {
+    "pre_approach_stop_ratio": 0.15,
+    "stop_ratio_tc_pm0.5": 0.0,
+    "lead_s": null
+   },
+   "2.0": {
+    "pre_approach_stop_ratio": 0.146,
+    "stop_ratio_tc_pm0.5": 0.0,
+    "lead_s": null
+   }
+  }
+ },
+ "rec_002103": {
+  "V1_overlap": {
+   "pre_approach_stop_ratio": 0.102,
+   "stop_ratio_tc_pm0.5": 0.613,
+   "lead_s": 1.23
+  },
+  "V3_motion": {
+   "pre_approach_stop_ratio": 0.063,
+   "stop_ratio_tc_pm0.5": 0.355,
+   "lead_s": 2.57
+  },
+  "sensitivity": {
+   "0.6": {
+    "pre_approach_stop_ratio": 0.073,
+    "stop_ratio_tc_pm0.5": 0.581,
+    "lead_s": 2.97
+   },
+   "0.9": {
+    "pre_approach_stop_ratio": 0.069,
+    "stop_ratio_tc_pm0.5": 0.419,
+    "lead_s": 2.57
+   },
+   "1.5": {
+    "pre_approach_stop_ratio": 0.063,
+    "stop_ratio_tc_pm0.5": 0.355,
+    "lead_s": 2.57
+   },
+   "2.0": {
+    "pre_approach_stop_ratio": 0.059,
+    "stop_ratio_tc_pm0.5": 0.355,
+    "lead_s": null
+   }
+  }
+ },
+ "thresholds": {
+  "v_torso_per_s": 1.2,
+  "window_s": 1.0,
+  "ttc_s": 0.5,
+  "lag_s": 0.3
+ }
+}

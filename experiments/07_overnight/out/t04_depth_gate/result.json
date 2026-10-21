@@ -1,0 +1,36 @@
+{
+ "rec_001918": {
+  "V1_overlap": {
+   "pre_approach_stop_ratio": 0.75,
+   "stop_ratio_tc_pm0.5": 0.0,
+   "lead_s": 1.57
+  },
+  "V4_depth_gate": {
+   "pre_approach_stop_ratio": 0.75,
+   "stop_ratio_tc_pm0.5": 0.0,
+   "lead_s": 1.57
+  },
+  "overlap_frames": 190,
+  "ignored_as_in_front": 93
+ },
+ "rec_002103": {
+  "V1_overlap": {
+   "pre_approach_stop_ratio": 0.102,
+   "stop_ratio_tc_pm0.5": 0.613,
+   "lead_s": 1.23
+  },
+  "V4_depth_gate": {
+   "pre_approach_stop_ratio": 0.098,
+   "stop_ratio_tc_pm0.5": 0.613,
+   "lead_s": 1.23
+  },
+  "overlap_frames": 315,
+  "ignored_as_in_front": 26
+ },
+ "depth_cpu_ms": {
+  "median": 994.8,
+  "p95": 1249.7,
+  "n": 505
+ },
+ "margin": 0.1
+}

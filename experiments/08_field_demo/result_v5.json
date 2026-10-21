@@ -1,0 +1,14 @@
+{
+ "red_crop": {
+  "stop_ratio_on_Y": 0.592,
+  "false_stop_ratio_on_N": 0.618,
+  "stop_onsets_total": 33,
+  "onsets_in_N": 19,
+  "onsets_in_last3s_before_contact": 3,
+  "dist3d_median_Y": 0.03,
+  "dist3d_median_N": 0.05,
+  "dist3d_p10_N": 0.02,
+  "depth_frames": 886
+ },
+ "depth_cpu_ms_median": 615.1
+}

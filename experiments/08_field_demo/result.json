@@ -1,0 +1,102 @@
+{
+ "red_crop": {
+  "V1_overlap": {
+   "stop_ratio_on_Y": 0.455,
+   "false_stop_ratio_on_N": 0.079,
+   "stopped_within_3s_before_first_Y": true,
+   "lead_s": 0.77
+  },
+  "V3_motion": {
+   "stop_ratio_on_Y": 0.187,
+   "false_stop_ratio_on_N": 0.061,
+   "stopped_within_3s_before_first_Y": true,
+   "lead_s": 2.1
+  },
+  "frames": {
+   "Y": 299,
+   "N": 720,
+   "U": 166
+  },
+  "first_Y_t": 36.53333333333333
+ },
+ "red_monitor": {
+  "V1_overlap": {
+   "stop_ratio_on_Y": 0.069,
+   "false_stop_ratio_on_N": 0.114,
+   "stopped_within_3s_before_first_Y": true,
+   "lead_s": 2.93
+  },
+  "V3_motion": {
+   "stop_ratio_on_Y": 0.014,
+   "false_stop_ratio_on_N": 0.034,
+   "stopped_within_3s_before_first_Y": true,
+   "lead_s": 2.6
+  },
+  "frames": {
+   "Y": 72,
+   "N": 763,
+   "U": 715
+  },
+  "first_Y_t": 72.52896
+ },
+ "night_paper": {
+  "V1_overlap": {
+   "stop_ratio_on_Y": 0.0,
+   "false_stop_ratio_on_N": 0.639,
+   "stopped_within_3s_before_first_Y": true,
+   "lead_s": 1.1
+  },
+  "V3_motion": {
+   "stop_ratio_on_Y": 0.0,
+   "false_stop_ratio_on_N": 0.13,
+   "stopped_within_3s_before_first_Y": false,
+   "lead_s": null
+  },
+  "frames": {
+   "Y": 119,
+   "N": 285,
+   "U": 31
+  },
+  "first_Y_t": 14.533333333333333
+ },
+ "bag_machine": {
+  "V1_overlap": {
+   "stop_ratio_on_Y": 0.019,
+   "false_stop_ratio_on_N": 0.779,
+   "stopped_within_3s_before_first_Y": true,
+   "lead_s": 2.97
+  },
+  "V3_motion": {
+   "stop_ratio_on_Y": 0.0,
+   "false_stop_ratio_on_N": 0.273,
+   "stopped_within_3s_before_first_Y": false,
+   "lead_s": null
+  },
+  "frames": {
+   "Y": 52,
+   "N": 77,
+   "U": 635
+  },
+  "first_Y_t": 32.5012
+ },
+ "slitter": {
+  "V1_overlap": {
+   "stop_ratio_on_Y": 0.0,
+   "false_stop_ratio_on_N": null,
+   "stopped_within_3s_before_first_Y": true,
+   "lead_s": 3.0
+  },
+  "V3_motion": {
+   "stop_ratio_on_Y": 0.0,
+   "false_stop_ratio_on_N": null,
+   "stopped_within_3s_before_first_Y": false,
+   "lead_s": null
+  },
+  "frames": {
+   "Y": 89,
+   "N": 0,
+   "U": 271
+  },
+  "first_Y_t": 8.533333333333333
+ }
+}

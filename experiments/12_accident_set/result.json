@@ -1,0 +1,277 @@
+{
+ "slitter": {
+  "memo": "판지 슬리터-리와인더, 처음부터 설비 안에서 작업",
+  "scored_frames": 316,
+  "human_first_stop": 0.0,
+  "judge_first_stop": 0.13,
+  "judge_minus_human_s": 0.13,
+  "stop_recall_on_human_stop": 0.946,
+  "judge_stop_before_human_stop_frames": 0,
+  "macro_f1": 0.243,
+  "human_stage_onsets": {
+   "주의": [
+    0.0
+   ],
+   "감속": [
+    0.0
+   ],
+   "정지": [
+    0.0
+   ]
+  },
+  "judge_stage_onsets": {
+   "주의": [
+    0.0,
+    9.13
+   ],
+   "감속": [
+    0.0,
+    9.13
+   ],
+   "정지": [
+    0.13,
+    9.13,
+    9.73
+   ]
+  },
+  "per_stage": {
+   "정지": {
+    "정상": 4,
+    "주의": 1,
+    "감속": 12,
+    "정지": 299
+   }
+  }
+ },
+ "paper_rewinder": {
+  "memo": "대형 종이 롤 리와인더, 다가가다 끌려 들어감",
+  "scored_frames": 117,
+  "human_first_stop": 2.93,
+  "judge_first_stop": 1.4,
+  "judge_minus_human_s": -1.53,
+  "stop_recall_on_human_stop": 1.0,
+  "judge_stop_before_human_stop_frames": 46,
+  "macro_f1": 0.299,
+  "human_stage_onsets": {
+   "주의": [
+    2.13
+   ],
+   "감속": [
+    2.53
+   ],
+   "정지": [
+    2.93
+   ]
+  },
+  "judge_stage_onsets": {
+   "주의": [
+    1.0
+   ],
+   "감속": [
+    1.4
+   ],
+   "정지": [
+    1.4
+   ]
+  },
+  "per_stage": {
+   "정상": {
+    "정상": 30,
+    "주의": 12,
+    "감속": 0,
+    "정지": 22
+   },
+   "주의": {
+    "정상": 0,
+    "주의": 0,
+    "감속": 0,
+    "정지": 12
+   },
+   "감속": {
+    "정상": 0,
+    "주의": 0,
+    "감속": 0,
+    "정지": 12
+   },
+   "정지": {
+    "정상": 0,
+    "주의": 0,
+    "감속": 0,
+    "정지": 29
+   }
+  }
+ },
+ "night_paper": {
+  "memo": "야간 녹색 고정 CCTV, 종이 롤",
+  "scored_frames": 292,
+  "human_first_stop": 5.33,
+  "judge_first_stop": 17.17,
+  "judge_minus_human_s": 11.83,
+  "stop_recall_on_human_stop": 0.0,
+  "judge_stop_before_human_stop_frames": 0,
+  "macro_f1": 0.0,
+  "human_stage_onsets": {
+   "주의": [
+    4.0
+   ],
+   "감속": [
+    5.13
+   ],
+   "정지": [
+    5.33
+   ]
+  },
+  "judge_stage_onsets": {
+   "주의": [
+    5.27,
+    6.9,
+    11.1,
+    13.1,
+    14.27
+   ],
+   "감속": [
+    5.37,
+    11.3,
+    12.1,
+    13.1,
+    14.27
+   ],
+   "정지": [
+    17.17
+   ]
+  },
+  "per_stage": {
+   "주의": {
+    "정상": 34,
+    "주의": 0,
+    "감속": 0,
+    "정지": 0
+   },
+   "감속": {
+    "정상": 4,
+    "주의": 2,
+    "감속": 0,
+    "정지": 0
+   },
+   "정지": {
+    "정상": 120,
+    "주의": 87,
+    "감속": 45,
+    "정지": 0
+   }
+  }
+ },
+ "conveyor_parcel": {
+  "memo": "택배 컨베이어 위에서 작업하다 끝 롤러에 끌려 들어감",
+  "scored_frames": 124,
+  "human_first_stop": 84.93,
+  "judge_first_stop": null,
+  "judge_minus_human_s": null,
+  "stop_recall_on_human_stop": 0.0,
+  "judge_stop_before_human_stop_frames": 0,
+  "macro_f1": 0.108,
+  "human_stage_onsets": {
+   "주의": [
+    84.13
+   ],
+   "감속": [
+    84.33
+   ],
+   "정지": [
+    84.93,
+    86.33
+   ]
+  },
+  "judge_stage_onsets": {
+   "주의": [
+    87.7,
+    88.2
+   ],
+   "감속": [],
+   "정지": []
+  },
+  "per_stage": {
+   "정상": {
+    "정상": 34,
+    "주의": 0,
+    "감속": 0,
+    "정지": 0
+   },
+   "주의": {
+    "정상": 6,
+    "주의": 0,
+    "감속": 0,
+    "정지": 0
+   },
+   "감속": {
+    "정상": 36,
+    "주의": 0,
+    "감속": 0,
+    "정지": 0
+   },
+   "정지": {
+    "정상": 48,
+    "주의": 0,
+    "감속": 0,
+    "정지": 0
+   }
+  }
+ },
+ "bag_machine": {
+  "memo": "필름·봉투기 권취 롤러, 헐렁한 옷이 말려 들어감",
+  "scored_frames": 712,
+  "human_first_stop": 5.02,
+  "judge_first_stop": null,
+  "judge_minus_human_s": null,
+  "stop_recall_on_human_stop": 0.0,
+  "judge_stop_before_human_stop_frames": 0,
+  "macro_f1": 0.096,
+  "human_stage_onsets": {
+   "주의": [
+    5.02
+   ],
+   "감속": [
+    5.02
+   ],
+   "정지": [
+    5.02,
+    24.51
+   ]
+  },
+  "judge_stage_onsets": {
+   "주의": [
+    12.85,
+    18.57,
+    20.07,
+    21.46,
+    23.31,
+    24.43,
+    24.63,
+    25.17,
+    26.9,
+    28.26,
+    32.54
+   ],
+   "감속": [
+    13.12,
+    18.61,
+    20.07
+   ],
+   "정지": []
+  },
+  "per_stage": {
+   "감속": {
+    "정상": 65,
+    "주의": 44,
+    "감속": 41,
+    "정지": 0
+   },
+   "정지": {
+    "정상": 475,
+    "주의": 65,
+    "감속": 22,
+    "정지": 0
+   }
+  }
+ }
+}

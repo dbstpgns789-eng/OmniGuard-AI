@@ -1,0 +1,100 @@
+{
+ "A1_lightweight_ort": {
+  "median_ms": 176.1,
+  "p95_ms": 303.4,
+  "per_round_median": [
+   157.4,
+   175.1,
+   203.0
+  ]
+ },
+ "B2_lightweight_ort_det_every5": {
+  "median_ms": 55.0,
+  "p95_ms": 244.6,
+  "per_round_median": [
+   53.0,
+   50.3,
+   60.3
+  ]
+ },
+ "B1_lightweight_openvino": {
+  "median_ms": 67.8,
+  "p95_ms": 120.9,
+  "per_round_median": [
+   56.2,
+   74.1,
+   75.3
+  ]
+ },
+ "B1b_lightweight_openvino_det_every5": {
+  "median_ms": 17.2,
+  "p95_ms": 71.9,
+  "per_round_median": [
+   16.9,
+   17.7,
+   17.4
+  ]
+ },
+ "cpu_load_before_each": [
+  [
+   0,
+   "A1_lightweight_ort",
+   29.3
+  ],
+  [
+   0,
+   "B2_lightweight_ort_det_every5",
+   65.1
+  ],
+  [
+   0,
+   "B1_lightweight_openvino",
+   51.7
+  ],
+  [
+   0,
+   "B1b_lightweight_openvino_det_every5",
+   44.1
+  ],
+  [
+   1,
+   "A1_lightweight_ort",
+   57.3
+  ],
+  [
+   1,
+   "B2_lightweight_ort_det_every5",
+   85.4
+  ],
+  [
+   1,
+   "B1_lightweight_openvino",
+   69.1
+  ],
+  [
+   1,
+   "B1b_lightweight_openvino_det_every5",
+   57.8
+  ],
+  [
+   2,
+   "A1_lightweight_ort",
+   64.7
+  ],
+  [
+   2,
+   "B2_lightweight_ort_det_every5",
+   90.4
+  ],
+  [
+   2,
+   "B1_lightweight_openvino",
+   79.6
+  ],
+  [
+   2,
+   "B1b_lightweight_openvino_det_every5",
+   64.8
+  ]
+ ]
+}

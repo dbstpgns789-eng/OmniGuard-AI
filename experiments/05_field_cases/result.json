@@ -1,0 +1,52 @@
+{
+ "rec_001918": {
+  "Tc": 15.0,
+  "frames": 435,
+  "person_rate": 1.0,
+  "v1": {
+   "lead_s": null,
+   "pre_approach_stop_ratio": 0.75,
+   "levels": {
+    "반응 없음": 245,
+    "주의": 3,
+    "감속": 3,
+    "정지": 184
+   }
+  },
+  "v2": {
+   "lead_s": null,
+   "pre_approach_stop_ratio": 0.75,
+   "levels": {
+    "반응 없음": 98,
+    "주의": 6,
+    "감속": 147,
+    "정지": 184
+   }
+  }
+ },
+ "rec_002103": {
+  "Tc": 37.0,
+  "frames": 1185,
+  "person_rate": 1.0,
+  "v1": {
+   "lead_s": null,
+   "pre_approach_stop_ratio": 0.102,
+   "levels": {
+    "반응 없음": 870,
+    "주의": 48,
+    "감속": 31,
+    "정지": 236
+   }
+  },
+  "v2": {
+   "lead_s": null,
+   "pre_approach_stop_ratio": 0.102,
+   "levels": {
+    "반응 없음": 237,
+    "주의": 70,
+    "감속": 721,
+    "정지": 157
+   }
+  }
+ }
+}
