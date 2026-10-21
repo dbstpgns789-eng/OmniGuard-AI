@@ -1,0 +1,233 @@
+{
+ "summary": {
+  "alpha_pooled": 0.58,
+  "exact_pooled": 0.57,
+  "within1_pooled": 0.95,
+  "stop_diff_median_abs": 0.9,
+  "stop_within_1s": "12/20",
+  "contact_diff_median_abs": 0.6,
+  "contact_within_0.5s": "8/19"
+ },
+ "clips": {
+  "A04_carpet": {
+   "frames": 62,
+   "alpha": 0.96,
+   "exact": 0.92,
+   "first_stop_A": 440.4,
+   "first_stop_B": 441.0,
+   "stop_diff": 0.6,
+   "contact_A": 440.4,
+   "contact_B": 441.0,
+   "contact_diff": 0.6
+  },
+  "A09_pipe": {
+   "frames": 90,
+   "alpha": 0.47,
+   "exact": 0.84,
+   "first_stop_A": 17.4,
+   "first_stop_B": 17.6,
+   "stop_diff": 0.2,
+   "contact_A": 17.6,
+   "contact_B": 17.8,
+   "contact_diff": 0.2
+  },
+  "A10_pipe_view2": {
+   "frames": 90,
+   "alpha": 0.72,
+   "exact": 0.89,
+   "first_stop_A": 17.4,
+   "first_stop_B": 17.6,
+   "stop_diff": 0.2,
+   "contact_A": 17.6,
+   "contact_B": 17.8,
+   "contact_diff": 0.2
+  },
+  "B01_lathe": {
+   "frames": 66,
+   "alpha": 0.42,
+   "exact": 0.44,
+   "first_stop_A": 84.0,
+   "first_stop_B": 76.6,
+   "stop_diff": -7.4,
+   "contact_A": 84.0,
+   "contact_B": 76.6,
+   "contact_diff": -7.4
+  },
+  "B02_lathe_chuck": {
+   "frames": 106,
+   "alpha": -0.18,
+   "exact": 0.2,
+   "first_stop_A": 20.2,
+   "first_stop_B": 4.0,
+   "stop_diff": -16.2,
+   "contact_A": 22.8,
+   "contact_B": 4.0,
+   "contact_diff": -18.8
+  },
+  "B38_mixer": {
+   "frames": 30,
+   "alpha": 0.99,
+   "exact": 0.97,
+   "first_stop_A": 3.4,
+   "first_stop_B": 3.6,
+   "stop_diff": 0.2,
+   "contact_A": 3.6,
+   "contact_B": 4.2,
+   "contact_diff": 0.6
+  },
+  "C03_drum": {
+   "frames": 45,
+   "alpha": -0.11,
+   "exact": 0.16,
+   "first_stop_A": 52.8,
+   "first_stop_B": 51.4,
+   "stop_diff": -1.4,
+   "contact_A": 57.8,
+   "contact_B": 57.6,
+   "contact_diff": -0.2
+  },
+  "D01": {
+   "frames": 22,
+   "alpha": 0.17,
+   "exact": 0.77,
+   "first_stop_A": 4.4,
+   "first_stop_B": 5.4,
+   "stop_diff": 1.0,
+   "contact_A": 5.4,
+   "contact_B": 5.4,
+   "contact_diff": 0.0
+  },
+  "D02": {
+   "frames": 38,
+   "alpha": 0.75,
+   "exact": 0.68,
+   "first_stop_A": 2.4,
+   "first_stop_B": 1.6,
+   "stop_diff": -0.8,
+   "contact_A": 6.8,
+   "contact_B": 1.6,
+   "contact_diff": -5.2
+  },
+  "D03": {
+   "frames": 39,
+   "alpha": 0.99,
+   "exact": 0.97,
+   "first_stop_A": 8.6,
+   "first_stop_B": 8.8,
+   "stop_diff": 0.2,
+   "contact_A": 8.8,
+   "contact_B": 8.8,
+   "contact_diff": 0.0
+  },
+  "D04": {
+   "frames": 74,
+   "alpha": 0.25,
+   "exact": 0.54,
+   "first_stop_A": 13.2,
+   "first_stop_B": 13.6,
+   "stop_diff": 0.4,
+   "contact_A": 13.4,
+   "contact_B": 13.6,
+   "contact_diff": 0.2
+  },
+  "D05": {
+   "frames": 8,
+   "alpha": -0.67,
+   "exact": 0.12,
+   "first_stop_A": 0.0,
+   "first_stop_B": 1.4,
+   "stop_diff": 1.4,
+   "contact_A": 1.4,
+   "contact_B": 1.4,
+   "contact_diff": 0.0
+  },
+  "D06": {
+   "frames": 59,
+   "alpha": -0.57,
+   "exact": 0.22,
+   "first_stop_A": 11.2,
+   "first_stop_B": 0.0,
+   "stop_diff": -11.2,
+   "contact_A": 11.6,
+   "contact_B": 0.0,
+   "contact_diff": -11.6
+  },
+  "D07": {
+   "frames": 23,
+   "alpha": 0.11,
+   "exact": 0.74,
+   "first_stop_A": 4.0,
+   "first_stop_B": 4.2,
+   "stop_diff": 0.2,
+   "contact_A": 8.0,
+   "contact_B": 4.2,
+   "contact_diff": -3.8
+  },
+  "D08": {
+   "frames": 70,
+   "alpha": -0.11,
+   "exact": 0.51,
+   "first_stop_A": 5.2,
+   "first_stop_B": 8.0,
+   "stop_diff": 2.8,
+   "contact_A": 13.8,
+   "contact_B": 8.0,
+   "contact_diff": -5.8
+  },
+  "D09": {
+   "frames": 68,
+   "alpha": 0.2,
+   "exact": 0.5,
+   "first_stop_A": 13.0,
+   "first_stop_B": 14.0,
+   "stop_diff": 1.0,
+   "contact_A": 14.4,
+   "contact_B": 14.0,
+   "contact_diff": -0.4
+  },
+  "D10": {
+   "frames": 140,
+   "alpha": -0.47,
+   "exact": 0.18,
+   "first_stop_A": 27.4,
+   "first_stop_B": 14.8,
+   "stop_diff": -12.6,
+   "contact_A": 27.8,
+   "contact_B": 14.8,
+   "contact_diff": -13.0
+  },
+  "D11": {
+   "frames": 73,
+   "alpha": 0.36,
+   "exact": 0.25,
+   "first_stop_A": 8.6,
+   "first_stop_B": 15.4,
+   "stop_diff": 6.8,
+   "contact_A": 10.2,
+   "contact_B": null,
+   "contact_diff": null
+  },
+  "D12": {
+   "frames": 58,
+   "alpha": 0.99,
+   "exact": 0.98,
+   "first_stop_A": 6.6,
+   "first_stop_B": 6.6,
+   "stop_diff": 0.0,
+   "contact_A": 11.2,
+   "contact_B": 6.6,
+   "contact_diff": -4.6
+  },
+  "D13": {
+   "frames": 91,
+   "alpha": 1.0,
+   "exact": 0.99,
+   "first_stop_A": 11.2,
+   "first_stop_B": 11.4,
+   "stop_diff": 0.2,
+   "contact_A": 12.8,
+   "contact_B": 18.2,
+   "contact_diff": 5.4
+  }
+ }
+}
