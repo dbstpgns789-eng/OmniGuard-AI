@@ -1,0 +1,15 @@
+# 판단기·채점·데모 (CPU, Python 3.13에서 확인)
+numpy
+opencv-python
+pillow
+rtmlib
+openvino
+onnxruntime
+ultralytics
+scikit-learn
+scipy
+matplotlib
+imageio-ffmpeg
+krippendorff
+# 실험 25·26 MotionBERT
+torch
