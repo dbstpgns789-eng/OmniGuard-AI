@@ -1,0 +1,262 @@
+{
+ "cv": {
+  "A09_pipe": {
+   "raw": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   },
+   "hold": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   }
+  },
+  "A10_pipe_view2": {
+   "raw": {
+    "hit": false,
+    "false_stops": 1,
+    "normal_stop_frac": 0.01
+   },
+   "hold": {
+    "hit": false,
+    "false_stops": 1,
+    "normal_stop_frac": 0.19
+   }
+  },
+  "B01_lathe": {
+   "raw": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   },
+   "hold": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   }
+  },
+  "B02_lathe_chuck": {
+   "raw": {
+    "hit": false,
+    "false_stops": 1,
+    "normal_stop_frac": 0.03
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 1,
+    "normal_stop_frac": 0.09
+   }
+  },
+  "D01": {
+   "raw": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   }
+  },
+  "D02": {
+   "raw": {
+    "hit": false,
+    "false_stops": 1,
+    "normal_stop_frac": 0.76
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 1,
+    "normal_stop_frac": 1.0
+   }
+  },
+  "D03": {
+   "raw": {
+    "hit": false,
+    "false_stops": 1,
+    "normal_stop_frac": 0.64
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 1,
+    "normal_stop_frac": 1.0
+   }
+  },
+  "D06": {
+   "raw": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   }
+  },
+  "D08": {
+   "raw": {
+    "hit": false,
+    "false_stops": 1,
+    "normal_stop_frac": 0.5
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 1,
+    "normal_stop_frac": 1.0
+   }
+  },
+  "D11": {
+   "raw": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   },
+   "hold": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   }
+  }
+ },
+ "cv_hits": {
+  "raw": 0,
+  "hold": 6
+ },
+ "test_summary": {
+  "raw": {
+   "stop_rate": "1/10",
+   "false_per_min": 9.55,
+   "normal_stop_time": "21%"
+  },
+  "hold": {
+   "stop_rate": "7/10",
+   "false_per_min": 4.77,
+   "normal_stop_time": "62%"
+  }
+ },
+ "test_clips": {
+  "A04_carpet": {
+   "raw": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   },
+   "hold": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   }
+  },
+  "B38_mixer": {
+   "raw": {
+    "hit": false,
+    "false_stops": 1,
+    "normal_stop_frac": 0.19
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 1,
+    "normal_stop_frac": 1.0
+   }
+  },
+  "C03_drum": {
+   "raw": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   },
+   "hold": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   }
+  },
+  "D04": {
+   "raw": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   }
+  },
+  "D05": {
+   "raw": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   }
+  },
+  "D07": {
+   "raw": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   }
+  },
+  "D09": {
+   "raw": {
+    "hit": false,
+    "false_stops": 1,
+    "normal_stop_frac": 0.01
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 1,
+    "normal_stop_frac": 0.9
+   }
+  },
+  "D10": {
+   "raw": {
+    "hit": false,
+    "false_stops": 4,
+    "normal_stop_frac": 0.5
+   },
+   "hold": {
+    "hit": false,
+    "false_stops": 2,
+    "normal_stop_frac": 0.92
+   }
+  },
+  "D12": {
+   "raw": {
+    "hit": false,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 0,
+    "normal_stop_frac": 0.0
+   }
+  },
+  "D13": {
+   "raw": {
+    "hit": true,
+    "false_stops": 4,
+    "normal_stop_frac": 0.09
+   },
+   "hold": {
+    "hit": true,
+    "false_stops": 1,
+    "normal_stop_frac": 0.9
+   }
+  }
+ }
+}
