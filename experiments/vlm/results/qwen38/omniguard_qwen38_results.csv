@@ -1,0 +1,375 @@
+﻿frame,stage,elapsed_ms,server_ms,confidence,unknown_probability,abstained,error,raw_output,inference_ms
+frames/A04_carpet/0433.0s.jpg,Normal,848.388,,,,False,,"{""stage"":""Normal""}",836.195
+frames/A04_carpet/0433.2s.jpg,Normal,821.481,,,,False,,"{""stage"":""Normal""}",809.003
+frames/A04_carpet/0433.4s.jpg,Normal,804.604,,,,False,,"{""stage"":""Normal""}",792.27
+frames/A04_carpet/0433.6s.jpg,Normal,919.756,,,,False,,"{""stage"": ""Normal""}",906.989
+frames/A04_carpet/0433.8s.jpg,Normal,814.508,,,,False,,"{""stage"":""Normal""}",802.059
+frames/A04_carpet/0434.0s.jpg,Normal,838.89,,,,False,,"{""stage"":""Normal""}",826.186
+frames/A04_carpet/0434.2s.jpg,Normal,953.846,,,,False,,"{""stage"": ""Normal""}",940.017
+frames/A04_carpet/0434.4s.jpg,Normal,820.223,,,,False,,"{""stage"":""Normal""}",807.816
+frames/A04_carpet/0434.6s.jpg,Normal,806.853,,,,False,,"{""stage"":""Normal""}",794.711
+frames/A04_carpet/0434.8s.jpg,Normal,812.462,,,,False,,"{""stage"":""Normal""}",800.286
+frames/A04_carpet/0435.0s.jpg,Normal,816.09,,,,False,,"{""stage"":""Normal""}",804.043
+frames/A04_carpet/0435.2s.jpg,Normal,804.64,,,,False,,"{""stage"":""Normal""}",792.509
+frames/A04_carpet/0435.4s.jpg,Normal,822.658,,,,False,,"{""stage"":""Normal""}",810.814
+frames/A04_carpet/0435.6s.jpg,Normal,819.229,,,,False,,"{""stage"":""Normal""}",806.97
+frames/A04_carpet/0435.8s.jpg,Normal,817.434,,,,False,,"{""stage"":""Normal""}",804.999
+frames/A04_carpet/0436.0s.jpg,Normal,820.543,,,,False,,"{""stage"":""Normal""}",808.193
+frames/A04_carpet/0436.2s.jpg,Normal,815.815,,,,False,,"{""stage"":""Normal""}",803.701
+frames/A04_carpet/0436.4s.jpg,Normal,929.664,,,,False,,"{""stage"": ""Normal""}",917.655
+frames/A04_carpet/0436.6s.jpg,Normal,813.032,,,,False,,"{""stage"":""Normal""}",800.684
+frames/A04_carpet/0436.8s.jpg,Normal,816.706,,,,False,,"{""stage"":""Normal""}",804.616
+frames/A04_carpet/0437.0s.jpg,Normal,808.121,,,,False,,"{""stage"":""Normal""}",796.082
+frames/A04_carpet/0437.2s.jpg,Normal,809.672,,,,False,,"{""stage"":""Normal""}",797.574
+frames/A04_carpet/0437.4s.jpg,Normal,920.486,,,,False,,"{""stage"": ""Normal""}",908.464
+frames/A04_carpet/0437.6s.jpg,Normal,925.324,,,,False,,"{""stage"": ""Normal""}",913.367
+frames/A04_carpet/0437.8s.jpg,Normal,823.837,,,,False,,"{""stage"":""Normal""}",811.839
+frames/A04_carpet/0438.0s.jpg,Normal,807.175,,,,False,,"{""stage"":""Normal""}",794.677
+frames/A04_carpet/0438.2s.jpg,Normal,803.362,,,,False,,"{""stage"":""Normal""}",791.172
+frames/A04_carpet/0438.4s.jpg,Normal,802.495,,,,False,,"{""stage"":""Normal""}",790.374
+frames/A04_carpet/0438.6s.jpg,Normal,803.081,,,,False,,"{""stage"":""Normal""}",790.805
+frames/A04_carpet/0438.8s.jpg,Normal,805.419,,,,False,,"{""stage"":""Normal""}",793.16
+frames/A04_carpet/0439.0s.jpg,Normal,800.618,,,,False,,"{""stage"":""Normal""}",788.4
+frames/A04_carpet/0439.2s.jpg,Normal,819.695,,,,False,,"{""stage"":""Normal""}",807.4
+frames/A04_carpet/0439.4s.jpg,Normal,810.302,,,,False,,"{""stage"":""Normal""}",797.996
+frames/A04_carpet/0439.6s.jpg,Normal,804.371,,,,False,,"{""stage"":""Normal""}",792.376
+frames/A04_carpet/0439.8s.jpg,Normal,796.243,,,,False,,"{""stage"":""Normal""}",783.703
+frames/A04_carpet/0440.0s.jpg,Caution,916.253,,,,False,,"{""stage"":""Caution""}",903.974
+frames/A04_carpet/0440.2s.jpg,Normal,799.491,,,,False,,"{""stage"":""Normal""}",787.269
+frames/A04_carpet/0440.4s.jpg,Stop,814.208,,,,False,,"{""stage"":""Stop""}",801.705
+frames/A04_carpet/0440.6s.jpg,Stop,802.327,,,,False,,"{""stage"":""Stop""}",787.895
+frames/A04_carpet/0440.8s.jpg,Stop,805.239,,,,False,,"{""stage"":""Stop""}",792.988
+frames/A04_carpet/0441.0s.jpg,Stop,806.333,,,,False,,"{""stage"":""Stop""}",792.627
+frames/A04_carpet/0441.2s.jpg,Stop,805.312,,,,False,,"{""stage"":""Stop""}",793.165
+frames/A04_carpet/0441.4s.jpg,Stop,809.863,,,,False,,"{""stage"":""Stop""}",795.597
+frames/A04_carpet/0441.6s.jpg,Stop,804.875,,,,False,,"{""stage"":""Stop""}",791.32
+frames/A04_carpet/0441.8s.jpg,Stop,807.137,,,,False,,"{""stage"":""Stop""}",793.456
+frames/A04_carpet/0442.0s.jpg,Stop,805.652,,,,False,,"{""stage"":""Stop""}",792.112
+frames/A04_carpet/0442.2s.jpg,Stop,804.694,,,,False,,"{""stage"":""Stop""}",791.321
+frames/A04_carpet/0442.4s.jpg,Stop,803.396,,,,False,,"{""stage"":""Stop""}",789.925
+frames/A04_carpet/0442.6s.jpg,Stop,816.463,,,,False,,"{""stage"":""Stop""}",802.991
+frames/A04_carpet/0442.8s.jpg,Stop,801.458,,,,False,,"{""stage"":""Stop""}",787.887
+frames/A04_carpet/0443.0s.jpg,Stop,799.342,,,,False,,"{""stage"":""Stop""}",785.669
+frames/A04_carpet/0443.2s.jpg,Stop,800.066,,,,False,,"{""stage"":""Stop""}",786.68
+frames/A04_carpet/0443.4s.jpg,Stop,805.802,,,,False,,"{""stage"":""Stop""}",792.264
+frames/A04_carpet/0443.6s.jpg,Stop,814.632,,,,False,,"{""stage"":""Stop""}",801.143
+frames/A04_carpet/0443.8s.jpg,Stop,804.948,,,,False,,"{""stage"":""Stop""}",791.405
+frames/A04_carpet/0444.0s.jpg,Caution,914.245,,,,False,,"{""stage"":""Caution""}",900.83
+frames/A04_carpet/0444.2s.jpg,Caution,918.905,,,,False,,"{""stage"":""Caution""}",905.489
+frames/A04_carpet/0444.4s.jpg,Stop,800.615,,,,False,,"{""stage"":""Stop""}",787.228
+frames/A04_carpet/0444.6s.jpg,Stop,801.359,,,,False,,"{""stage"":""Stop""}",787.942
+frames/A04_carpet/0444.8s.jpg,Stop,799.121,,,,False,,"{""stage"":""Stop""}",785.722
+frames/A04_carpet/0445.0s.jpg,Caution,917.279,,,,False,,"{""stage"":""Caution""}",903.847
+frames/A04_carpet/0445.2s.jpg,Stop,801.512,,,,False,,"{""stage"":""Stop""}",788.186
+frames/A04_carpet/0445.4s.jpg,Stop,801.482,,,,False,,"{""stage"":""Stop""}",788.104
+frames/A04_carpet/0445.6s.jpg,Stop,800.767,,,,False,,"{""stage"":""Stop""}",787.507
+frames/A04_carpet/0445.8s.jpg,Stop,801.073,,,,False,,"{""stage"":""Stop""}",787.6
+frames/A04_carpet/0446.0s.jpg,Stop,800.124,,,,False,,"{""stage"":""Stop""}",786.684
+frames/A04_carpet/0446.2s.jpg,Stop,806.555,,,,False,,"{""stage"":""Stop""}",793.162
+frames/A04_carpet/0446.4s.jpg,Stop,800.292,,,,False,,"{""stage"":""Stop""}",787.892
+frames/A04_carpet/0446.6s.jpg,Stop,804.778,,,,False,,"{""stage"":""Stop""}",792.759
+frames/A04_carpet/0446.8s.jpg,Stop,798.934,,,,False,,"{""stage"":""Stop""}",786.784
+frames/A04_carpet/0447.0s.jpg,Stop,802.681,,,,False,,"{""stage"":""Stop""}",790.546
+frames/A04_carpet/0447.2s.jpg,Stop,803.575,,,,False,,"{""stage"":""Stop""}",791.291
+frames/A04_carpet/0447.4s.jpg,Stop,801.434,,,,False,,"{""stage"":""Stop""}",789.193
+frames/A04_carpet/0447.6s.jpg,Stop,799.92,,,,False,,"{""stage"":""Stop""}",787.153
+frames/A04_carpet/0447.8s.jpg,Stop,797.429,,,,False,,"{""stage"":""Stop""}",784.609
+frames/A04_carpet/0448.0s.jpg,Stop,799.104,,,,False,,"{""stage"":""Stop""}",786.19
+frames/A04_carpet/0448.2s.jpg,Stop,806.368,,,,False,,"{""stage"":""Stop""}",793.661
+frames/A04_carpet/0448.4s.jpg,Stop,802.737,,,,False,,"{""stage"":""Stop""}",789.951
+frames/A04_carpet/0448.6s.jpg,Stop,801.145,,,,False,,"{""stage"":""Stop""}",788.422
+frames/A04_carpet/0448.8s.jpg,Stop,803.842,,,,False,,"{""stage"":""Stop""}",791.029
+frames/A04_carpet/0449.0s.jpg,Stop,809.715,,,,False,,"{""stage"":""Stop""}",796.877
+frames/A09_pipe/0010.0s.jpg,Stop,938.422,,,,False,,"{""stage"": ""Stop""}",924.958
+frames/A09_pipe/0010.2s.jpg,Stop,804.439,,,,False,,"{""stage"":""Stop""}",791.0
+frames/A09_pipe/0010.4s.jpg,Normal,939.597,,,,False,,"{""stage"": ""Normal""}",926.139
+frames/A09_pipe/0010.6s.jpg,Stop,811.389,,,,False,,"{""stage"":""Stop""}",797.975
+frames/A09_pipe/0010.8s.jpg,Caution,922.123,,,,False,,"{""stage"":""Caution""}",908.275
+frames/A09_pipe/0011.0s.jpg,Stop,809.504,,,,False,,"{""stage"":""Stop""}",796.059
+frames/A09_pipe/0011.2s.jpg,Caution,1029.078,,,,False,,"{""stage"": ""Caution""}",1015.692
+frames/A09_pipe/0011.4s.jpg,Stop,923.44,,,,False,,"{""stage"": ""Stop""}",910.073
+frames/A09_pipe/0011.6s.jpg,Normal,916.785,,,,False,,"{""stage"": ""Normal""}",903.216
+frames/A09_pipe/0011.8s.jpg,Normal,916.958,,,,False,,"{""stage"": ""Normal""}",903.568
+frames/A09_pipe/0012.0s.jpg,Normal,924.502,,,,False,,"{""stage"": ""Normal""}",910.978
+frames/A09_pipe/0012.2s.jpg,Normal,926.498,,,,False,,"{""stage"": ""Normal""}",912.965
+frames/A09_pipe/0012.4s.jpg,,807.917,,,,True,,"{""stage"":null}",793.494
+frames/A09_pipe/0012.6s.jpg,,809.536,,,,True,,"{""stage"":null}",795.088
+frames/A09_pipe/0012.8s.jpg,Normal,918.552,,,,False,,"{""stage"": ""Normal""}",905.243
+frames/A09_pipe/0013.0s.jpg,,811.25,,,,True,,"{""stage"":null}",797.851
+frames/A09_pipe/0013.2s.jpg,Normal,931.15,,,,False,,"{""stage"": ""Normal""}",917.754
+frames/A09_pipe/0013.4s.jpg,Normal,919.944,,,,False,,"{""stage"": ""Normal""}",906.635
+frames/A09_pipe/0013.6s.jpg,,815.255,,,,True,,"{""stage"": null}",801.849
+frames/A09_pipe/0013.8s.jpg,Normal,916.91,,,,False,,"{""stage"": ""Normal""}",903.136
+frames/A09_pipe/0014.0s.jpg,Normal,933.39,,,,False,,"{""stage"": ""Normal""}",919.978
+frames/A09_pipe/0014.2s.jpg,Stop,915.369,,,,False,,"{""stage"": ""Stop""}",901.91
+frames/A09_pipe/0014.4s.jpg,Stop,916.709,,,,False,,"{""stage"": ""Stop""}",903.276
+frames/A09_pipe/0014.6s.jpg,Normal,904.472,,,,False,,"{""stage"": ""Normal""}",891.09
+frames/A09_pipe/0014.8s.jpg,Stop,825.976,,,,False,,"{""stage"":""Stop""}",812.518
+frames/A09_pipe/0015.0s.jpg,Normal,918.033,,,,False,,"{""stage"": ""Normal""}",904.618
+frames/A09_pipe/0015.2s.jpg,Stop,914.978,,,,False,,"{""stage"": ""Stop""}",901.565
+frames/A09_pipe/0015.4s.jpg,Stop,804.093,,,,False,,"{""stage"":""Stop""}",790.572
+frames/A09_pipe/0015.6s.jpg,Caution,916.894,,,,False,,"{""stage"":""Caution""}",903.462
+frames/A09_pipe/0015.8s.jpg,Normal,915.432,,,,False,,"{""stage"": ""Normal""}",902.013
+frames/A09_pipe/0016.0s.jpg,Normal,914.387,,,,False,,"{""stage"": ""Normal""}",900.935
+frames/A09_pipe/0016.2s.jpg,Normal,916.335,,,,False,,"{""stage"": ""Normal""}",902.859
+frames/A09_pipe/0016.4s.jpg,Normal,915.141,,,,False,,"{""stage"": ""Normal""}",901.639
+frames/A09_pipe/0016.6s.jpg,Normal,915.569,,,,False,,"{""stage"": ""Normal""}",902.11
+frames/A09_pipe/0016.8s.jpg,Caution,916.381,,,,False,,"{""stage"":""Caution""}",902.457
+frames/A09_pipe/0017.0s.jpg,Caution,1026.872,,,,False,,"{""stage"": ""Caution""}",1013.369
+frames/A09_pipe/0017.2s.jpg,Normal,917.908,,,,False,,"{""stage"": ""Normal""}",904.344
+frames/A09_pipe/0017.4s.jpg,Normal,917.89,,,,False,,"{""stage"": ""Normal""}",904.461
+frames/A09_pipe/0017.6s.jpg,Normal,919.318,,,,False,,"{""stage"": ""Normal""}",905.678
+frames/A09_pipe/0017.8s.jpg,Caution,1045.509,,,,False,,"{""stage"": ""Caution""}",1032.075
+frames/A09_pipe/0018.0s.jpg,Stop,919.773,,,,False,,"{""stage"": ""Stop""}",906.317
+frames/A09_pipe/0018.2s.jpg,,807.415,,,,True,,"{""stage"": null}",793.981
+frames/A09_pipe/0018.4s.jpg,,803.391,,,,True,,"{""stage"":null}",789.956
+frames/A09_pipe/0018.6s.jpg,,802.677,,,,True,,"{""stage"":null}",789.326
+frames/A09_pipe/0018.8s.jpg,,805.813,,,,True,,"{""stage"": null}",792.078
+frames/A09_pipe/0019.0s.jpg,,806.58,,,,True,,"{""stage"":null}",793.112
+frames/A09_pipe/0019.2s.jpg,,804.482,,,,True,,"{""stage"": null}",791.128
+frames/A09_pipe/0019.4s.jpg,,803.88,,,,True,,"{""stage"":null}",790.446
+frames/A09_pipe/0019.6s.jpg,,804.095,,,,True,,"{""stage"":null}",790.64
+frames/A09_pipe/0019.8s.jpg,Normal,918.333,,,,False,,"{""stage"": ""Normal""}",904.983
+frames/A09_pipe/0020.0s.jpg,Normal,918.952,,,,False,,"{""stage"": ""Normal""}",905.574
+frames/A09_pipe/0020.2s.jpg,,806.758,,,,True,,"{""stage"":null}",793.375
+frames/A09_pipe/0020.4s.jpg,,807.275,,,,True,,"{""stage"":null}",793.87
+frames/A09_pipe/0020.6s.jpg,Normal,916.465,,,,False,,"{""stage"": ""Normal""}",903.031
+frames/A09_pipe/0020.8s.jpg,,806.541,,,,True,,"{""stage"":null}",793.165
+frames/A09_pipe/0021.0s.jpg,,806.627,,,,True,,"{""stage"":null}",793.084
+frames/A09_pipe/0021.2s.jpg,Stop,921.924,,,,False,,"{""stage"": ""Stop""}",908.552
+frames/A09_pipe/0021.4s.jpg,Normal,915.475,,,,False,,"{""stage"": ""Normal""}",902.046
+frames/A09_pipe/0021.6s.jpg,Normal,915.613,,,,False,,"{""stage"": ""Normal""}",902.294
+frames/A09_pipe/0021.8s.jpg,Normal,916.585,,,,False,,"{""stage"": ""Normal""}",903.257
+frames/A09_pipe/0022.0s.jpg,,800.276,,,,True,,"{""stage"":null}",786.951
+frames/D01/0000.0s.jpg,Stop,765.16,,,,False,,"{""stage"":""Stop""}",756.104
+frames/D01/0000.2s.jpg,Stop,760.806,,,,False,,"{""stage"":""Stop""}",751.2
+frames/D01/0000.4s.jpg,Caution,889.334,,,,False,,"{""stage"":""Caution""}",879.956
+frames/D01/0000.6s.jpg,Caution,891.311,,,,False,,"{""stage"":""Caution""}",881.87
+frames/D01/0000.8s.jpg,Caution,869.948,,,,False,,"{""stage"":""Caution""}",860.415
+frames/D01/0001.0s.jpg,Caution,880.761,,,,False,,"{""stage"":""Caution""}",871.289
+frames/D01/0001.2s.jpg,Caution,881.086,,,,False,,"{""stage"":""Caution""}",871.445
+frames/D01/0001.4s.jpg,Caution,883.082,,,,False,,"{""stage"":""Caution""}",873.669
+frames/D01/0001.6s.jpg,Caution,873.618,,,,False,,"{""stage"":""Caution""}",863.678
+frames/D01/0001.8s.jpg,Caution,880.775,,,,False,,"{""stage"":""Caution""}",870.9
+frames/D01/0002.0s.jpg,Caution,881.961,,,,False,,"{""stage"":""Caution""}",872.456
+frames/D01/0002.2s.jpg,Caution,881.555,,,,False,,"{""stage"":""Caution""}",872.041
+frames/D01/0002.4s.jpg,Caution,880.058,,,,False,,"{""stage"":""Caution""}",870.546
+frames/D01/0002.6s.jpg,Caution,885.302,,,,False,,"{""stage"":""Caution""}",874.954
+frames/D01/0002.8s.jpg,Caution,882.536,,,,False,,"{""stage"":""Caution""}",872.302
+frames/D01/0003.0s.jpg,Caution,884.662,,,,False,,"{""stage"":""Caution""}",874.321
+frames/D01/0003.2s.jpg,Caution,882.801,,,,False,,"{""stage"":""Caution""}",872.597
+frames/D01/0003.4s.jpg,Caution,883.946,,,,False,,"{""stage"":""Caution""}",873.553
+frames/D01/0003.6s.jpg,Caution,882.427,,,,False,,"{""stage"":""Caution""}",872.184
+frames/D01/0003.8s.jpg,Caution,908.741,,,,False,,"{""stage"":""Caution""}",898.391
+frames/D01/0004.0s.jpg,Stop,774.188,,,,False,,"{""stage"":""Stop""}",762.235
+frames/D01/0004.2s.jpg,Stop,771.607,,,,False,,"{""stage"":""Stop""}",761.372
+frames/D01/0004.4s.jpg,Stop,770.373,,,,False,,"{""stage"":""Stop""}",760.24
+frames/D01/0004.6s.jpg,Stop,772.572,,,,False,,"{""stage"":""Stop""}",762.385
+frames/D01/0004.8s.jpg,Stop,771.818,,,,False,,"{""stage"":""Stop""}",761.599
+frames/D01/0005.0s.jpg,Stop,769.651,,,,False,,"{""stage"":""Stop""}",759.47
+frames/D01/0005.2s.jpg,Stop,771.395,,,,False,,"{""stage"":""Stop""}",761.201
+frames/D01/0005.4s.jpg,Stop,770.738,,,,False,,"{""stage"":""Stop""}",760.588
+frames/D01/0005.6s.jpg,Stop,771.207,,,,False,,"{""stage"":""Stop""}",761.014
+frames/D01/0005.8s.jpg,Stop,775.412,,,,False,,"{""stage"":""Stop""}",765.177
+frames/D01/0006.0s.jpg,Stop,782.586,,,,False,,"{""stage"":""Stop""}",772.394
+frames/D01/0006.2s.jpg,Stop,776.969,,,,False,,"{""stage"":""Stop""}",766.745
+frames/D01/0006.4s.jpg,Stop,801.009,,,,False,,"{""stage"":""Stop""}",790.632
+frames/D01/0006.6s.jpg,Stop,771.17,,,,False,,"{""stage"":""Stop""}",760.771
+frames/D01/0006.8s.jpg,Stop,762.352,,,,False,,"{""stage"":""Stop""}",751.918
+frames/D01/0007.0s.jpg,Stop,768.777,,,,False,,"{""stage"":""Stop""}",758.564
+frames/D01/0007.2s.jpg,Stop,771.504,,,,False,,"{""stage"":""Stop""}",761.184
+frames/D01/0007.4s.jpg,Stop,770.904,,,,False,,"{""stage"":""Stop""}",760.688
+frames/D01/0007.6s.jpg,Stop,775.383,,,,False,,"{""stage"":""Stop""}",765.149
+frames/D01/0007.8s.jpg,Stop,772.613,,,,False,,"{""stage"":""Stop""}",762.396
+frames/D01/0008.0s.jpg,Stop,778.363,,,,False,,"{""stage"":""Stop""}",768.083
+frames/D01/0008.2s.jpg,Stop,775.801,,,,False,,"{""stage"":""Stop""}",765.547
+frames/D01/0008.4s.jpg,Stop,785.035,,,,False,,"{""stage"":""Stop""}",774.69
+frames/D01/0008.6s.jpg,Stop,786.544,,,,False,,"{""stage"":""Stop""}",775.645
+frames/D01/0008.8s.jpg,Stop,783.46,,,,False,,"{""stage"":""Stop""}",773.149
+frames/D01/0009.0s.jpg,Stop,779.389,,,,False,,"{""stage"":""Stop""}",769.029
+frames/D01/0009.2s.jpg,Stop,775.494,,,,False,,"{""stage"":""Stop""}",765.14
+frames/D01/0009.4s.jpg,Stop,760.238,,,,False,,"{""stage"":""Stop""}",750.099
+frames/D01/0009.6s.jpg,Stop,766.133,,,,False,,"{""stage"":""Stop""}",755.977
+frames/D01/0009.8s.jpg,Stop,774.26,,,,False,,"{""stage"":""Stop""}",764.088
+frames/D01/0010.0s.jpg,Stop,771.356,,,,False,,"{""stage"":""Stop""}",761.139
+frames/D01/0010.2s.jpg,Stop,772.392,,,,False,,"{""stage"":""Stop""}",762.111
+frames/D01/0010.4s.jpg,Stop,774.487,,,,False,,"{""stage"":""Stop""}",764.314
+frames/D03/0003.0s.jpg,Caution,1046.343,,,,False,,"{""stage"":""Caution""}",1019.878
+frames/D03/0003.2s.jpg,Caution,1057.796,,,,False,,"{""stage"":""Caution""}",1030.114
+frames/D03/0003.4s.jpg,Caution,1046.319,,,,False,,"{""stage"":""Caution""}",1019.706
+frames/D03/0003.6s.jpg,Caution,1053.4,,,,False,,"{""stage"":""Caution""}",1027.045
+frames/D03/0003.8s.jpg,Caution,1046.272,,,,False,,"{""stage"":""Caution""}",1019.146
+frames/D03/0004.0s.jpg,Normal,936.108,,,,False,,"{""stage"":""Normal""}",909.647
+frames/D03/0004.2s.jpg,Caution,1044.806,,,,False,,"{""stage"":""Caution""}",1017.307
+frames/D03/0004.4s.jpg,Caution,1049.684,,,,False,,"{""stage"":""Caution""}",1021.725
+frames/D03/0004.6s.jpg,Caution,1050.24,,,,False,,"{""stage"":""Caution""}",1022.63
+frames/D03/0004.8s.jpg,Stop,938.265,,,,False,,"{""stage"":""Stop""}",910.477
+frames/D03/0005.0s.jpg,Stop,933.15,,,,False,,"{""stage"":""Stop""}",905.751
+frames/D03/0005.2s.jpg,Caution,1049.007,,,,False,,"{""stage"":""Caution""}",1021.49
+frames/D03/0005.4s.jpg,Stop,933.515,,,,False,,"{""stage"":""Stop""}",906.322
+frames/D03/0005.6s.jpg,Stop,940.676,,,,False,,"{""stage"":""Stop""}",913.073
+frames/D03/0005.8s.jpg,Caution,1056.671,,,,False,,"{""stage"":""Caution""}",1028.331
+frames/D03/0006.0s.jpg,Stop,939.945,,,,False,,"{""stage"":""Stop""}",908.599
+frames/D03/0006.2s.jpg,,938.507,,,,True,,"{""stage"":null}",911.843
+frames/D03/0006.4s.jpg,Normal,937.033,,,,False,,"{""stage"":""Normal""}",910.418
+frames/D03/0006.6s.jpg,,935.799,,,,True,,"{""stage"":null}",909.068
+frames/D03/0006.8s.jpg,Normal,1053.206,,,,False,,"{""stage"": ""Normal""}",1026.214
+frames/D03/0007.0s.jpg,Normal,934.491,,,,False,,"{""stage"":""Normal""}",907.73
+frames/D03/0007.2s.jpg,Caution,1054.52,,,,False,,"{""stage"":""Caution""}",1028.034
+frames/D03/0007.4s.jpg,Caution,1046.68,,,,False,,"{""stage"":""Caution""}",1019.99
+frames/D03/0007.6s.jpg,Caution,1067.288,,,,False,,"{""stage"":""Caution""}",1040.791
+frames/D03/0007.8s.jpg,Caution,1050.898,,,,False,,"{""stage"":""Caution""}",1024.24
+frames/D03/0008.0s.jpg,Caution,1046.58,,,,False,,"{""stage"":""Caution""}",1019.927
+frames/D03/0008.2s.jpg,Normal,926.503,,,,False,,"{""stage"":""Normal""}",899.674
+frames/D03/0008.4s.jpg,Caution,1035.049,,,,False,,"{""stage"":""Caution""}",1008.951
+frames/D03/0008.6s.jpg,Caution,1036.232,,,,False,,"{""stage"":""Caution""}",1005.543
+frames/D03/0008.8s.jpg,Stop,924.711,,,,False,,"{""stage"":""Stop""}",898.199
+frames/D03/0009.0s.jpg,Stop,925.184,,,,False,,"{""stage"":""Stop""}",898.8
+frames/D03/0009.2s.jpg,Stop,931.084,,,,False,,"{""stage"":""Stop""}",904.612
+frames/D03/0009.4s.jpg,Stop,935.293,,,,False,,"{""stage"":""Stop""}",908.848
+frames/D03/0009.6s.jpg,Stop,934.544,,,,False,,"{""stage"":""Stop""}",907.629
+frames/D03/0009.8s.jpg,Stop,938.001,,,,False,,"{""stage"":""Stop""}",911.001
+frames/D03/0010.0s.jpg,Stop,934.054,,,,False,,"{""stage"":""Stop""}",907.538
+frames/D03/0010.2s.jpg,Stop,936.732,,,,False,,"{""stage"":""Stop""}",910.279
+frames/D03/0010.4s.jpg,Stop,936.942,,,,False,,"{""stage"":""Stop""}",910.137
+frames/D03/0010.6s.jpg,Stop,936.05,,,,False,,"{""stage"":""Stop""}",909.324
+frames/D03/0010.8s.jpg,Stop,937.614,,,,False,,"{""stage"":""Stop""}",910.95
+frames/D03/0011.0s.jpg,Stop,938.958,,,,False,,"{""stage"":""Stop""}",912.724
+frames/D03/0011.2s.jpg,,942.51,,,,True,,"{""stage"":null}",911.6
+frames/D03/0011.4s.jpg,,933.955,,,,True,,"{""stage"": null}",907.443
+frames/D03/0011.6s.jpg,Normal,1051.097,,,,False,,"{""stage"": ""Normal""}",1023.621
+frames/D03/0011.8s.jpg,,934.424,,,,True,,"{""stage"":null}",907.933
+frames/D03/0012.0s.jpg,,939.126,,,,True,,"{""stage"": null}",912.433
+frames/D03/0012.2s.jpg,Stop,934.481,,,,False,,"{""stage"":""Stop""}",908.004
+frames/D03/0012.4s.jpg,,933.17,,,,True,,"{""stage"":null}",906.83
+frames/D03/0012.6s.jpg,,934.147,,,,True,,"{""stage"":null}",907.678
+frames/D03/0012.8s.jpg,,934.598,,,,True,,"{""stage"": null}",908.242
+frames/D03/0013.0s.jpg,,936.553,,,,True,,"{""stage"":null}",910.119
+frames/D03/0013.2s.jpg,Stop,937.454,,,,False,,"{""stage"":""Stop""}",910.575
+frames/D03/0013.4s.jpg,,936.349,,,,True,,"{""stage"":null}",909.841
+frames/D03/0013.6s.jpg,,935.746,,,,True,,"{""stage"":null}",909.573
+frames/D03/0013.8s.jpg,Stop,943.904,,,,False,,"{""stage"":""Stop""}",912.964
+frames/D03/0014.0s.jpg,Stop,942.02,,,,False,,"{""stage"":""Stop""}",915.151
+frames/D03/0014.2s.jpg,Stop,938.55,,,,False,,"{""stage"":""Stop""}",912.043
+frames/D03/0014.4s.jpg,Stop,939.032,,,,False,,"{""stage"":""Stop""}",912.79
+frames/D03/0014.6s.jpg,Stop,938.323,,,,False,,"{""stage"":""Stop""}",911.896
+frames/D03/0014.8s.jpg,Stop,940.831,,,,False,,"{""stage"":""Stop""}",914.303
+frames/D03/0015.0s.jpg,Normal,1051.198,,,,False,,"{""stage"": ""Normal""}",1025.059
+frames/D03/0015.2s.jpg,Stop,939.865,,,,False,,"{""stage"":""Stop""}",913.275
+frames/D03/0015.4s.jpg,Stop,935.87,,,,False,,"{""stage"":""Stop""}",909.676
+frames/D03/0015.6s.jpg,Stop,934.862,,,,False,,"{""stage"":""Stop""}",908.13
+frames/D03/0015.8s.jpg,Stop,939.589,,,,False,,"{""stage"":""Stop""}",913.016
+frames/D03/0016.0s.jpg,Stop,939.165,,,,False,,"{""stage"":""Stop""}",912.624
+frames/D03/0016.2s.jpg,Stop,939.526,,,,False,,"{""stage"":""Stop""}",912.85
+frames/D03/0016.4s.jpg,Stop,943.7,,,,False,,"{""stage"":""Stop""}",912.275
+frames/D03/0016.6s.jpg,Stop,935.351,,,,False,,"{""stage"":""Stop""}",908.61
+frames/D03/0016.8s.jpg,Stop,947.313,,,,False,,"{""stage"":""Stop""}",920.926
+frames/D04/0000.0s.jpg,Normal,815.033,,,,False,,"{""stage"":""Normal""}",799.074
+frames/D04/0000.2s.jpg,Normal,818.859,,,,False,,"{""stage"":""Normal""}",801.723
+frames/D04/0000.4s.jpg,Normal,931.326,,,,False,,"{""stage"": ""Normal""}",914.078
+frames/D04/0000.6s.jpg,Normal,817.693,,,,False,,"{""stage"":""Normal""}",800.265
+frames/D04/0000.8s.jpg,Caution,939.672,,,,False,,"{""stage"":""Caution""}",922.453
+frames/D04/0001.0s.jpg,Caution,935.563,,,,False,,"{""stage"":""Caution""}",918.582
+frames/D04/0001.2s.jpg,Caution,933.668,,,,False,,"{""stage"":""Caution""}",916.606
+frames/D04/0001.4s.jpg,Stop,815.696,,,,False,,"{""stage"":""Stop""}",798.763
+frames/D04/0001.6s.jpg,Stop,817.82,,,,False,,"{""stage"":""Stop""}",800.515
+frames/D04/0001.8s.jpg,Caution,932.368,,,,False,,"{""stage"":""Caution""}",914.765
+frames/D04/0002.0s.jpg,Stop,818.417,,,,False,,"{""stage"":""Stop""}",801.018
+frames/D04/0002.2s.jpg,Stop,816.757,,,,False,,"{""stage"":""Stop""}",799.737
+frames/D04/0002.4s.jpg,Stop,816.312,,,,False,,"{""stage"":""Stop""}",799.145
+frames/D04/0002.6s.jpg,Stop,814.367,,,,False,,"{""stage"":""Stop""}",797.398
+frames/D04/0002.8s.jpg,Stop,821.12,,,,False,,"{""stage"":""Stop""}",803.808
+frames/D04/0003.0s.jpg,Stop,817.612,,,,False,,"{""stage"":""Stop""}",800.454
+frames/D04/0003.2s.jpg,Stop,818.49,,,,False,,"{""stage"":""Stop""}",801.45
+frames/D04/0003.4s.jpg,Stop,818.857,,,,False,,"{""stage"":""Stop""}",801.487
+frames/D04/0003.6s.jpg,Stop,820.489,,,,False,,"{""stage"":""Stop""}",803.481
+frames/D04/0003.8s.jpg,Stop,824.916,,,,False,,"{""stage"":""Stop""}",807.739
+frames/D04/0004.0s.jpg,Stop,817.968,,,,False,,"{""stage"":""Stop""}",800.68
+frames/D04/0004.2s.jpg,Stop,817.752,,,,False,,"{""stage"":""Stop""}",800.488
+frames/D04/0004.4s.jpg,Stop,821.775,,,,False,,"{""stage"":""Stop""}",804.433
+frames/D04/0004.6s.jpg,Stop,826.4,,,,False,,"{""stage"":""Stop""}",808.659
+frames/D04/0004.8s.jpg,Stop,814.72,,,,False,,"{""stage"":""Stop""}",797.752
+frames/D04/0005.0s.jpg,Stop,827.764,,,,False,,"{""stage"":""Stop""}",810.724
+frames/D04/0005.2s.jpg,Stop,808.476,,,,False,,"{""stage"":""Stop""}",791.498
+frames/D04/0005.4s.jpg,Stop,808.64,,,,False,,"{""stage"":""Stop""}",791.649
+frames/D04/0005.6s.jpg,Stop,806.576,,,,False,,"{""stage"":""Stop""}",789.43
+frames/D04/0005.8s.jpg,Stop,815.88,,,,False,,"{""stage"":""Stop""}",798.76
+frames/D04/0006.0s.jpg,Stop,816.257,,,,False,,"{""stage"":""Stop""}",798.962
+frames/D04/0006.2s.jpg,Stop,816.426,,,,False,,"{""stage"":""Stop""}",799.158
+frames/D04/0006.4s.jpg,Caution,928.725,,,,False,,"{""stage"":""Caution""}",911.748
+frames/D04/0006.6s.jpg,Caution,925.783,,,,False,,"{""stage"":""Caution""}",908.517
+frames/D04/0006.8s.jpg,Caution,928.615,,,,False,,"{""stage"":""Caution""}",911.618
+frames/D04/0007.0s.jpg,Caution,934.23,,,,False,,"{""stage"":""Caution""}",916.995
+frames/D04/0007.2s.jpg,Caution,927.53,,,,False,,"{""stage"":""Caution""}",910.731
+frames/D04/0007.4s.jpg,Caution,928.447,,,,False,,"{""stage"":""Caution""}",911.419
+frames/D04/0007.6s.jpg,Caution,942.879,,,,False,,"{""stage"":""Caution""}",925.815
+frames/D04/0007.8s.jpg,Caution,929.354,,,,False,,"{""stage"":""Caution""}",912.39
+frames/D04/0008.0s.jpg,Caution,929.506,,,,False,,"{""stage"":""Caution""}",912.31
+frames/D04/0008.2s.jpg,Caution,931.091,,,,False,,"{""stage"":""Caution""}",914.047
+frames/D04/0008.4s.jpg,Caution,940.997,,,,False,,"{""stage"":""Caution""}",923.855
+frames/D04/0008.6s.jpg,Caution,929.546,,,,False,,"{""stage"":""Caution""}",913.066
+frames/D04/0008.8s.jpg,Caution,927.324,,,,False,,"{""stage"":""Caution""}",911.081
+frames/D04/0009.0s.jpg,Caution,927.601,,,,False,,"{""stage"":""Caution""}",911.453
+frames/D04/0009.2s.jpg,Caution,931.155,,,,False,,"{""stage"":""Caution""}",915.019
+frames/D04/0009.4s.jpg,Caution,938.287,,,,False,,"{""stage"":""Caution""}",921.795
+frames/D04/0009.6s.jpg,Normal,817.967,,,,False,,"{""stage"":""Normal""}",801.653
+frames/D04/0009.8s.jpg,Caution,927.611,,,,False,,"{""stage"":""Caution""}",911.176
+frames/D04/0010.0s.jpg,Caution,928.8,,,,False,,"{""stage"":""Caution""}",912.559
+frames/D04/0010.2s.jpg,Caution,925.664,,,,False,,"{""stage"":""Caution""}",909.194
+frames/D04/0010.4s.jpg,Caution,925.534,,,,False,,"{""stage"":""Caution""}",909.048
+frames/D04/0010.6s.jpg,Caution,928.923,,,,False,,"{""stage"":""Caution""}",912.475
+frames/D04/0010.8s.jpg,Normal,821.14,,,,False,,"{""stage"":""Normal""}",804.593
+frames/D04/0011.0s.jpg,Caution,942.649,,,,False,,"{""stage"":""Caution""}",926.056
+frames/D04/0011.2s.jpg,Caution,928.042,,,,False,,"{""stage"":""Caution""}",910.438
+frames/D04/0011.4s.jpg,Caution,921.856,,,,False,,"{""stage"":""Caution""}",905.477
+frames/D04/0011.6s.jpg,Caution,925.339,,,,False,,"{""stage"":""Caution""}",908.971
+frames/D04/0011.8s.jpg,Caution,924.238,,,,False,,"{""stage"":""Caution""}",908.101
+frames/D04/0012.0s.jpg,Caution,927.683,,,,False,,"{""stage"":""Caution""}",910.936
+frames/D04/0012.2s.jpg,Caution,927.519,,,,False,,"{""stage"":""Caution""}",910.92
+frames/D04/0012.4s.jpg,Caution,933.16,,,,False,,"{""stage"":""Caution""}",916.662
+frames/D04/0012.6s.jpg,Caution,926.502,,,,False,,"{""stage"":""Caution""}",910.02
+frames/D04/0012.8s.jpg,Stop,815.038,,,,False,,"{""stage"":""Stop""}",798.656
+frames/D04/0013.0s.jpg,Stop,820.1,,,,False,,"{""stage"":""Stop""}",802.574
+frames/D04/0013.2s.jpg,Stop,819.354,,,,False,,"{""stage"":""Stop""}",803.04
+frames/D04/0013.4s.jpg,Stop,815.681,,,,False,,"{""stage"":""Stop""}",799.276
+frames/D04/0013.6s.jpg,Stop,814.412,,,,False,,"{""stage"":""Stop""}",797.945
+frames/D04/0013.8s.jpg,Stop,814.61,,,,False,,"{""stage"":""Stop""}",797.816
+frames/D04/0014.0s.jpg,Stop,815.213,,,,False,,"{""stage"":""Stop""}",798.733
+frames/D04/0014.2s.jpg,Stop,820.35,,,,False,,"{""stage"":""Stop""}",803.715
+frames/D04/0014.4s.jpg,Stop,830.037,,,,False,,"{""stage"":""Stop""}",813.531
+frames/D04/0014.6s.jpg,Stop,805.218,,,,False,,"{""stage"":""Stop""}",789.008
+frames/D04/0014.8s.jpg,Stop,804.387,,,,False,,"{""stage"":""Stop""}",788.019
+frames/D04/0015.0s.jpg,Stop,804.324,,,,False,,"{""stage"":""Stop""}",787.945
+frames/D04/0015.2s.jpg,Stop,805.496,,,,False,,"{""stage"":""Stop""}",789.443
+frames/D04/0015.4s.jpg,Stop,810.936,,,,False,,"{""stage"":""Stop""}",794.561
+frames/D04/0015.6s.jpg,Stop,803.224,,,,False,,"{""stage"":""Stop""}",786.996
+frames/D04/0015.8s.jpg,Stop,804.055,,,,False,,"{""stage"":""Stop""}",787.53
+frames/D04/0016.0s.jpg,Stop,803.22,,,,False,,"{""stage"":""Stop""}",787.114
+frames/D04/0016.2s.jpg,Stop,805.606,,,,False,,"{""stage"":""Stop""}",789.497
+frames/D04/0016.4s.jpg,Stop,810.618,,,,False,,"{""stage"":""Stop""}",794.211
+frames/D04/0016.6s.jpg,Stop,805.694,,,,False,,"{""stage"":""Stop""}",789.445
+frames/D04/0016.8s.jpg,Stop,806.18,,,,False,,"{""stage"":""Stop""}",789.762
+frames/D04/0017.0s.jpg,Stop,807.547,,,,False,,"{""stage"":""Stop""}",791.29
+frames/D04/0017.2s.jpg,Stop,804.505,,,,False,,"{""stage"":""Stop""}",788.145
+frames/D04/0017.4s.jpg,Stop,804.549,,,,False,,"{""stage"":""Stop""}",788.265
+frames/D04/0017.6s.jpg,Stop,803.595,,,,False,,"{""stage"":""Stop""}",787.345
+frames/D04/0017.8s.jpg,Stop,809.125,,,,False,,"{""stage"":""Stop""}",792.643
+frames/D04/0018.0s.jpg,Stop,805.084,,,,False,,"{""stage"":""Stop""}",788.842
+frames/D04/0018.2s.jpg,Stop,807.169,,,,False,,"{""stage"":""Stop""}",790.502
+frames/D04/0018.4s.jpg,Stop,817.251,,,,False,,"{""stage"":""Stop""}",801.008
+frames/D04/0018.6s.jpg,Stop,820.365,,,,False,,"{""stage"":""Stop""}",803.95
+frames/D04/0018.8s.jpg,Stop,816.057,,,,False,,"{""stage"":""Stop""}",799.518
+frames/D04/0019.0s.jpg,Stop,818.077,,,,False,,"{""stage"":""Stop""}",800.97
+frames/D04/0019.2s.jpg,Stop,811.532,,,,False,,"{""stage"":""Stop""}",795.108
+frames/D04/0019.4s.jpg,Stop,815.855,,,,False,,"{""stage"":""Stop""}",799.251
+frames/D04/0019.6s.jpg,Stop,818.676,,,,False,,"{""stage"":""Stop""}",802.379
+frames/D04/0019.8s.jpg,Stop,814.888,,,,False,,"{""stage"":""Stop""}",798.803
+frames/D04/0020.0s.jpg,Stop,820.149,,,,False,,"{""stage"":""Stop""}",803.92
+frames/D04/0020.2s.jpg,Stop,818.664,,,,False,,"{""stage"":""Stop""}",801.633
+frames/D04/0020.4s.jpg,Stop,832.467,,,,False,,"{""stage"":""Stop""}",816.075
+frames/D04/0020.6s.jpg,Stop,819.374,,,,False,,"{""stage"":""Stop""}",803.212
+frames/D04/0020.8s.jpg,Stop,820.703,,,,False,,"{""stage"":""Stop""}",804.43
+frames/D04/0021.0s.jpg,Stop,817.624,,,,False,,"{""stage"":""Stop""}",801.147
+frames/D04/0021.2s.jpg,Stop,818.267,,,,False,,"{""stage"":""Stop""}",800.633
+frames/D04/0021.4s.jpg,Stop,818.131,,,,False,,"{""stage"":""Stop""}",800.817
+frames/D04/0021.6s.jpg,Stop,812.518,,,,False,,"{""stage"":""Stop""}",795.295
